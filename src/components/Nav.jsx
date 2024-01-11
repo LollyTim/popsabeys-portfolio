@@ -30,7 +30,7 @@ const Nav = () => {
         </svg>
         <p>Contact</p>
       </div>
-      <a className="text-[#fff] items-center flex gap-1 border rounded-full py-2 px-3">
+      <a href="/" className="text-[#fff] items-center flex gap-1 border rounded-full py-2 px-3">
         {" "}
         <svg
           width="24"
