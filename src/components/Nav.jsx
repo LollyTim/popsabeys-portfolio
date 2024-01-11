@@ -1,12 +1,13 @@
 import React from "react";
+import {BiMenu} from "react-icons/bi"
 
 const Nav = () => {
   return (
-    <div className=" flex justify-between items-center w-[80%] mx-auto h-14 border">
+    <div className=" flex justify-between items-center w-[80%] mx-auto h-14  mt-6">
       <div className="">
         <img src="logo.svg" alt="" />
       </div>
-      <div className=" ">
+      <div className=" flex text-[#FFF] items-center space-x-2 text-sm font-normal max-[640px]:hidden">
         <p>Me</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +30,7 @@ const Nav = () => {
         </svg>
         <p>Contact</p>
       </div>
-      <a className="">
+      <a className="text-[#fff] items-center flex gap-1 border rounded-full py-2 px-3">
         {" "}
         <svg
           width="24"
@@ -58,6 +59,7 @@ const Nav = () => {
         </svg>
        <p>Let's Work Together</p>
       </a>
+      <BiMenu className="hidden text-[#fff] max-[640px]:flex text-lg" />
     </div>
   );
 };
