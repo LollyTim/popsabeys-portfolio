@@ -4,7 +4,7 @@ const SomeWorks = () => {
   return (
     <div className="flex flex-col max-w-[1200px] mx-auto mt-[100px] px-7 mb-6">
       <div className="max-w-[668px] block pb-12">
-        <h1 className="gradient2 font-SatoshiBold font-bold bg-clip-text text-[40px]">
+        <h1 className="gradient2 font-SatoshiBold font-bold bg-clip-text text-[30px] xl:text-[40px]">
           Some of my work
         </h1>
         <p className=" font-SatoshiLight text-base text-wrap max-w-[650px]  ">
