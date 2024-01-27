@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className=" xl:w-[50%] w-[85%] justify-center items-center mx-auto mt-[90px] mb-16 gap-4">
         <div className="  mx-auto py-2 px-5 border items-center w-fit text-center rounded-full mb-4">
-          <p className="flex font-SatoshiLight w-fit">
+          <p className="flex font-SatoshiLight text-sm w-fit">
             I am eager to hear what you’re working on
           </p>
         </div>
