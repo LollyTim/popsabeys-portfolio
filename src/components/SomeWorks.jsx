@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const SomeWorks = () => {
   return (
     <div className="flex flex-col max-w-[1200px] mx-auto mt-[100px] px-7 mb-6">
