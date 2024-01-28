@@ -1,13 +1,37 @@
 import React from "react";
 import { BiMenu } from "react-icons/bi";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   return (
     <div className=" flex justify-between items-center w-[80%] mx-auto h-14  mt-6">
       <div className="">
-        <img src="/images/logo.svg" alt="" />
+        <motion.img
+          src="/images/logo.svg"
+          alt=""
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            delay: 0.1,
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+        />
       </div>
-      <div className=" flex text-[#FFF] items-center space-x-2 text-sm font-normal max-[640px]:hidden font-SatoshiLight ">
+      <motion.div
+        className=" flex text-[#FFF] items-center space-x-2 text-sm font-normal max-[640px]:hidden font-SatoshiLight "
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.1,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+      >
         <p>Me</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +53,17 @@ const Nav = () => {
           <circle cx="2.5" cy="3" r="2.25" stroke="white" stroke-width="0.5" />
         </svg>
         <p>Contact</p>
-      </div>
-      <a
+      </motion.div>
+      <motion.a
+        initial={{ x: -100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.1,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
         href="/"
         className="text-[#fff] items-center flex gap-1 border rounded-full py-2 px-3 font-SatoshiLight font-medium"
       >
@@ -61,7 +94,7 @@ const Nav = () => {
           </defs>
         </svg>
         <p>Let's Work Together</p>
-      </a>
+      </motion.a>
       <BiMenu className="hidden text-[#fff] max-[640px]:flex text-lg" />
     </div>
   );

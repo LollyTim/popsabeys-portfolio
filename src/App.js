@@ -1,3 +1,4 @@
+import ClientReviews from "./components/ClientReviews";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import SomeWorks from "./components/SomeWorks";
@@ -12,6 +13,7 @@ function App() {
       <Trust />
       <WhatIdo />
       <SomeWorks />
+      <ClientReviews />
     </div>
   );
 }
