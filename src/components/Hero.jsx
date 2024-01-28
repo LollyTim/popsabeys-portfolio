@@ -4,7 +4,7 @@ import { delay, motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[50%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-screen">
+      <div className=" xl:w-[50%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-40">
         <motion.div
           className="  mx-auto py-2 px-5 border items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}

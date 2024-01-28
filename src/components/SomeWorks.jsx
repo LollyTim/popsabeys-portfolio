@@ -4,16 +4,48 @@ const SomeWorks = () => {
   return (
     <div className="flex flex-col max-w-[1200px] mx-auto mt-[100px] px-7 mb-6">
       <div className="max-w-[668px] block pb-12">
-        <h1 className="gradient2 font-SatoshiBold font-bold bg-clip-text text-[30px] xl:text-[40px]">
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className="gradient2 font-SatoshiBold font-bold bg-clip-text text-[30px] xl:text-[40px]"
+        >
           Some of my work
-        </h1>
-        <p className=" font-SatoshiLight text-base text-wrap max-w-[650px]  ">
+        </motion.h1>
+        <motion.p
+          initial={{ x: 100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            delay: 0.2,
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className=" font-SatoshiLight text-base text-wrap max-w-[650px]  "
+        >
           A brief look into some selected works
-        </p>
+        </motion.p>
       </div>
       <div className=" max-w-[1124px] mx-auto justify-center ">
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
-          <div className="">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
             <img
               src="\images\Rectangle 40jj.jpg"
               className=" rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
@@ -34,8 +66,19 @@ const SomeWorks = () => {
                 visit site
               </a>
             </div>
-          </div>
-          <div className=" items-center">
+          </motion.div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=" items-center"
+          >
             <img
               src="\images\Rectangle 40kk.png"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
@@ -56,7 +99,7 @@ const SomeWorks = () => {
                 visit site
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
           <div className="">
