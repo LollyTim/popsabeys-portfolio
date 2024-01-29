@@ -156,12 +156,6 @@ const SomeWorks = () => {
                   Fintech -UI/UX
                 </span>
               </p>
-              <a
-                href=""
-                className="smallBorder rounded-full items-center flex font-SatoshiLight text-nowrap py-2 px-3 xl:py-3 xl:px-5"
-              >
-                visit site
-              </a>
             </div>
           </motion.div>
         </div>
