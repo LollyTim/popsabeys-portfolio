@@ -102,7 +102,18 @@ const SomeWorks = () => {
           </motion.div>
         </div>
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
-          <div className="">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
             <img
               src="\images\Rectangle 38ll.png"
               className=" rounded-xl"
@@ -123,8 +134,19 @@ const SomeWorks = () => {
                 visit site
               </a>
             </div>
-          </div>
-          <div className="">
+          </motion.div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
             <img
               src="\images\Rectangle 39mm.jpg"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
@@ -145,10 +167,21 @@ const SomeWorks = () => {
                 visit site
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className=" flex flex-row gap-9 mt-11">
-          <div className="">
+          <motion.div
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
             <img
               src="\images\Rectangle 41nn.png"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
@@ -169,7 +202,7 @@ const SomeWorks = () => {
                 comming soon
               </a>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
