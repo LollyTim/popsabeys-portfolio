@@ -30,14 +30,15 @@ const ClientReviews = () => {
             </span>
           </div>
           <div className="gap-5 w-full grid grid-rows-2">
-            <div className="grid grid-cols-2 gap-5 w-full  max-h-32">
-              <div className="flex py-5 px-6 max-w-80 bg-[#0F1123] rounded-2xl">
+            <div className="flex justify-between w-full max-h-32">
+              <div className="flex py-5 px-6 max-w-96 xl:w-[345px] bg-[#0F1123] rounded-2xl">
                 dbcvjmdnbvjdbnvjd jd
               </div>
-              <div className="flex max-w-52 rounded-2xl bg-[#0F1123]">
+              <div className="flex  py-5 px-6 rounded-2xl bg-[#0F1123]">
                 dbcvjmdnbvjdbnvjd jd
               </div>
             </div>
+            <div className="flex py-5 px-6 bg-[#0F1123] rounded-2xl"></div>
           </div>
         </div>
       </div>
