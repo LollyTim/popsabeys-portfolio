@@ -123,12 +123,6 @@ const SomeWorks = () => {
                   Commerce - UI/UX
                 </span>
               </p>
-              <a
-                href=""
-                className="smallBorder rounded-full items-center justify-center flex font-SatoshiLight text-nowrap py-2 px-5 "
-              >
-                visit site
-              </a>
             </div>
           </motion.div>
           <motion.div
