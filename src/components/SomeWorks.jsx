@@ -47,7 +47,7 @@ const SomeWorks = () => {
             className=""
           >
             <img
-              src="\images\Rectangle 40jj.jpg"
+              src="images\imageOne.png"
               className=" rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
@@ -80,7 +80,7 @@ const SomeWorks = () => {
             className=" items-center"
           >
             <img
-              src="\images\Rectangle 40kk.png"
+              src="\images\imageTwo.png"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
@@ -114,11 +114,7 @@ const SomeWorks = () => {
             }}
             className=""
           >
-            <img
-              src="\images\Rectangle 38ll.png"
-              className=" rounded-xl"
-              alt=""
-            />
+            <img src="\images\imageThree.png" className=" rounded-xl" alt="" />
             <div className="flex gap-20 items-center pt-3">
               <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Fashion marketplace (Case study)
@@ -148,7 +144,7 @@ const SomeWorks = () => {
             className=""
           >
             <img
-              src="\images\Rectangle 39mm.jpg"
+              src="\images\imageFour.jpg"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
@@ -183,7 +179,7 @@ const SomeWorks = () => {
             className=""
           >
             <img
-              src="\images\Rectangle 41nn.png"
+              src="\images\imageFive.png"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />

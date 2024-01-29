@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className=" xl:w-[50%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-40">
         <motion.div
-          className="  mx-auto py-2 px-5 border items-center w-fit text-center rounded-full mb-4"
+          className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -17,7 +17,7 @@ const Hero = () => {
             duration: 1,
           }}
         >
-          <p className="flex font-SatoshiLight text-sm w-fit">
+          <p className="flex font-SatoshiLight text-sm bg-[#0B0F2A] mx-auto py-2 px-5 items-center w-fit text-center rounded-full">
             I am eager to hear what you’re working on
           </p>
         </motion.div>

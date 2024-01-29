@@ -65,7 +65,7 @@ const Nav = () => {
           duration: 1,
         }}
         href="/"
-        className="text-[#fff] items-center flex gap-1 border rounded-full py-2 px-3 font-SatoshiLight font-medium"
+        className="text-[#fff] items-center flex gap-1 border border-[#282B46] rounded-full py-2 px-3 font-SatoshiLight font-medium"
       >
         {" "}
         <svg
