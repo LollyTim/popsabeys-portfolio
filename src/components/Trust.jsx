@@ -27,6 +27,14 @@ const Trust = () => {
       </motion.p>
       <div className=" overflow-hidden flex text-center flex-wrap items-center justify-center gap-9 opacity-50">
         <motion.img
+          // initial={{ y: -30 }}
+          // whileInView={{ y: 0 }}
+          // transition={{
+          //   delay: 1.2,
+          //   y: { type: "spring", stiffness: 40 },
+          //   ease: "easeIn",
+          //   duration: 1,
+          // }}
           src="\images\tradepla.png"
           alt=""
           className=" w-32 max-[400px]:w-24 lg:w-48"
