@@ -127,7 +127,7 @@ const SomeWorks = () => {
           >
             <img
               src="\images\imageFour.jpg"
-              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
+              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px] max-h-[490px]"
               alt=""
             />
             <div className="flex justify-between items-center pt-3">
@@ -169,7 +169,7 @@ const SomeWorks = () => {
               </p>
               <a
                 href=""
-                className="smallBorder rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5"
+                className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5"
               >
                 comming soon
               </a>
