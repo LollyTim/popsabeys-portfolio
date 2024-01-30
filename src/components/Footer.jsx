@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-const Footer = () => {
+const Footer = ({ contact }) => {
   return (
-    <div className="max-w-[876px] flex flex-col justify-center items-center relative mx-auto mt-40 mb-5">
+    <div
+      ref={contact}
+      className="max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-40 mb-5"
+    >
       <motion.img
         initial={{ opacity: 0.1, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}

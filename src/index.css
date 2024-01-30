@@ -57,3 +57,14 @@ body {
   /* Add padding to the element to prevent content from touching the border */
 
 }
+
+.imgbg {
+  border-radius: 8.234px;
+  background: linear-gradient(180deg, #0F1123 0%, rgba(15, 17, 35, 0.00) 100%);
+}
+
+
+.imgggg {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.54%, #010314 89.27%), url(), lightgray -514.051px 0px / 346.592% 100% no-repeat;
+  mix-blend-mode: luminosity;
+}

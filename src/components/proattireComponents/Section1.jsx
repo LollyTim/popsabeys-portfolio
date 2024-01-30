@@ -2,15 +2,11 @@ import { motion } from "framer-motion";
 import React from "react";
 import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
+import Section2 from "./Section2";
 
 const Section1 = () => {
   return (
     <>
-      <ScrollToTop showUnder={160} duration={4000}>
-        <span>
-          <FaArrowCircleUp />
-        </span>
-      </ScrollToTop>
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -276,6 +272,10 @@ const Section1 = () => {
       >
         <img src="\images\completeBarchat.png" alt="chat" />
       </motion.div>
+
+      {/* another section starts here  */}
+
+      <Section2 />
     </>
   );
 };

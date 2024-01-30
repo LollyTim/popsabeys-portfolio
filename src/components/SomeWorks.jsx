@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-const SomeWorks = () => {
+const SomeWorks = ({ mywork }) => {
   return (
-    <div className="flex flex-col max-w-[1200px] mx-auto mt-[100px] px-7 mb-6">
+    <div
+      ref={mywork}
+      className="flex flex-col max-w-[1200px] mx-auto mt-[100px] px-7 mb-6"
+    >
       <div className="max-w-[668px] block pb-12">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}

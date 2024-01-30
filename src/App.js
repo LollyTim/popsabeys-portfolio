@@ -6,18 +6,29 @@ import Nav from "./components/Nav";
 import SomeWorks from "./components/SomeWorks";
 import Trust from "./components/Trust";
 import WhatIdo from "./components/WhatIdo";
+import { useRef } from "react";
 import { BrowserRouter as Rourter, Routes, Route } from "react-router-dom";
 import Section1 from "./components/proattireComponents/Section1";
 import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
 
 function App() {
+  const mywork = useRef(null);
+  const contact = useRef(null);
+
+  const scrollToSection = (sectionRef) => {
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="">
-      <ScrollToTop showUnder={600} duration={4000}>
-        <FaArrowCircleUp className="text-4xl text-slate-40 animate-pulse duration-[22ms]" />
-      </ScrollToTop>
-      <Nav />
+      <Nav
+        scrollToSection={scrollToSection}
+        mywork={mywork}
+        contact={contact}
+      />
       <Rourter>
         <Routes>
           <Route
@@ -27,7 +38,7 @@ function App() {
                 <Hero />
                 <Trust />
                 <WhatIdo />
-                <SomeWorks />
+                <SomeWorks scrollToSection={scrollToSection} mywork={mywork} />
                 <ClientReviews />
               </React.Fragment>
             }
@@ -42,7 +53,10 @@ function App() {
           />
         </Routes>
       </Rourter>
-      <Footer />
+      <Footer scrollToSection={scrollToSection} contact={contact} />
+      <ScrollToTop showUnder={600} duration={4000} style={{ zindex: 100 }}>
+        <FaArrowCircleUp className="text-4xl text-slate-40 animate-pulse duration-[22ms]" />
+      </ScrollToTop>
     </div>
   );
 }
