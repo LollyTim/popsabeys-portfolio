@@ -42,7 +42,7 @@ const Nav = () => {
         >
           <circle cx="2.5" cy="3" r="2.25" stroke="white" stroke-width="0.5" />
         </svg>
-        <p>My Work</p>
+        <a href="/mywork">My Work</a>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="5"

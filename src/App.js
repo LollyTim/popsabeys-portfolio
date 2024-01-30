@@ -14,10 +14,8 @@ import { FaArrowCircleUp } from "react-icons/fa";
 function App() {
   return (
     <div className="">
-      <ScrollToTop showUnder={160} duration={4000}>
-        <span>
-          <FaArrowCircleUp />
-        </span>
+      <ScrollToTop showUnder={600} duration={4000}>
+        <FaArrowCircleUp className="text-4xl text-slate-40 animate-pulse duration-[22ms]" />
       </ScrollToTop>
       <Nav />
       <Rourter>
