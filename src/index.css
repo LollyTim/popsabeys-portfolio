@@ -23,6 +23,14 @@ body {
   font-family: Satoshi;
 }
 
+@layer base {
+
+  ul,
+  ol {
+    list-style: revert;
+  }
+}
+
 .gradient {
   background: radial-gradient(48% 50% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.40) 100%);
   background-clip: text;

@@ -90,7 +90,8 @@ const SomeWorks = () => {
           </motion.div>
         </div>
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
-          <motion.div
+          <motion.a
+            href="/proattire"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -112,7 +113,7 @@ const SomeWorks = () => {
                 </span>
               </p>
             </div>
-          </motion.div>
+          </motion.a>
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
