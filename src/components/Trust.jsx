@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 const Trust = () => {
   return (
     <motion.div
-      initial={{ x: 100 }}
+      initial={{ x: -100 }}
       whileInView={{ x: 0 }}
       transition={{ ease: "easeOut", duration: 1 }}
       className=" mt-7 py-12 px-10 items-center max-w-[1199px] mx-auto  bg-[#0F1123] rounded-xl"
     >
       <motion.p
-        initial={{ y: 50 }}
-        whileInView={{ y: 0 }}
+        initial={{ x: -50 }}
+        whileInView={{ x: 0 }}
         transition={{
           delay: 1.2,
-          y: { type: "spring", stiffness: 40 },
+          x: { type: "spring", stiffness: 40 },
           ease: "easeIn",
           duration: 1,
         }}
@@ -40,11 +40,11 @@ const Trust = () => {
           className=" w-32 max-[400px]:w-24 lg:w-48"
         />
         <motion.img
-          initial={{ y: -30 }}
-          whileInView={{ y: 0 }}
+          initial={{ x: -30 }}
+          whileInView={{ x: 0 }}
           transition={{
             delay: 1.2,
-            y: { type: "spring", stiffness: 40 },
+            x: { type: "spring", stiffness: 40 },
             ease: "easeIn",
             duration: 1,
           }}
@@ -53,11 +53,11 @@ const Trust = () => {
           className=" w-32 max-[400px]:w-24 lg:w-48"
         />
         <motion.img
-          initial={{ y: -30 }}
-          whileInView={{ y: 0 }}
+          initial={{ x: -30 }}
+          whileInView={{ x: 0 }}
           transition={{
             delay: 1.2,
-            y: { type: "spring", stiffness: 40 },
+            x: { type: "spring", stiffness: 40 },
             ease: "easeIn",
             duration: 1,
           }}
@@ -66,11 +66,11 @@ const Trust = () => {
           className=" w-32 max-[400px]:w-24 lg:w-48"
         />
         <motion.img
-          initial={{ y: -30 }}
-          whileInView={{ y: 0 }}
+          initial={{ x: -30 }}
+          whileInView={{ x: 0 }}
           transition={{
             delay: 1.2,
-            y: { type: "spring", stiffness: 40 },
+            x: { type: "spring", stiffness: 40 },
             ease: "easeIn",
             duration: 1,
           }}
@@ -79,11 +79,11 @@ const Trust = () => {
           className=" w-32 max-[400px]:w-24 lg:w-48"
         />
         <motion.img
-          initial={{ y: -30 }}
-          whileInView={{ y: 0 }}
+          initial={{ x: -30 }}
+          whileInView={{ x: 0 }}
           transition={{
             delay: 1.2,
-            y: { type: "spring", stiffness: 40 },
+            x: { type: "spring", stiffness: 40 },
             ease: "easeIn",
             duration: 1,
           }}

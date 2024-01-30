@@ -18,7 +18,7 @@ const SomeWorks = () => {
           Some of my work
         </motion.h1>
         <motion.p
-          initial={{ x: 100, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{
             delay: 0.2,
@@ -62,7 +62,7 @@ const SomeWorks = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -114,7 +114,7 @@ const SomeWorks = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,

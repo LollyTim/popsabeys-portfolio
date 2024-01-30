@@ -19,7 +19,7 @@ const WhatIdo = () => {
           What I do
         </motion.h1>
         <motion.p
-          initial={{ x: 100, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{
             delay: 0.2,

@@ -73,9 +73,14 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div
-        initial={{ x: -100 }}
+        initial={{ x: -200 }}
         whileInView={{ x: 0 }}
-        transition={{ ease: "easeOut", duration: 1 }}
+        transition={{
+          delay: 1.2,
+          x: { type: "spring", stiffness: 40 },
+          ease: "easeIn",
+          duration: 1,
+        }}
         className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1000px] flex mb-32"
       >
         <img src="/images/Rectangle.png" alt="" />
