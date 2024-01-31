@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 const SomeWorks = ({ mywork }) => {
   return (
     <div
@@ -107,7 +108,11 @@ const SomeWorks = ({ mywork }) => {
             }}
             className=""
           >
-            <img src="\images\imageThree.png" className=" rounded-xl" alt="" />
+            <img
+              src="\images\imageThree.png"
+              className=" rounded-xl"
+              alt="img34"
+            />
             <div className="flex gap-20 items-center pt-3">
               <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Fashion marketplace (Case study)
@@ -118,7 +123,8 @@ const SomeWorks = ({ mywork }) => {
               </p>
             </div>
           </motion.a>
-          <motion.div
+          <motion.a
+            href="/tradepla"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -144,10 +150,11 @@ const SomeWorks = ({ mywork }) => {
                 </span>
               </p>
             </div>
-          </motion.div>
+          </motion.a>
         </div>
         <div className=" flex flex-row gap-9 mt-11">
-          <motion.div
+          <motion.a
+            href="/equity"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -172,14 +179,11 @@ const SomeWorks = ({ mywork }) => {
                   SaaS - UI/UX
                 </span>
               </p>
-              <a
-                href=""
-                className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5"
-              >
+              <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
                 comming soon
-              </a>
+              </div>
             </div>
-          </motion.div>
+          </motion.a>
         </div>
       </div>
     </div>

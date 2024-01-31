@@ -56,7 +56,12 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               stroke-width="0.5"
             />
           </svg>
-          <a onClick={() => scrollToSection(mywork)}>My Work</a>
+          <p
+            className=" cursor-pointer"
+            onClick={() => scrollToSection(mywork)}
+          >
+            My Work
+          </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="5"
@@ -72,7 +77,12 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               stroke-width="0.5"
             />
           </svg>
-          <a onClick={() => scrollToSection(contact)}>Contact</a>
+          <p
+            className=" cursor-pointer"
+            onClick={() => scrollToSection(contact)}
+          >
+            Contact
+          </p>
         </motion.div>
         <motion.a
           initial={{ x: -100, opacity: 0 }}

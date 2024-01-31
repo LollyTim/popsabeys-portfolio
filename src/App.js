@@ -12,6 +12,8 @@ import Section1 from "./components/proattireComponents/Section1";
 import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
 import SectionOne from "./components/tdbizComponents/Section1";
+import Tradepla from "./components/tradeplaComponents/Tradepla";
+import Equity from "./components/equityandLawComponents/Equity";
 
 function App() {
   const mywork = useRef(null);
@@ -57,6 +59,22 @@ function App() {
             element={
               <React.Fragment>
                 <SectionOne />
+              </React.Fragment>
+            }
+          />
+          <Route
+            path="/tradepla"
+            element={
+              <React.Fragment>
+                <Tradepla />
+              </React.Fragment>
+            }
+          />
+          <Route
+            path="/equity"
+            element={
+              <React.Fragment>
+                <Equity />
               </React.Fragment>
             }
           />

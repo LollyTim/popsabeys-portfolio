@@ -4,7 +4,17 @@ import { motion } from "framer-motion";
 const Section2 = () => {
   return (
     <div className="max-w-[1199px] mx-auto">
-      <div className="max-w-[730px] h-[634px] flex max-[600px]:flex-col imgbg mx-auto ml-40 max-[1230px]:mx-auto mt-32 relative overflow-hidden pr-12 ">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className="max-w-[730px] h-[634px] flex max-[600px]:flex-col imgbg mx-auto ml-40 max-[1230px]:mx-auto mt-32 relative overflow-hidden pr-12 "
+      >
         <div className=" max-w-[274] h-[634px] relative justify-center items-center  max-[600px]:w-96 imgggg overflow-hidden ">
           <img
             src="\images\Rectangle 471 (2).png"
@@ -125,8 +135,18 @@ const Section2 = () => {
         <h1 className="text-[69px] absolute font-bold font-SatoshiBold uppercase bottom-[265px] -right-52 opacity-[0.09] -rotate-90">
           user porsona
         </h1>
-      </div>
-      <div className="max-w-[730px] h-[634px] flex max-[600px]:flex-col imgbg mx-auto ml-[420px] max-[600px]:px-5 max-[1230px]:mx-auto mt-12 relative overflow-hidden pr-12 ">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className="max-w-[730px] h-[634px] flex max-[600px]:flex-col imgbg mx-auto ml-[420px] max-[600px]:px-5 max-[1230px]:mx-auto mt-12 relative overflow-hidden pr-12 "
+      >
         <div className=" max-w-[274] h-[634px] relative justify-center items-center imgggg overflow-hidden ">
           <img
             src="\images\isaac23.png"
@@ -215,7 +235,7 @@ const Section2 = () => {
         <h1 className="text-[69px] absolute font-bold font-SatoshiBold uppercase bottom-[265px] -right-52 opacity-[0.09] -rotate-90">
           user porsona
         </h1>
-      </div>
+      </motion.div>
     </div>
   );
 };

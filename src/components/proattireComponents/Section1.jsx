@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import React from "react";
-import ScrollToTop from "react-scroll-up";
-import { FaArrowCircleUp } from "react-icons/fa";
 import Section2 from "./Section2";
 
 const Section1 = () => {
