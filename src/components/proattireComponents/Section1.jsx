@@ -276,6 +276,192 @@ const Section1 = () => {
       {/* another section starts here  */}
 
       <Section2 />
+
+      {/* another section starts here  */}
+
+      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[161px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col mt-8 ">
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className="gradient font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6 mb-1 xl:mb-10"
+        >
+          Insights
+        </motion.h1>
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className="gap-40"
+        >
+          <p className=" font-SatoshiLight font-normal text-base leading-6 max-w-[590px] mb-6 ">
+            From interviews, samplings and surveys, we determined the main
+            bottlenecks to that is limiting the already existing solutions in
+            the market, also we were able to identify the key motivations to
+            moving forward. Some of the key motivations are:
+          </p>
+          <ul className=" list-disc list-inside font-SatoshiLight text-[16px]">
+            <li>Security in purchase, delivery and sizing</li>
+            <li>Accessibility to variety of creators</li>
+            <li>Product range to meet various needs</li>
+          </ul>
+        </motion.div>
+      </div>
+
+      {/* another section starts here  */}
+
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 mx-auto flex w-fit max-[786px]:max-w-96 px-8"
+      >
+        <img src="\images\iPhone 15 Pro.png" alt="chat" />
+      </motion.div>
+
+      {/* another page starts here  */}
+
+      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+        >
+          Execution
+        </motion.h1>
+        <motion.p
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className=" font-SatoshiLight font-normal text-base leading-6 max-w-[590px]"
+        >
+          I took a more pragmatic approach to the design, focusing first on the
+          consumer vertical, I also ensured the creator product is designed to
+          match set goals with emphasis on making the platform easy to use and
+          familiar using existing UX patterns.
+        </motion.p>
+      </div>
+
+      {/* another section starts here  */}
+
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+      >
+        <img src="\images\prev101.png" alt="preview" className=" w-[500px] " />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+      >
+        <img
+          src="\images\phoebeshouse 1.png"
+          alt="preview"
+          className=" w-[500px] "
+        />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+      >
+        <img
+          src="\images\Search result 1.png"
+          alt="preview"
+          className=" w-[500px] "
+        />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+      >
+        <img
+          src="\images\sellers 1.png"
+          alt="preview"
+          className=" w-[500px] "
+        />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10">
+        ...end.
+      </h1>
     </>
   );
 };
