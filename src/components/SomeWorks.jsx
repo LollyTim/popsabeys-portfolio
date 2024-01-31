@@ -64,7 +64,8 @@ const SomeWorks = ({ mywork }) => {
               </p>
             </div>
           </motion.div>
-          <motion.div
+          <motion.a
+            href="/tdbizz"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -90,7 +91,7 @@ const SomeWorks = ({ mywork }) => {
                 </span>
               </p>
             </div>
-          </motion.div>
+          </motion.a>
         </div>
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
           <motion.a

@@ -11,6 +11,7 @@ import { BrowserRouter as Rourter, Routes, Route } from "react-router-dom";
 import Section1 from "./components/proattireComponents/Section1";
 import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
+import SectionOne from "./components/tdbizComponents/Section1";
 
 function App() {
   const mywork = useRef(null);
@@ -48,6 +49,14 @@ function App() {
             element={
               <React.Fragment>
                 <Section1 />
+              </React.Fragment>
+            }
+          />
+          <Route
+            path="/tdbizz"
+            element={
+              <React.Fragment>
+                <SectionOne />
               </React.Fragment>
             }
           />
