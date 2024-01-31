@@ -96,7 +96,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-8 max-w-[828px] gap-16 mx-auto  max-[768px]:gap-12 max-[768px]:flex-col-reverse "
+        className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse"
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[440px]">
           <p>
@@ -108,7 +108,7 @@ const Elearning = () => {
           Challenge
         </h1>
       </motion.div>
-      <div className="flex flex-row py-14 px-4 max-w-[828px] gap-[100px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -165,7 +165,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-3 max-w-[828px] gap-[250px] mx-auto  max-[768px]:gap-12 max-[768px]:flex-col-reverse "
+        className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse"
       >
         <div className="font-SatoshiLight font-normal text-base leading-6 max-w-[440px]">
           <p>
@@ -345,6 +345,35 @@ const Elearning = () => {
         className="hidden max-[835px]:flex"
         alt=""
       />
+
+      <div className="flex py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto flex-col">
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit"
+        >
+          Insights from research
+        </motion.h1>
+        <motion.img
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          transition={{
+            scale: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          src="\images\Frame 58 1.png"
+          className=" max-[835px]:flex mx-auto flex w-fit"
+          alt=""
+        />
+      </div>
     </>
   );
 };
