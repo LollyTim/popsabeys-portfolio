@@ -38,7 +38,8 @@ const SomeWorks = ({ mywork }) => {
       </div>
       <div className=" max-w-[1124px] mx-auto justify-center ">
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
-          <motion.div
+          <motion.a
+            href="/elearning"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -64,7 +65,7 @@ const SomeWorks = ({ mywork }) => {
                 </span>
               </p>
             </div>
-          </motion.div>
+          </motion.a>
           <motion.a
             href="/tdbizz"
             initial={{ x: -100, opacity: 0 }}
@@ -153,8 +154,7 @@ const SomeWorks = ({ mywork }) => {
           </motion.a>
         </div>
         <div className=" flex flex-row gap-9 mt-11">
-          <motion.a
-            href="/equity"
+          <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
@@ -183,7 +183,7 @@ const SomeWorks = ({ mywork }) => {
                 comming soon
               </div>
             </div>
-          </motion.a>
+          </motion.div>
         </div>
       </div>
     </div>

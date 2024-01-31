@@ -13,7 +13,8 @@ import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
 import SectionOne from "./components/tdbizComponents/Section1";
 import Tradepla from "./components/tradeplaComponents/Tradepla";
-import Equity from "./components/equityandLawComponents/Equity";
+// import Equity from "./components/equityandLawComponents/Equity";
+import Elearning from "./components/eLearningComponents/Elearning";
 
 function App() {
   const mywork = useRef(null);
@@ -26,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className="">
+    <div className="select-none">
       <Nav
         scrollToSection={scrollToSection}
         mywork={mywork}
@@ -71,10 +72,10 @@ function App() {
             }
           />
           <Route
-            path="/equity"
+            path="/elearning"
             element={
               <React.Fragment>
-                <Equity />
+                <Elearning />
               </React.Fragment>
             }
           />
