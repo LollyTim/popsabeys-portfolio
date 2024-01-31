@@ -459,7 +459,7 @@ const Section1 = () => {
           className=" absolute w-32 -bottom-4 -right-10"
         /> */}
       </motion.div>
-      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10">
+      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
         ...end.
       </h1>
     </>
