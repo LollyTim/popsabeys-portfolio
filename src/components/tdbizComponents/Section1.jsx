@@ -176,7 +176,7 @@ const SectionOne = () => {
         </h1>
         <div className="w-full justify-center mx-auto grid grid-cols-2 gap-6">
           <motion.img
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -202,7 +202,7 @@ const SectionOne = () => {
             alt="mobileview"
           />
           <motion.img
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -228,7 +228,7 @@ const SectionOne = () => {
             alt="viewsw"
           />
           <motion.img
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -254,7 +254,7 @@ const SectionOne = () => {
             alt="viewwf"
           />
           <motion.img
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -280,7 +280,7 @@ const SectionOne = () => {
             alt="mobileviews"
           />
           <motion.img
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
