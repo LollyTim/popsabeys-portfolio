@@ -83,7 +83,7 @@ function App() {
       </Rourter>
       <Footer scrollToSection={scrollToSection} contact={contact} />
       <ScrollToTop showUnder={600} duration={4000} style={{ zindex: 100 }}>
-        <FaArrowCircleUp className="text-4xl text-slate-40 animate-pulse duration-[22ms]" />
+        <FaArrowCircleUp className="text-4xl text-slate-40 rotate-[-1deg] animate-pulse duration-[22ms]" />
       </ScrollToTop>
     </div>
   );

@@ -14,22 +14,24 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
     <>
       <div className=" flex justify-between items-center w-[80%] mx-auto h-14  mt-6 relative">
         <div className="">
-          <motion.img
-            src="/images/logo.svg"
-            alt=""
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{
-              delay: 0.1,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-          />
+          <a href="/">
+            <motion.img
+              src="/images/logo.svg"
+              alt=""
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{
+                delay: 0.1,
+                x: { type: "spring", stiffness: 50 },
+                opacity: { duration: 0.8 },
+                ease: "easeIn",
+                duration: 1,
+              }}
+            />
+          </a>
         </div>
         <motion.div
-          className=" flex text-[#FFF] items-center space-x-2 text-sm font-normal max-[640px]:hidden font-SatoshiLight "
+          className=" flex text-[#FFF] items-center space-x-8 text-sm font-normal max-[640px]:hidden font-SatoshiLight "
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
@@ -104,6 +106,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className=" rotate-[-90deg]"
           >
             <g id="Frame" clip-path="url(#clip0_1010_33)">
               <path

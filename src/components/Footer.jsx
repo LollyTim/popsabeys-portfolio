@@ -7,6 +7,7 @@ const Footer = ({ contact }) => {
       className="max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-40 mb-5"
     >
       <motion.img
+        viewport={{ once: true }}
         initial={{ opacity: 0.1, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{
@@ -19,6 +20,7 @@ const Footer = ({ contact }) => {
       />
       <motion.img
         initial={{ opacity: 0.1, scale: 0 }}
+        viewport={{ once: true }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.5,
@@ -31,6 +33,7 @@ const Footer = ({ contact }) => {
       <motion.img
         initial={{ opacity: 0.1, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
         transition={{
           duration: 0.5,
           x: { type: "inertia", bounceStiffness: 30 },
@@ -43,6 +46,7 @@ const Footer = ({ contact }) => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.2,
             x: { type: "spring", stiffness: 50 },
@@ -57,6 +61,7 @@ const Footer = ({ contact }) => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.4,
             x: { type: "spring", stiffness: 50 },
@@ -72,6 +77,7 @@ const Footer = ({ contact }) => {
         <motion.button
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.4,
             x: { type: "spring", stiffness: 50 },
@@ -88,6 +94,7 @@ const Footer = ({ contact }) => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.4,
             x: { type: "spring", stiffness: 50 },

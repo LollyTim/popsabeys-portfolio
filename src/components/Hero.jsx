@@ -9,6 +9,7 @@ const Hero = () => {
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.1,
             y: { type: "spring", stiffness: 50 },
@@ -25,6 +26,7 @@ const Hero = () => {
           className="w-full flex justify-center"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.1,
             y: { type: "spring", stiffness: 40 },
@@ -40,6 +42,7 @@ const Hero = () => {
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 1,
             y: { type: "spring", stiffness: 60 },
@@ -75,13 +78,14 @@ const Hero = () => {
       <motion.div
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
+        viewport={{ once: true }}
         transition={{
           delay: 1.2,
           x: { type: "spring", stiffness: 40 },
           ease: "easeIn",
           duration: 1,
         }}
-        className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1000px] flex mb-32"
+        className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1200px] flex mb-32"
       >
         <img src="/images/Rectangle.png" alt="" />
       </motion.div>

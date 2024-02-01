@@ -7,6 +7,7 @@ const Section2 = () => {
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -139,6 +140,7 @@ const Section2 = () => {
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },

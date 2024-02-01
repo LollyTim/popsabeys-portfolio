@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Userpersona from "./Userpersona";
 
 const Elearning = () => {
   return (
@@ -7,6 +8,7 @@ const Elearning = () => {
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -21,7 +23,7 @@ const Elearning = () => {
         </p>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff]">
+            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold overflow-hidden text-3xl text-[#fff]">
               Discite E-learning
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
@@ -44,6 +46,7 @@ const Elearning = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -62,6 +65,7 @@ const Elearning = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -75,6 +79,7 @@ const Elearning = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -90,6 +95,7 @@ const Elearning = () => {
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -112,6 +118,7 @@ const Elearning = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -125,6 +132,7 @@ const Elearning = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -143,6 +151,7 @@ const Elearning = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -159,6 +168,7 @@ const Elearning = () => {
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -187,6 +197,7 @@ const Elearning = () => {
               <motion.h1
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -201,6 +212,7 @@ const Elearning = () => {
               <motion.p
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -218,6 +230,7 @@ const Elearning = () => {
               <motion.h1
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -231,6 +244,7 @@ const Elearning = () => {
               <motion.p
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -270,6 +284,7 @@ const Elearning = () => {
               <motion.h1
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -283,6 +298,7 @@ const Elearning = () => {
               <motion.p
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -301,6 +317,7 @@ const Elearning = () => {
               <motion.h1
                 initial={{ x: -50, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -314,6 +331,7 @@ const Elearning = () => {
               <motion.p
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -335,6 +353,7 @@ const Elearning = () => {
       <motion.img
         initial={{ scale: 0, opacity: 0 }}
         whileInView={{ scale: 1, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           scale: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -350,6 +369,7 @@ const Elearning = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -362,6 +382,7 @@ const Elearning = () => {
         </motion.h1>
         <motion.img
           initial={{ scale: 0, opacity: 0 }}
+          viewport={{ once: true }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{
             scale: { type: "spring", stiffness: 50 },
@@ -370,10 +391,13 @@ const Elearning = () => {
             duration: 1,
           }}
           src="\images\Frame 58 1.png"
-          className=" max-[835px]:flex mx-auto flex w-fit"
+          className=" max-[835px]:flex mx-auto flex w-ful "
           alt=""
         />
       </div>
+      {/* another section starts here  */}
+
+      <Userpersona />
     </>
   );
 };

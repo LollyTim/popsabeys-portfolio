@@ -7,6 +7,7 @@ const Tradepla = () => {
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -44,6 +45,7 @@ const Tradepla = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -66,6 +68,7 @@ const Tradepla = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -79,6 +82,7 @@ const Tradepla = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -96,6 +100,7 @@ const Tradepla = () => {
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -121,6 +126,7 @@ const Tradepla = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -142,6 +148,7 @@ const Tradepla = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -155,6 +162,7 @@ const Tradepla = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -180,6 +188,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -193,6 +202,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -206,6 +216,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -219,6 +230,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -232,6 +244,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -245,6 +258,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -258,6 +272,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -271,6 +286,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -284,6 +300,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -297,6 +314,7 @@ const Tradepla = () => {
           <motion.img
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },

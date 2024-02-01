@@ -50,6 +50,12 @@ body {
 
 }
 
+.forthe {
+  border-radius: 11.35px;
+  background: linear-gradient(180deg, #0F1123 0%, rgba(15, 17, 35, 0.00) 100%);
+  box-shadow: 0px 6.031px 11.307px 0px rgba(15, 15, 15, 0.14);
+}
+
 .gradBorder {
   background: linear-gradient(to right, rgba(2, 252, 239, 0.7), rgba(255, 181, 43, 0.7), rgba(160, 43, 254, 0.7));
 
@@ -67,72 +73,4 @@ body {
 .imgggg {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.54%, #010314 89.27%), url(), lightgray -514.051px 0px / 346.592% 100% no-repeat;
   mix-blend-mode: luminosity;
-}
-
-.center {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(25, 25, 50);
-}
-
-.progress {
-  width: 400px;
-  height: 400px;
-  background: rgb(78, 91, 205);
-  border-radius: 5mm;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-circle {
-  fill: none;
-}
-
-svg {
-  transform: rotate(-90deg);
-}
-
-circle:nth-child(1) {
-  stroke: rgb(25, 26, 49);
-  stroke-width: 12px;
-}
-
-circle:nth-child(2) {
-  stroke: white;
-  stroke-dasharray: 848;
-  stroke-dashoffset: calc(848 - (848 * 75) / 100);
-  stroke-linecap: round;
-  stroke-width: 16px;
-  animation: progress 1s ease;
-}
-
-@keyframes progress {
-  from {
-    stroke-dashoffset: 848;
-  }
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: poppins;
-  font-size: 60px;
-  color: rgb(255, 201, 5);
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.text span {
-  font-size: 14px;
-  color: rgb(230, 230, 230);
 }

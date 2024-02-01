@@ -11,6 +11,7 @@ const SomeWorks = ({ mywork }) => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -24,6 +25,7 @@ const SomeWorks = ({ mywork }) => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.2,
             x: { type: "spring", stiffness: 50 },
@@ -42,6 +44,7 @@ const SomeWorks = ({ mywork }) => {
             href="/elearning"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -70,6 +73,7 @@ const SomeWorks = ({ mywork }) => {
             href="/tdbizz"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               delay: 0.2,
               x: { type: "spring", stiffness: 50 },
@@ -99,6 +103,7 @@ const SomeWorks = ({ mywork }) => {
           <motion.a
             href="/proattire"
             initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -127,6 +132,7 @@ const SomeWorks = ({ mywork }) => {
           <motion.a
             href="/tradepla"
             initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,
@@ -156,6 +162,7 @@ const SomeWorks = ({ mywork }) => {
         <div className=" flex flex-row gap-9 mt-11">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               delay: 0.2,

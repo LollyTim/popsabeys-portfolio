@@ -8,6 +8,7 @@ const WhatIdo = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -21,6 +22,7 @@ const WhatIdo = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             delay: 0.2,
             x: { type: "spring", stiffness: 50 },
@@ -38,6 +40,7 @@ const WhatIdo = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.4,
             ease: easeInOut,
@@ -52,6 +55,7 @@ const WhatIdo = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.4,
             x: { type: "inertia", bounceStiffness: 30 },
@@ -65,6 +69,7 @@ const WhatIdo = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
+          viewport={{ once: true }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{
             duration: 0.4,
@@ -80,6 +85,7 @@ const WhatIdo = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.4,
             delay: 0.4,
@@ -93,6 +99,7 @@ const WhatIdo = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
+          viewport={{ once: true }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{
             duration: 0.4,
@@ -108,6 +115,7 @@ const WhatIdo = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.4,
             delay: 0.6,
@@ -121,6 +129,7 @@ const WhatIdo = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
+          viewport={{ once: true }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{
             duration: 0.4,
@@ -136,6 +145,7 @@ const WhatIdo = () => {
         <motion.div
           initial={{ opacity: 0.1, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.5,
             delay: 0.8,

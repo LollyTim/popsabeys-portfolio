@@ -8,6 +8,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -17,12 +18,12 @@ const Section1 = () => {
         }}
         className="flex flex-col justify-between mt-[96px] max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
-        <p className=" font-SatoshiLight text-base font-normal ">
+        <p className=" font-SatoshiLight text-base font-normal overflow-hidden ">
           Summarized project scope
         </p>
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff]">
+        <div className="flex flex-row justify-between overflow-hidden">
+          <div className="flex flex-col gap-1 overflow-hidden">
+            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
               Proattire: Fashion marketplace
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
@@ -45,6 +46,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -63,6 +65,7 @@ const Section1 = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -76,6 +79,7 @@ const Section1 = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -93,6 +97,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           x: { type: "spring", stiffness: 50 },
           opacity: { duration: 0.8 },
@@ -131,6 +136,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -149,6 +155,7 @@ const Section1 = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -162,6 +169,7 @@ const Section1 = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -182,6 +190,7 @@ const Section1 = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -198,6 +207,7 @@ const Section1 = () => {
           src="\images\pichat.png"
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -212,6 +222,7 @@ const Section1 = () => {
           src="\images\barChat.png"
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -223,6 +234,7 @@ const Section1 = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -242,6 +254,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -259,6 +272,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -281,6 +295,7 @@ const Section1 = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -294,6 +309,7 @@ const Section1 = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -321,6 +337,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -339,6 +356,7 @@ const Section1 = () => {
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -352,6 +370,7 @@ const Section1 = () => {
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{
             x: { type: "spring", stiffness: 50 },
             opacity: { duration: 0.8 },
@@ -372,6 +391,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -391,6 +411,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -414,6 +435,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },
@@ -437,6 +459,7 @@ const Section1 = () => {
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         transition={{
           delay: 0.2,
           x: { type: "spring", stiffness: 50 },

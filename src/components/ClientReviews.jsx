@@ -9,6 +9,7 @@ const ClientReviews = () => {
           <motion.h1
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
               x: { type: "spring", stiffness: 50 },
               opacity: { duration: 0.4 },
@@ -23,6 +24,7 @@ const ClientReviews = () => {
         <div className="flex max-[950px]:block gap-5 w-full">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{
               x: { type: "spring", stiffness: 50 },
@@ -56,6 +58,7 @@ const ClientReviews = () => {
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -82,6 +85,7 @@ const ClientReviews = () => {
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   x: { type: "spring", stiffness: 50 },
                   opacity: { duration: 0.8 },
@@ -109,6 +113,7 @@ const ClientReviews = () => {
             <motion.div
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
               transition={{
                 x: { type: "spring", stiffness: 50 },
                 opacity: { duration: 0.8 },
