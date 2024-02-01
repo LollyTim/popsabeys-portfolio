@@ -99,7 +99,7 @@ const SomeWorks = ({ mywork }) => {
             </div>
           </motion.a>
         </div>
-        <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
+        <div className=" flex flex-col justify-between max-[768px]:justify-center gap-9 sm:flex-row md:flex-col lg:flex-row mb-11">
           <motion.a
             href="/proattire"
             initial={{ x: -100, opacity: 0 }}
@@ -115,8 +115,8 @@ const SomeWorks = ({ mywork }) => {
             className=""
           >
             <img
-              src="\images\imageThree.png"
-              className=" rounded-xl"
+              src="\images\Rectangle 38.svg"
+              className="rounded-xl"
               alt="img34"
             />
             <div className="flex gap-20 items-center pt-3">
@@ -143,11 +143,19 @@ const SomeWorks = ({ mywork }) => {
             }}
             className=""
           >
-            <img
-              src="\images\imageFour.jpg"
-              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px] max-h-[490px]"
+            {/* <img
+              src="\images\Rectangle 39.svg"
+              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
-            />
+            /> */}
+
+            <div
+              className=" h-[488px] w-[350px] rounded-2xl bg-center bg-contain bg-no-repeat"
+              style={{
+                backgroundImage: `url(/images/stanming.png)`,
+                backgroundSize: 500,
+              }}
+            ></div>
             <div className="flex justify-between items-center pt-3">
               <p className="inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Tradepla (Showcase)
@@ -174,7 +182,7 @@ const SomeWorks = ({ mywork }) => {
             className=""
           >
             <img
-              src="\images\imageFive.png"
+              src="\images\Rectangle 41.svg"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
