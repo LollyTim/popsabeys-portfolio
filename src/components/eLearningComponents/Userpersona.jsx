@@ -55,8 +55,20 @@ const Userpersona = () => {
         >
           User Persona
         </motion.h1>
-        <div className="w-[1050px] flex flex-row max-[800px]:f;ex-col gap-[32px]">
-          <div className="h-[600px] w-[480px]  items-center overflow-hidden flex-col flex ">
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            x: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            delay: 2,
+            ease: "easeIn",
+            duration: 2,
+          }}
+          className="w-[1050px] flex flex-row max-[800px]:flex-col mx-auto gap-[32px]"
+        >
+          <div className="h-[600px] w-[480px] max-[600px]:w-[400px]   items-center overflow-hidden flex-col flex ">
             <img
               src="/images/Ellipse 10.svg"
               alt=""
@@ -209,12 +221,36 @@ const Userpersona = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="justify-center flex ">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="justify-center flex "
+      >
         <img src="\images\Group 25 1.png" alt="" />
-      </div>
-      <div className="flex flex-col w-[70%] mx-auto justify-center mt-28 gap-12">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="flex flex-col w-[70%] mx-auto justify-center mt-28 gap-12"
+      >
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -237,8 +273,20 @@ const Userpersona = () => {
           width={800}
           className="mx-auto"
         />
-      </div>
-      <div className="w-[75%] justify-between mx-auto flex flex-row items-center mt-32">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center mt-32"
+      >
         <div className="">
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Product
@@ -255,9 +303,21 @@ const Userpersona = () => {
           <img src="\images\iPhone XS Max Silver Mockup.svg" alt="" />
           <img src="/images/iPhone XS Max Silver Mockup (4).svg" alt="" />
         </div>
-      </div>
+      </motion.div>
 
-      <div className="w-[75%] max-[786px]: justify-between mx-auto flex flex-row items-center mt-32">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center mt-32"
+      >
         <div className="flex flex-row">
           <img
             src="\images\iPhone XS Max Silver Mockup (5).svg"
@@ -276,8 +336,20 @@ const Userpersona = () => {
             with tasks and assignments, fees and every important thing.
           </p>
         </div>
-      </div>
-      <div className="w-[75%] max-[786px]: justify-between mx-auto flex flex-row items-center">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+      >
         <div>
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Lecture experience
@@ -297,8 +369,20 @@ const Userpersona = () => {
             alt=""
           />
         </div>
-      </div>
-      <div className="w-[75%] max-[786px]: justify-between mx-auto flex flex-row items-center">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+      >
         <div className="flex flex-row">
           <img src="\images\iPhone XS Max Silver Mockup (9).svg" alt="" />
           <img
@@ -317,8 +401,20 @@ const Userpersona = () => {
             making effortless and the platform totally independent.
           </p>
         </div>
-      </div>
-      <div className="w-[75%] max-[786px]: justify-between mx-auto flex flex-row items-center">
+      </motion.div>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+      >
         <div>
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course & Assessment
@@ -336,7 +432,45 @@ const Userpersona = () => {
           />
           <img src="\images\iPhone XS Max Silver Mockup (12).svg" alt="" />
         </div>
-      </div>
+      </motion.div>
+      <motion.div
+        className="w-[75%] justify-center mt-20 mx-auto max-[768px]:flex-col flex flex-row items-center"
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          delay: 2,
+          ease: "easeIn",
+          duration: 2,
+        }}
+      >
+        <div className="flex flex-row gap-1">
+          <img
+            src="images\iPhone XS Max Silver Mockup-1.png"
+            className=" mb-8"
+            alt=""
+          />
+          <img
+            src="images\iPhone XS Max Silver Mockup-3.png"
+            className=" mt-8"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-row gap-1">
+          <img
+            src="images\iPhone XS Max Silver Mockup.png"
+            className=" mt-8"
+            alt=""
+          />
+          <img
+            src="images\iPhone XS Max Silver Mockup-2.png"
+            className=" mb-8"
+            alt=""
+          />
+        </div>
+      </motion.div>
     </>
   );
 };

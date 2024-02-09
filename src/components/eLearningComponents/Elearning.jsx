@@ -391,7 +391,7 @@ const Elearning = () => {
             duration: 1,
           }}
           src="\images\Frame 58 1.png"
-          className=" max-[835px]:flex mx-auto flex w-ful "
+          className=" max-[835px]:flex mx-auto flex w-full "
           alt=""
         />
       </div>
