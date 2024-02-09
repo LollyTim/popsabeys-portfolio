@@ -316,7 +316,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="max-w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto  flex flex-row items-center mt-32"
+        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center"
       >
         <div className="flex flex-row ">
           <img
@@ -326,11 +326,11 @@ const Userpersona = () => {
           />
           <img src="\images\iPhone XS Max Silver Mockup (6).svg" alt="" />
         </div>
-        <div className=" w-[100%] flex flex-col">
+        <div className=" gap-4 flex flex-col">
           <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
             Staying in sync
           </h1>
-          <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
+          <p className="text-[#C3C3C3] w-[505px] max-[768px]:w-full font-SatoshiLight">
             The home page is designed to ensure users do not miss out of
             important activities in their enrolled courses, keeping up to date
             with tasks and assignments, fees and every important thing.
@@ -350,11 +350,11 @@ const Userpersona = () => {
         }}
         className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
-        <div className=" w-[100%] flex flex-col">
+        <div className="gap-4 flex flex-col">
           <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Lecture experience
           </h1>
-          <p className="text-[#C3C3C3] w-full font-SatoshiLight">
+          <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
             Get notified of live/ongoing lectures, stay engaged in active class
             participation with the lecture discussion feature with colleagues.
             Never miss a class with the schedule and upcoming activity features.
@@ -391,11 +391,11 @@ const Userpersona = () => {
             alt=""
           />
         </div>
-        <div>
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+        <div className="flex flex-col gap-4">
+          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course registration
           </h1>
-          <p className="text-[#C3C3C3] w-[505px] font-SatoshiLight">
+          <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
             For a structed schooling system, we had to find an intuitive and
             easy approach to bring the offline paper course registration online,
             making effortless and the platform totally independent.
@@ -413,13 +413,13 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
-        <div className=" w-[100%] flex flex-col">
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+        <div className=" flex flex-col gap-4 mt-2">
+          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[25px]">
             Course & Assessment
           </h1>
-          <p className="text-[#C3C3C3] w-[505px] font-SatoshiLight">
+          <p className="text-[#C3C3C3] w-[505px]  font-SatoshiLight">
             Students are automatically graded by the system and the result
             uploaded to student portal for use.
           </p>
@@ -449,28 +449,32 @@ const Userpersona = () => {
         <div className="flex flex-row gap-1">
           <img
             src="images\iPhone XS Max Silver Mockup-1.png"
-            className=" mb-8"
+            className=" mb-10"
             alt=""
           />
           <img
             src="images\iPhone XS Max Silver Mockup-3.png"
-            className=" mt-8"
+            className=" mt-10"
             alt=""
           />
         </div>
         <div className="flex flex-row gap-1">
           <img
             src="images\iPhone XS Max Silver Mockup.png"
-            className=" mt-8"
+            className=" mt-10"
             alt=""
           />
           <img
             src="images\iPhone XS Max Silver Mockup-2.png"
-            className=" mb-8"
+            className=" mb-10"
             alt=""
           />
         </div>
       </motion.div>
+
+      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
+        ...end.
+      </h1>
     </>
   );
 };
