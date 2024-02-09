@@ -316,9 +316,9 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center mt-32"
+        className="max-w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto  flex flex-row items-center mt-32"
       >
-        <div className="flex flex-row">
+        <div className="flex flex-row ">
           <img
             src="\images\iPhone XS Max Silver Mockup (5).svg"
             className=" mt-28"
@@ -326,11 +326,11 @@ const Userpersona = () => {
           />
           <img src="\images\iPhone XS Max Silver Mockup (6).svg" alt="" />
         </div>
-        <div>
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+        <div className=" w-[100%] flex flex-col">
+          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
             Staying in sync
           </h1>
-          <p className="text-[#C3C3C3] w-[505px] font-SatoshiLight">
+          <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
             The home page is designed to ensure users do not miss out of
             important activities in their enrolled courses, keeping up to date
             with tasks and assignments, fees and every important thing.
@@ -348,13 +348,13 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
-        <div>
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+        <div className=" w-[100%] flex flex-col">
+          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Lecture experience
           </h1>
-          <p className="text-[#C3C3C3] w-[505px] font-SatoshiLight">
+          <p className="text-[#C3C3C3] w-full font-SatoshiLight">
             Get notified of live/ongoing lectures, stay engaged in active class
             participation with the lecture discussion feature with colleagues.
             Never miss a class with the schedule and upcoming activity features.
@@ -381,7 +381,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center"
       >
         <div className="flex flex-row">
           <img src="\images\iPhone XS Max Silver Mockup (9).svg" alt="" />
@@ -415,7 +415,7 @@ const Userpersona = () => {
         }}
         className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
-        <div>
+        <div className=" w-[100%] flex flex-col">
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course & Assessment
           </h1>
