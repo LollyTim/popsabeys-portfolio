@@ -76,11 +76,11 @@ const Hero = () => {
         </motion.div>
       </div>
       <motion.div
-        initial={{ x: -200 }}
-        whileInView={{ x: 0 }}
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{
-          delay: 1.2,
+          delay: 0.5,
           x: { type: "spring", stiffness: 40 },
           ease: "easeIn",
           duration: 1,
