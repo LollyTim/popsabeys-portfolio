@@ -87,6 +87,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
           </p>
         </motion.div>
         <motion.a
+          href="mailto: popsabey.ux@gmail.com"
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
@@ -96,7 +97,6 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             ease: "easeIn",
             duration: 1,
           }}
-          href="/"
           className="text-[#fff] max-[640px]:hidden items-center flex gap-1 border border-[#282B46] rounded-full py-2 px-3 font-SatoshiLight font-medium"
         >
           {" "}

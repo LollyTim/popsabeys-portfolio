@@ -87,7 +87,7 @@ const Footer = ({ contact }) => {
           }}
           className=" font-SatoshiLight bg-[#4952E4] py-3 px-8 items-center justify-center justify-items-center rounded-full"
         >
-          Reach out to me
+          <a href="mailto: popsabey.ux@gmail.com">Reach out to me</a>
         </motion.button>
       </div>
       <div>

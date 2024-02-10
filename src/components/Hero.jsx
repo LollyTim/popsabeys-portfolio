@@ -71,7 +71,7 @@ const Hero = () => {
           className=" w-fit mt-10 items-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
           <button className="bg-[#4952E4] py-3 px-8 rounded-full">
-            Reach out to me
+            <a href="mailto: popsabey.ux@gmail.com">Reach out to me</a>
           </button>
         </motion.div>
       </div>
