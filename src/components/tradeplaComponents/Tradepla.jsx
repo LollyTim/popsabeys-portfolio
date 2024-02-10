@@ -15,14 +15,14 @@ const Tradepla = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className=" overflow-hidden flex flex-col justify-between mt-[96px] max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
         </p>
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff]">
+        <div className="flex flex-row justify-between overflow-hidden">
+          <div className="flex flex-col gap-1 overflow-hidden">
+            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl overflow-hidden text-[#fff]">
               Tradepla: Financial inclusion
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
@@ -294,7 +294,7 @@ const Tradepla = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (2) (1).png"
+            src="\images\TDB SC (8).svg"
             alt="mobileviews"
           />
           <motion.img

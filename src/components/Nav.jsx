@@ -145,13 +145,13 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
       <div
         className={
           nav
-            ? "flex flex-col w-32 gap-5 items-center justify-center h-52 rounded-xl absolute top-18 right-6 px-4 py-4 tut  bg-[#010314]"
+            ? "flex flex-col w-32 gap-5 items-center justify-center h-52 rounded-xl absolute top-18 right-6 px-4 py-4 tut  bg-[#0F1123]"
             : "hidden"
         }
       >
         <a
           href="/"
-          className="p-2 w-full hover:bg-[#0F1123] rounded-lg transition-colors"
+          className="p-2 w-full hover:bg-[#010314] rounded-lg transition-colors"
         >
           Me
         </a>
@@ -160,7 +160,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             scrollToSection(mywork);
             setNav(false);
           }}
-          className="p-2 w-full hover:bg-[#0F1123] rounded-lg transition-colors"
+          className="p-2 w-full hover:bg-[#010314] rounded-lg transition-colors"
         >
           My Work
         </a>
@@ -169,7 +169,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             scrollToSection(contact);
             setNav(false);
           }}
-          className="p-2 w-full hover:bg-[#0F1123] rounded-lg transition-colors"
+          className="p-2 w-full hover:bg-[#010314] rounded-lg transition-colors"
         >
           Contact
         </a>
