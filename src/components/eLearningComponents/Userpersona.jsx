@@ -261,7 +261,7 @@ const Userpersona = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]"
+          className="gradient mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[25px]"
         >
           Information architecture
         </motion.h1>
@@ -270,8 +270,8 @@ const Userpersona = () => {
         <img
           src="\images\Group 26 1.svg"
           alt=""
-          width={800}
-          className="mx-auto"
+          width={1500}
+          className=" justify-center min-w-[250px] w-[1000px]"
         />
       </motion.div>
       <motion.div
