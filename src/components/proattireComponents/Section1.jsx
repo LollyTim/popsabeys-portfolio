@@ -401,30 +401,10 @@ const Section1 = () => {
         }}
         className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
-        <img src="\images\prev101.png" alt="preview" className=" w-[500px] " />
-        {/* <img
-          src="\images\prev1011.png"
-          alt="preview"
-          className=" absolute w-32 -bottom-4 -right-10"
-        /> */}
-      </motion.div>
-      <motion.div
-        initial={{ x: -200, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          delay: 0.2,
-          x: { type: "spring", stiffness: 50 },
-          opacity: { duration: 0.8 },
-          ease: "easeIn",
-          duration: 1,
-        }}
-        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
-      >
         <img
-          src="\images\phoebeshouse 1.png"
+          src="\images\Group 512227.svg"
           alt="preview"
-          className=" w-[500px] "
+          className=" w-[800px] "
         />
         {/* <img
           src="\images\prev1011.png"
@@ -446,9 +426,9 @@ const Section1 = () => {
         className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
         <img
-          src="\images\Search result 1.png"
+          src="\images\Group 512228.svg"
           alt="preview"
-          className=" w-[500px] "
+          className=" w-[800px] "
         />
         {/* <img
           src="\images\prev1011.png"
@@ -470,9 +450,67 @@ const Section1 = () => {
         className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
         <img
-          src="\images\sellers 1.png"
+          src="\images\Group 512229.svg"
           alt="preview"
-          className=" w-[500px] "
+          className=" w-[850px] "
+        />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+      >
+        <img
+          src="\images\Group 512230 (1).svg"
+          alt="preview"
+          className=" w-[1000px] "
+        />
+        {/* <img
+          src="\images\prev1011.png"
+          alt="preview"
+          className=" absolute w-32 -bottom-4 -right-10"
+        /> */}
+      </motion.div>
+      <motion.div
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          delay: 0.2,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className=" py-7 max-w-[700px] mx-auto justify-between flex w-full max-[786px]:max-w-96 relative px-8 mt-12"
+      >
+        <img
+          src="\images\iPhone 12 Mockup Front View-2.svg"
+          alt="preview"
+          className=" mt-20"
+        />
+        <img
+          src="\images\iPhone 12 Mockup Front View-1.svg"
+          alt="preview"
+          className=" mb-20"
+        />
+        <img
+          src="\images\iPhone 12 Mockup Front View.png"
+          alt="preview"
+          className=" mt-20"
         />
         {/* <img
           src="\images\prev1011.png"
