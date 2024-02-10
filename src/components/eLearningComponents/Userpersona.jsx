@@ -66,7 +66,7 @@ const Userpersona = () => {
             ease: "easeIn",
             duration: 2,
           }}
-          className="w-[1050px] flex flex-row max-[800px]:flex-col mx-auto gap-[32px]"
+          className="w-[1050px] flex flex-row max-[800px]:flex-col mx-auto max-[768px]:mx-o gap-[32px]"
         >
           <div className="h-[600px] w-[480px] max-[600px]:w-[400px]   items-center overflow-hidden flex-col flex ">
             <img
