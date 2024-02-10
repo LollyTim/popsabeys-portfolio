@@ -265,7 +265,11 @@ const Userpersona = () => {
         >
           Information architecture
         </motion.h1>
-        <img src="\images\Information Architecture 1.svg" alt="" />
+        <img
+          src="\images\Information Architecture 1.svg"
+          className="justify-center min-w-[260px] w-[1000px]"
+          alt=""
+        />
 
         <img
           src="\images\Group 26 1.svg"
@@ -285,9 +289,9 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center mt-32"
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto gap-6 flex flex-row items-center mt-32 mb-12"
       >
-        <div className="">
+        <div className="flex gap-3 lg:flex-col">
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Product
           </h1>
@@ -316,7 +320,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center"
+        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row mb-12 items-center"
       >
         <div className="flex flex-row ">
           <img
@@ -348,7 +352,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row mb-12 items-center"
       >
         <div className="gap-4 flex flex-col">
           <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
@@ -413,13 +417,13 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
         <div className=" flex flex-col gap-4 mt-2">
-          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[25px]">
+          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course & Assessment
           </h1>
-          <p className="text-[#C3C3C3] w-[505px]  font-SatoshiLight">
+          <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
             Students are automatically graded by the system and the result
             uploaded to student portal for use.
           </p>
