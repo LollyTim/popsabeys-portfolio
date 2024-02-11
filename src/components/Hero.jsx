@@ -36,7 +36,7 @@ const Hero = () => {
           }}
         >
           <motion.p className="gradient text-center  w-[689px] font-bold text-3xl xl:text-5xl xl:leading-normal">
-            Designing products that sells, building software that scales
+            I help uild a thriving business, create a working product
           </motion.p>
         </motion.div>
         <motion.div
@@ -52,7 +52,7 @@ const Hero = () => {
           }}
           className=" w-fit mt-6 items-center justify-center mx-auto"
         >
-          <p className="text-center max-w-[557px] justify-center text-base font-normal font-SatoshiLight ">
+          <p className="text-center lg:max-w-[557px] max-w-[300px] justify-center text-base font-normal font-SatoshiLight ">
             Do you have a new idea you want to build? Or you want to re-optimize
             your product to maximize conversion - I’ll like to hear more about
             your project
@@ -70,7 +70,7 @@ const Hero = () => {
           }}
           className=" w-fit mt-10 items-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
-          <button className="bg-[#4952E4] py-3 px-8 rounded-full">
+          <button className="bg-[#4952E4] py-3 px-8 rounded-[5px] ">
             <a href="mailto: popsabey.ux@gmail.com">Reach out to me</a>
           </button>
         </motion.div>

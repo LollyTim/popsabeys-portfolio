@@ -129,11 +129,18 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
           <p>Let's Work Together</p>
         </motion.a>
         {!nav ? (
-          <BiMenu
+          // <BiMenu
+          //   onClick={handleNav}
+          //   size={25}
+          //   className="hidden text-[#fff] max-[640px]:flex text-lg"
+          // />
+          <button
             onClick={handleNav}
             size={25}
             className="hidden text-[#fff] max-[640px]:flex text-lg"
-          />
+          >
+            <img src="/images/menu.svg" alt="menu" />
+          </button>
         ) : (
           <AiOutlineClose
             onClick={handleNav}

@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const ClientReviews = () => {
   return (
-    <div className="flex flex-col xl:flex-row max-w-[1200px] mx-auto mt-[100px] mb-14 px-7">
+    <div className="flex flex-col xl:flex-row max-w-[1200px] mx-auto mt-[100px] mb-1 px-7">
       <div className=" flex flex-col w-full ">
         <div className="mb-16 block">
           <motion.h1
@@ -53,8 +53,65 @@ const ClientReviews = () => {
               CEO, Tagdeep Dynamics
             </span>
           </motion.div>
-          <div className="gap-5 w-full grid grid-rows-2 overflow-hidden">
-            <div className="flex  max-[950px]:mt-10 xl:flex-row xl:flex gap-5 w-full max-h-32">
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              scale: { duration: 0.5 },
+              duration: 1,
+            }}
+            className="flex flex-col py-5 px-6 max-w-full xl:w-[355px] overflow-hidden max-[768px]:mt-4 xl:hidden h-full bg-[#0F1123] rounded-2xl"
+          >
+            <div className=" w-full flex flex-col gap-6 overflow-hidden">
+              <p className="flex flex-col font-SatoshiLight w-full mb-2 overflow-hidden text-[16px] max-[960px]:text-[14px] font-normal flex-nowrap">
+                Lovely work! I can recommend Abiodun 100%
+              </p>
+            </div>
+            <div className=" overflow-hidden">
+              <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+                Sunday Olaiya
+              </h5>
+              <span className=" -mt-[3px] font-SatoshiLight absolute font-normal text-xs">
+                CrPi Group
+              </span>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              delay: 2,
+              duration: 1,
+            }}
+            className="flex flex-col py-5 px-6 rounded-2xl lg:w-[214px] xl:hidden w-full max-[768px]:mt-4 gap-4 lg:max-w-[214px] h-32 overflow-hidden bg-[#0F1123]"
+          >
+            <div className="flex flex-col gap-6 overflow-hidden">
+              <p className=" font-SatoshiLight text-[15px] font-normal flex-nowrap overflow-hidden">
+                You’re the best!
+              </p>
+            </div>
+            <div className=" overflow-hidden">
+              <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+                Olajide I.
+              </h5>
+              <span className="-mt-[2px] font-SatoshiLight absolute font-normal text-xs">
+                Gigsdev
+              </span>
+            </div>
+          </motion.div>
+
+          <div className="gap-5 w-full lg:grid lg:grid-rows-2 overflow-hidden max-[768px]:mt-4">
+            <div className="flex max-[768px]:hidden lg:flex-row max-[950px]:mt-10 xl:flex-row xl:flex gap-5 w-full max-h-32">
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -66,7 +123,7 @@ const ClientReviews = () => {
                   scale: { duration: 0.5 },
                   duration: 1,
                 }}
-                className="flex flex-col py-5 px-6 max-w-96 xl:w-[355px] overflow-hidden h-full bg-[#0F1123] rounded-2xl"
+                className="flex flex-col py-5 px-6 max-w-full xl:w-[355px] overflow-hidden h-full bg-[#0F1123] rounded-2xl"
               >
                 <div className=" w-full flex flex-col gap-6 overflow-hidden">
                   <p className="flex flex-col font-SatoshiLight w-full mb-2 overflow-hidden text-[16px] max-[960px]:text-[14px] font-normal flex-nowrap">
@@ -121,7 +178,7 @@ const ClientReviews = () => {
                 delay: 1,
                 duration: 1,
               }}
-              className="flex py-5 px-6 bg-[#0F1123] rounded-2xl"
+              className="flex py-5 px-6 bg-[#0F1123] rounded-2xl max-[768px]:h-48"
             >
               <div className="flex flex-col overflow-hidden gap-3">
                 <p className="font-SatoshiLight text-[16px] font-normal flex-nowrap">

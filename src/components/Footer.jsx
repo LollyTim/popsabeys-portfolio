@@ -4,8 +4,20 @@ const Footer = ({ contact }) => {
   return (
     <div
       ref={contact}
-      className="max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-40 mb-5"
+      className="max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-20 pt-32 mb-5"
     >
+      <motion.img
+        initial={{ opacity: 0.1, scale: 0 }}
+        viewport={{ once: true }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.5,
+          x: { type: "inertia", bounceStiffness: 30 },
+        }}
+        src="\images\cyclic.svg"
+        alt=""
+        className=" max-[768px]:right-[-30px] max-[768px]:top-[-20px] z-10 absolute top-[-14px] right-10"
+      />
       <motion.img
         viewport={{ once: true }}
         initial={{ opacity: 0.1, scale: 0 }}
@@ -18,18 +30,7 @@ const Footer = ({ contact }) => {
         alt=""
         className=" absolute left-[30px] bottom-[90px]"
       />
-      <motion.img
-        initial={{ opacity: 0.1, scale: 0 }}
-        viewport={{ once: true }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{
-          duration: 0.5,
-          x: { type: "inertia", bounceStiffness: 30 },
-        }}
-        src="\images\cyclic.svg"
-        alt=""
-        className=" max-[768px]:right-[-30px] max-[768px]:top-[-30px] absolute top-[-14px] right-10"
-      />
+
       <motion.img
         initial={{ opacity: 0.1, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -40,7 +41,7 @@ const Footer = ({ contact }) => {
         }}
         src="\images\circle.svg"
         alt=""
-        className="  max-[768px]:left-3 absolute top-10 left-[140px]"
+        className="  max-[768px]:-left-2 absolute top-10 max-[768px]:top-[65px] left-[140px]"
       />
       <div className="max-w-[568px] gap-6 items-center flex flex-col mb-32 justify-center">
         <motion.h1
@@ -104,8 +105,7 @@ const Footer = ({ contact }) => {
           }}
           className=" font-normal text-xl items-center justify-center max-[768px]:text-sm font-SatoshiLight"
         >
-          Designed with love by me, developed by{" "}
-          <span className="text-[#7E86FF]">@LollyTech</span>
+          Developed by <span className="text-[#7E86FF]">@LollyTech</span>
         </motion.p>
       </div>
     </div>
