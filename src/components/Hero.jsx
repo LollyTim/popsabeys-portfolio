@@ -36,7 +36,7 @@ const Hero = () => {
           }}
         >
           <motion.p className="gradient text-center  w-[689px] font-bold text-3xl xl:text-5xl xl:leading-normal">
-            I help uild a thriving business, create a working product
+            {/* I design high-converting landing pages, SaaS tools & mobile apps */}
           </motion.p>
         </motion.div>
         <motion.div
