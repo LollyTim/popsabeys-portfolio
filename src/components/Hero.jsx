@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[60%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-40">
+      <div className=" xl:w-[60%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-20">
         <motion.div
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
@@ -35,7 +35,7 @@ const Hero = () => {
             duration: 1,
           }}
         >
-          <motion.p className="gradient text-center  w-[700px] font-bold text-3xl xl:text-5xl xl:leading-normal">
+          <motion.p className="gradient text-center  w-[700px] font-bold text-3xl xl:text-5xl xl:leading-normal ">
             The design partner for startups and growing businesses
           </motion.p>
         </motion.div>
@@ -68,12 +68,49 @@ const Hero = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-fit mt-10 items-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
+          className=" w-fit mt-10 item text-xl text-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
           <button className="bg-[#4952E4] py-3 px-8 rounded-[5px] ">
             <a href="mailto: popsabey.ux@gmail.com">Reach out to me</a>
           </button>
         </motion.div>
+      </div>
+      <div className="flex w-[90%] justify-center items-center mx-auto mb-16 gap-2 ">
+        <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
+          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+            5+
+          </div>
+          <p className=" text-[#6E6F71] text-[9px] text-nowrap font-thin font-SatoshiLight">
+            Years of experience
+          </p>
+        </div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
+          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+            30+
+          </div>
+          <p className=" text-[#6E6F71] text-[9px] text-nowrap font-thin font-SatoshiLight">
+            Projects
+          </p>
+        </div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
+          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+            14+
+          </div>
+          <p className=" text-[#6E6F71] text-[9px] text-nowrap font-thin font-SatoshiLight">
+            Happy clients
+          </p>
+        </div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
+          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+            8+
+          </div>
+          <p className=" text-[#6E6F71] text-[9px] text-nowrap font-thin font-SatoshiLight">
+            Industries
+          </p>
+        </div>
       </div>
       <motion.div
         initial={{ x: -200, opacity: 0 }}
