@@ -103,9 +103,9 @@ const Footer = ({ contact }) => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" font-normal text-xl items-center justify-center max-[768px]:text-sm font-SatoshiLight"
+          className=" font-normal text-xl text-[#B8BAFF] items-center justify-center max-[768px]:text-sm max-[768px]:w-[260px] text-center font-SatoshiLight"
         >
-          Developed by <span className="text-[#7E86FF]">@LollyTech</span>
+          “To get to where you desire, you have to put in the requirements”
         </motion.p>
       </div>
     </div>

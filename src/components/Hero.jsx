@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[50%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-40">
+      <div className=" xl:w-[60%] w-[85%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-40">
         <motion.div
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
@@ -35,8 +35,8 @@ const Hero = () => {
             duration: 1,
           }}
         >
-          <motion.p className="gradient text-center  w-[689px] font-bold text-3xl xl:text-5xl xl:leading-normal">
-            {/* I design high-converting landing pages, SaaS tools & mobile apps */}
+          <motion.p className="gradient text-center  w-[700px] font-bold text-3xl xl:text-5xl xl:leading-normal">
+            The design partner for startups and growing businesses
           </motion.p>
         </motion.div>
         <motion.div
