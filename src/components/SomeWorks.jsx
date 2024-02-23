@@ -39,6 +39,72 @@ const SomeWorks = ({ mywork }) => {
         </motion.p>
       </div>
       <div className=" max-w-[1124px] mx-auto justify-center ">
+        <div className=" flex flex-row gap-9 mb-11">
+          <motion.a
+            href="/equity"
+            initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
+            <img
+              src="\images\Rectangle 41.svg"
+              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
+              alt=""
+            />
+            <div className="flex gap-20 items-center pt-3">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+                People - Equity & Law
+                <br />
+                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
+                  SaaS - UI/UX
+                </span>
+              </p>
+              {/* <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
+                comming soon
+              </div> */}
+            </div>
+          </motion.a>
+          <motion.a
+            href="/uishowcase"
+            initial={{ x: -100, opacity: 0 }}
+            viewport={{ once: true }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.2,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className=""
+          >
+            <img
+              src="\images\Rectangle 41 (1).svg"
+              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
+              alt=""
+            />
+            <div className="flex gap-20 items-center pt-3">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+                UI designs (showcase)
+                <br />
+                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
+                  Random
+                </span>
+              </p>
+              {/* <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
+                comming soon
+              </div> */}
+            </div>
+          </motion.a>
+        </div>
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
           <motion.a
             href="/elearning"
@@ -166,39 +232,6 @@ const SomeWorks = ({ mywork }) => {
               </p>
             </div>
           </motion.a>
-        </div>
-        <div className=" flex flex-row gap-9 mt-11">
-          <motion.div
-            initial={{ x: -100, opacity: 0 }}
-            viewport={{ once: true }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            className=""
-          >
-            <img
-              src="\images\Rectangle 41.svg"
-              className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
-              alt=""
-            />
-            <div className="flex gap-20 items-center pt-3">
-              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
-                People - Equity & Law
-                <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  SaaS - UI/UX
-                </span>
-              </p>
-              <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
-                comming soon
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
     </div>
