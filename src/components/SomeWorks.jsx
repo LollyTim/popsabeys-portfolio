@@ -39,7 +39,7 @@ const SomeWorks = ({ mywork }) => {
         </motion.p>
       </div>
       <div className=" max-w-[1124px] mx-auto justify-center ">
-        <div className=" flex flex-row gap-9 mb-11">
+        <div className=" flex flex-col xl:flex-row gap-9 mb-11">
           <motion.a
             href="/equity"
             initial={{ x: -100, opacity: 0 }}
@@ -216,10 +216,10 @@ const SomeWorks = ({ mywork }) => {
             /> */}
 
             <div
-              className=" h-[488px] w-[350px] rounded-2xl bg-center bg-contain bg-no-repeat"
+              className=" lg:h-[488px] h-[288px] w-[350px] rounded-2xl bg-center bg-cover bg-no-repeat"
               style={{
                 backgroundImage: `url(/images/stanming.png)`,
-                backgroundSize: 500,
+                // backgroundSize: 500,
               }}
             ></div>
             <div className="flex justify-between items-center pt-3">

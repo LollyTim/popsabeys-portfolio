@@ -15,6 +15,8 @@ import SectionOne from "./components/tdbizComponents/Section1";
 import Tradepla from "./components/tradeplaComponents/Tradepla";
 // import Equity from "./components/equityandLawComponents/Equity";
 import Elearning from "./components/eLearningComponents/Elearning";
+import Equity from "./components/equityandLawComponents/Equity";
+import UiShowcase from "./components/uishowcase/UiShowcase";
 
 function App() {
   const mywork = useRef(null);
@@ -76,6 +78,22 @@ function App() {
             element={
               <React.Fragment>
                 <Elearning />
+              </React.Fragment>
+            }
+          />
+          <Route
+            path="/uishowcase"
+            element={
+              <React.Fragment>
+                <UiShowcase />
+              </React.Fragment>
+            }
+          />
+          <Route
+            path="/equity"
+            element={
+              <React.Fragment>
+                <Equity />
               </React.Fragment>
             }
           />
