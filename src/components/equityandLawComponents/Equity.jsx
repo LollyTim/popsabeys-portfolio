@@ -162,7 +162,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] max-[768px]:gap-[]34px gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row py-14 px-12 max-w-[1002px] max-[768px]:gap-[30px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -197,7 +197,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1024px] max-[768px]:gap-[]34px gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row py-14 px-12 max-w-[1024px] max-[768px]:gap-[30px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center items-center ">
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -208,7 +208,7 @@ const Equity = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" font-SatoshiLight font-normal text-base leading-6 max-w-[600px]"
+          className=" font-SatoshiLight font-normal text-base leading-6 max-w-[600px] "
         >
           I paid close attention to correct and easy onboarding as this is one
           of the main goals of the product, ease of use. I took a minimalist
@@ -251,6 +251,10 @@ const Equity = () => {
           <img src={item.url} alt="" />
         </motion.div>
       ))}
+
+      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
+        ...end.
+      </h1>
     </>
   );
 };

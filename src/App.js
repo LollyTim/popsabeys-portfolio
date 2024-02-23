@@ -99,9 +99,18 @@ function App() {
           />
         </Routes>
       </Rourter>
-      <Footer scrollToSection={scrollToSection} contact={contact} />
-      <ScrollToTop showUnder={600} duration={2000} style={{ zindex: 100 }}>
-        <FaArrowCircleUp className="text-4xl text-slate-40 rotate-[-1deg] animate-pulse duration-[22ms]" />
+      <Footer
+        scrollToSection={scrollToSection}
+        contact={contact}
+        className="overflow-hidden"
+      />
+      <ScrollToTop
+        showUnder={600}
+        duration={2000}
+        style={{ zindex: 100 }}
+        className="overflow-hidden"
+      >
+        <FaArrowCircleUp className="text-4xl text-slate-40 rotate-[-1deg] overflow-hidden animate-pulse duration-[22ms]" />
       </ScrollToTop>
     </div>
   );
