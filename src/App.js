@@ -110,7 +110,7 @@ function App() {
         style={{ zindex: 100 }}
         className="overflow-hidden"
       >
-        <FaArrowCircleUp className="text-4xl text-slate-40 rotate-[-1deg] overflow-hidden" />
+        <FaArrowCircleUp className="text-[30px] text-slate-40 rotate-[-1deg] overflow-hidden" />
       </ScrollToTop>
     </div>
   );
