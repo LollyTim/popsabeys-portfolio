@@ -75,7 +75,7 @@ const Hero = () => {
           </button>
         </motion.div>
       </div>
-      <div className="flex w-[90%] justify-center items-center mx-auto mb-24 gap-2 ">
+      <div className="flex w-[90%] justify-center items-center mx-auto lg:mb-24 mb-20 gap-2 ">
         <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
           <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             5+
@@ -122,9 +122,13 @@ const Hero = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1200px] flex mb-32"
+        className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1200px] flex lg:mb-32 mb-20"
       >
-        <img src="/images/Rectangle.png" alt="" />
+        {/* <img src="/images/Homepage GIF 3.gif" alt="" /> */}
+        <div
+          className="xl:w-[1204px] xl:h-[700px] rounded-2xl w-[390px] h-[300px] bg-cover bg-center "
+          style={{ backgroundImage: `url("/images/Homepage GIF 3.gif")` }}
+        ></div>
       </motion.div>
     </>
   );
