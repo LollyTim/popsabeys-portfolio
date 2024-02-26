@@ -35,7 +35,7 @@ const Hero = () => {
             duration: 1,
           }}
         >
-          <motion.p className="gradient text-center  w-[700px] font-bold text-3xl xl:text-5xl xl:leading-normal ">
+          <motion.p className="gradient text-center  w-[700px] font-bold text-2xl xl:text-5xl xl:leading-normal ">
             The design partner for startups and growing businesses
           </motion.p>
         </motion.div>
@@ -80,7 +80,7 @@ const Hero = () => {
           <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             5+
           </div>
-          <p className=" text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
+          <p className=" text-center text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
             Years of experience
           </p>
         </div>
@@ -98,7 +98,7 @@ const Hero = () => {
           <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             14+
           </div>
-          <p className=" text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
+          <p className=" text-center text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
             Happy clients
           </p>
         </div>
@@ -126,7 +126,7 @@ const Hero = () => {
       >
         {/* <img src="/images/Homepage GIF 3.gif" alt="" /> */}
         <div
-          className="xl:w-[1204px] xl:h-[700px] rounded-2xl w-[390px] h-[300px] bg-cover bg-center "
+          className="lg:w-[1204px] lg:h-[700px] rounded-2xl w-[390px] h-[300px] bg-cover bg-center "
           style={{ backgroundImage: `url("/images/Homepage GIF 3.gif")` }}
         ></div>
       </motion.div>
