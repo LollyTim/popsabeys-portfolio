@@ -40,7 +40,7 @@ const Userpersona = () => {
   ];
   return (
     <>
-      <div className="flex py-14 px-6 max-w-[80%] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto flex-col">
+      <div className="flex py-14 px-6 max-w-[80%] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto overflow-auto flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -66,9 +66,9 @@ const Userpersona = () => {
             ease: "easeIn",
             duration: 2,
           }}
-          className="w-[1050px] flex flex-row max-[800px]:flex-col mx-auto max-[768px]:mx-o gap-[32px]"
+          className="w-[1050px] flex flex-row max-[800px]:flex-col mx-auto max-[768px]:mx-o gap-[32px] overflow-auto lg:overflow-hidden"
         >
-          <div className="h-[600px] w-[480px] max-[600px]:w-[400px]   items-center overflow-hidden flex-col flex ">
+          <div className="h-[600px] w-[480px] items-center overflow-hidden flex-col flex ">
             <img
               src="/images/Ellipse 10.svg"
               alt=""
