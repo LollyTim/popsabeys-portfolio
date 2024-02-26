@@ -122,11 +122,11 @@ const Hero = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1200px] flex lg:mb-32 mb-20"
+        className=" justify-center items-center mx-auto max-[360px]:w-[335px] max-[430px]:w-[370px] sm:w-[600px] lg:w-[800px] xl:w-[1200px] flex lg:mb-32 mb-20"
       >
         {/* <img src="/images/Homepage GIF 3.gif" alt="" /> */}
         <div
-          className="lg:w-[1204px] lg:h-[700px] rounded-2xl w-[390px] h-[300px] bg-cover bg-center "
+          className="lg:w-[1204px] lg:h-[700px] rounded-2xl w-[340px] justify-center items-center flex h-[280px] bg-cover bg-center "
           style={{ backgroundImage: `url("/images/Homepage GIF 3.gif")` }}
         ></div>
       </motion.div>
