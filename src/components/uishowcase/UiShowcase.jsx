@@ -15,7 +15,7 @@ const UiShowcase = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between overflow-hidden mt-[96px] max-w-[1199px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between overflow-hidden mt-[96px] mb-24 max-w-[1199px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
@@ -39,10 +39,7 @@ const UiShowcase = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[] ">
-        <h1 className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
-          UI Design
-        </h1>
+      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[8px] ">
         <div className="w-full justify-center mx-auto grid grid-cols-2 gap-6">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
@@ -83,7 +80,7 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (1).png"
+            src="\images\Rectangle 59333.png"
             alt="mobileview2"
           />
           <motion.img
@@ -97,7 +94,7 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (9).png"
+            src="\images\Rectangle 58444.png"
             alt="viewsw"
           />
           <motion.img
@@ -111,7 +108,7 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC.png"
+            src="\images\Rectangle 57555.png"
             alt="view2"
           />
           <motion.img
@@ -125,9 +122,11 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (8).png"
+            src="\images\Rectangle 606.png"
             alt="viewwf"
           />
+
+          {/* to update from here below  */}
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

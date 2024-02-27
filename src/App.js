@@ -17,6 +17,7 @@ import Tradepla from "./components/tradeplaComponents/Tradepla";
 import Elearning from "./components/eLearningComponents/Elearning";
 import Equity from "./components/equityandLawComponents/Equity";
 import UiShowcase from "./components/uishowcase/UiShowcase";
+import Business from "./components/Business";
 
 function App() {
   const mywork = useRef(null);
@@ -97,6 +98,7 @@ function App() {
               </React.Fragment>
             }
           />
+          <Route path="/business" exact element={<Business />} />
         </Routes>
       </Rourter>
       <Footer

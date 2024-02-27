@@ -16,7 +16,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] lg:max-w-[1199px] max-w-[360px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -54,14 +54,14 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 mx-auto flex w-fit mt-[72px]"
+        className=" py-7 mx-auto flex w-fit max-[768px]:max-w-[360px] mt-[72px]"
       >
         <img src="\images\Rectangle 44 (3).png" alt="" />
       </motion.div>
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col ">
+      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -159,7 +159,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 mx-auto flex w-fit mt-[72px]"
+        className=" py-7 mx-auto flex w-fit max-[768px]:max-w-[360px] mt-[72px]"
       >
         <img src="\images\Process 1.png" alt="" />
       </motion.div>
@@ -361,7 +361,7 @@ const Elearning = () => {
           duration: 1,
         }}
         src="\images\Group 20 22.png"
-        className="hidden max-[835px]:flex"
+        className="hidden max-[835px]:flex max-[768px]:max-w-[360px]"
         alt=""
       />
 

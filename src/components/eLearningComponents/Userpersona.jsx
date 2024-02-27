@@ -234,7 +234,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="justify-center flex "
+        className="justify-center flex max-[768px]:max-w-[360px] mx-auto "
       >
         <img src="\images\Group 25 1.png" alt="" />
       </motion.div>
