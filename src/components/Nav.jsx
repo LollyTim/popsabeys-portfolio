@@ -169,11 +169,11 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
         }}
         className={
           nav
-            ? "flex flex-col w-full gap-5 items-center h-96 absolute top-0 px-4 py-4 pb-8 text-[24px] font-medium text-[#B5C8F0] bg-[#030623]"
+            ? "flex flex-col w-full gap-5 items-center h-96 absolute top-0 px-4 py-4 pb-8 text-[24px] overflow-hidden font-medium text-[#B5C8F0] bg-[#030623]"
             : "hidden"
         }
       >
-        <div className="flex w-full justify-between h-18 py-3 px-5 items-center">
+        <div className="flex w-full justify-between h-18 py-3 px-5 items-center overflow-hidden">
           <img src="/images/logo.svg" alt="logohere" />
           <AiOutlineClose
             onClick={handleNav}
@@ -181,10 +181,10 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             size={25}
           />
         </div>
-        <div className="w-[90%] justify-center mx-auto flex flex-col items-center gap-5">
+        <div className="w-[90%] justify-center mx-auto flex flex-col items-center overflow-hidden gap-5">
           <a
-            href="/"
-            className="p-2 w-fit hover:bg-[#010314] justify-center items-center mx-auto rounded-lg transition-colors"
+            href="/uishowcase"
+            className="p-2 w-fit hover:bg-[#010314] justify-center overflow-hidden items-center mx-auto rounded-lg transition-colors"
           >
             UI showcase
           </a>
@@ -193,18 +193,21 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               scrollToSection(mywork);
               setNav(false);
             }}
-            className="p-2 w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
+            className="p-2 w-fit justify-center items-center hover:bg-[#010314] rounded-lg overflow-hidden transition-colors"
           >
             Projects
           </a>
           <a
-            onClick={() => {
-              scrollToSection(mywork);
-              setNav(false);
-            }}
-            className="p-2 text-nowrap w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
+            href="/business"
+            className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
           >
             Business optimizer
+          </a>
+          <a
+            onClick={() => scrollToSection(contact)}
+            className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
+          >
+            contact
           </a>
           <motion.a
             href="mailto: popsabey.ux@gmail.com"
@@ -217,7 +220,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               ease: "easeIn",
               duration: 1,
             }}
-            className="text-[#fff] items-center flex gap-1 border border-[#282B46] rounded-full py-2 px-3 font-SatoshiLight font-medium"
+            className="text-[#fff] items-center flex overflow-hidden gap-1 border border-[#282B46] rounded-full py-2 px-3 font-SatoshiLight font-medium"
           >
             {" "}
             <svg
