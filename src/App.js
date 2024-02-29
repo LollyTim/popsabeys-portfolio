@@ -110,9 +110,9 @@ function App() {
         showUnder={600}
         duration={2000}
         style={{ zindex: 100 }}
-        className="overflow-hidden"
+        className="overflow-hidden overflow-x-hidden overflow-y-hidden"
       >
-        <FaArrowCircleUp className="text-[30px] text-slate-40 rotate-[-1deg] overflow-hidden" />
+        <FaArrowCircleUp className="text-[30px] text-slate-40 rotate-[-1deg] overflow-hidden overflow-x-hidden overflow-y-hidden" />
       </ScrollToTop>
     </div>
   );
