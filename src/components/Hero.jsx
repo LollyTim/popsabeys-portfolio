@@ -126,7 +126,7 @@ const Hero = () => {
       >
         {/* <img src="/images/Homepage GIF 3.gif" alt="" /> */}
         <div
-          className="lg:w-[1204px] lg:h-[700px] rounded-2xl w-[340px] justify-center items-center flex h-[280px] bg-cover bg-center "
+          className="lg:w-[1050px] lg:h-[700px] rounded-2xl w-[340px] justify-center items-center flex h-[280px] bg-cover bg-center "
           style={{ backgroundImage: `url("/images/Homepage GIF 3.gif")` }}
         ></div>
       </motion.div>

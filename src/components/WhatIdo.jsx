@@ -49,7 +49,7 @@ const WhatIdo = () => {
           className=" sm:py-7 sm:px-10 py-3 px-[1px] justify-center w-[100%] lg:max-w-[268px] border rounded-lg border-[#282B46] text-center  items-center"
         >
           <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-[19px] overflow-hidden text-nowrap">
-            Product (UI/UX) Design
+            Product Design
           </p>
         </motion.div>
         <motion.div
@@ -61,10 +61,10 @@ const WhatIdo = () => {
             x: { type: "inertia", bounceStiffness: 30 },
             delay: 0.2,
           }}
-          className=" sm:py-7 sm:px-10 py-3 px-3 justify-center w-[100%] lg:max-w-[268px] border rounded-lg border-[#282B46] text-center  items-center"
+          className="px-2 py-6 justify-center w-[100%] lg:max-w-[288px] border rounded-lg border-[#282B46] text-center  items-center"
         >
-          <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-xl text-nowrap">
-            UX/CX Strategy
+          <p className=" font-SatoshiLight font-normal text-white text-md xl:text-xl text-nowrap ">
+            Customer Success Strategy
           </p>
         </motion.div>
         <motion.div
@@ -79,7 +79,7 @@ const WhatIdo = () => {
           className=" sm:py-7 sm:px-10 py-3 px-3 justify-center w-[100%] lg:max-w-[268px] border rounded-lg border-[#282B46] text-center  items-center"
         >
           <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-xl text-nowrap">
-            Brand Identity Design
+            Product Redesign
           </p>
         </motion.div>
         <motion.div
@@ -94,7 +94,7 @@ const WhatIdo = () => {
           className=" sm:py-7 sm:px-10 py-3 px-3 justify-center w-[100%] lg:max-w-[268px] border rounded-lg border-[#282B46] text-center  items-center"
         >
           <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-xl text-nowrap">
-            Pitch Deck Design
+            Landing Page
           </p>
         </motion.div>
 
@@ -128,7 +128,7 @@ const WhatIdo = () => {
           className=" sm:py-7 sm:px-10 py-3 px-3 justify-center w-[100%] lg:max-w-[268px]  border rounded-lg border-[#282B46] text-center  items-center"
         >
           <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-xl text-nowrap">
-            Project Management
+            UX Research
           </p>
         </motion.div>
         <motion.div
@@ -143,7 +143,7 @@ const WhatIdo = () => {
           className=" sm:py-7 sm:px-10 py-3 px-3 justify-center w-[100%] lg:max-w-[268px] border rounded-lg border-[#282B46] text-center items-center"
         >
           <p className=" font-SatoshiLight font-normal text-white text-sm xl:text-xl text-nowrap">
-            Video Ad
+            Website Review
           </p>
         </motion.div>
         <motion.div

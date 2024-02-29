@@ -64,7 +64,7 @@ const SomeWorks = ({ mywork }) => {
                 People - Equity & Law
                 <br />
                 <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  SaaS - UI/UX
+                  B2B SaaS
                 </span>
               </p>
               {/* <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
@@ -130,7 +130,7 @@ const SomeWorks = ({ mywork }) => {
                 Discite E-learning (Case study)
                 <br />
                 <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  E-learning
+                  Edtech
                 </span>
               </p>
             </div>
@@ -227,7 +227,7 @@ const SomeWorks = ({ mywork }) => {
                 Tradepla (Showcase)
                 <br />
                 <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Fintech -UI/UX
+                  Fintech - UI/UX
                 </span>
               </p>
             </div>
