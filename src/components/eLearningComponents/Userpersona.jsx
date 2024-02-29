@@ -40,7 +40,7 @@ const Userpersona = () => {
   ];
   return (
     <>
-      <div className="flex py-14 px-6 max-w-[80%] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto overflow-auto flex-col">
+      <div className="flex py-14 px-6 max-w-[80%] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto overflow-auto lg:overflow-hidden flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

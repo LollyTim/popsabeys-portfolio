@@ -16,7 +16,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] lg:max-w-[1199px] max-w-[360px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] lg:max-w-[1050px] max-w-[360px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -54,7 +54,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 mx-auto flex w-fit max-[768px]:max-w-[360px] mt-[72px]"
+        className=" py-7 mx-auto flex max-[768px]:max-w-[360px] max-w-[1050px] mt-[72px]"
       >
         <img src="\images\Rectangle 44 (3).png" alt="" />
       </motion.div>

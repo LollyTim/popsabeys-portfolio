@@ -44,7 +44,7 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] max-w-[1050px] h-[260px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -81,7 +81,7 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 lg:mx-auto mx-4 flex w-fit mt-[72px]"
+        className=" py-7 lg:mx-auto mx-4 max-w-[1050px] flex w-fit mt-[72px]"
       >
         <img src="\images\Rectangle 44 (4).png" alt="" />
       </motion.div>
@@ -162,7 +162,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] max-[768px]:gap-[30px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

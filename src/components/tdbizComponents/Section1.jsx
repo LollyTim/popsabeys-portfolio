@@ -15,7 +15,7 @@ const SectionOne = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between overflow-hidden mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1199px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between overflow-hidden mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -53,12 +53,18 @@ const SectionOne = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 mx-auto flex max-w-[652px] max-h-[708px] mt-[72px]"
+        className="py-7 mx-auto flex w-full  mt-[72px]  justify-center"
       >
-        <img
-          src="https://s3-alpha-sig.figma.com/img/85aa/1221/683f5e3ab596be01ff2904e1685f9f44?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pfqq4hkkevbqNP~NGePVo7b~oM9H2~nuOAo~AlFHrFHm5jcMuq6oPSzR75sogo5YKxh9lJ9r0JVEJPy-5jRDwp4gMnBsULxhON7jIHr85cIyw~38z0fvR87TOuEQsHa6xWVAbyAlVzKh7pwoY5rrvhqFi0lV9paC8MUyoaAGSocj-T8AFRMh2ZQRhiD7SZ1UjU-m3gnszZpv7zCjWICOhbb461sGHoahQeyqMAGT~ohYLPafKh8DUG4S2q3HyXIyWrp3HfKp83xUvGnPCjdILKoomfRu1UN7~QKRaTGvvnVzHHKK71gBQCmY7sphJeq7xOkJ2IwLETT4lLz2b6htsQ__"
-          alt=""
-        />
+        <div
+          className=" bg-no-repeat w-[652px] rounded-3xl  h-[600px] max-w-[652px] max-h-[708px]"
+          style={{
+            background: `url("/images/gifgiff2.gif")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "contain",
+            // backgroundSize: 400,
+          }}
+        ></div>
       </motion.div>
 
       {/* another section starts here  */}

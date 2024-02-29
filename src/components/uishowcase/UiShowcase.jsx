@@ -15,7 +15,7 @@ const UiShowcase = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between overflow-hidden mt-[96px] mb-24 max-[768px]:max-w-[360px] lg:max-w-[1199px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between overflow-hidden mt-[96px] mb-24 max-[768px]:max-w-[360px] lg:max-w-[1050px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
