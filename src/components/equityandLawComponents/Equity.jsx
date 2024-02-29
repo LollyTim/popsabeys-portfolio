@@ -51,7 +51,7 @@ const Equity = () => {
         </p>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff]">
+            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold overflow-hidden text-3xl text-[#fff]">
               Equity and law management
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
@@ -197,7 +197,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1024px] max-[768px]:gap-[30px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center items-center ">
+      <div className="flex flex-row py-14 px-12 max-w-[1024px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center items-center ">
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
