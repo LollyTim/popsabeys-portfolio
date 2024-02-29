@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto mt-[100px] gap-4 min-h-fit overflow-hidden mb-20">
+      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto mt-[100px] gap-4 max-h-screen overflow-hidden mb-10">
         <motion.div
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
@@ -75,7 +75,18 @@ const Hero = () => {
           </button>
         </motion.div>
       </div>
-      <div className="flex w-[90%] justify-center items-center mx-auto lg:mb-24 mb-20 gap-2 ">
+      <motion.div
+        initial={{ x: -100, opacity: 0.2 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          delay: 1,
+          x: { type: "spring", stiffness: 110 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className="flex w-[90%] justify-center items-center mx-auto mt-[110px] lg:mb-24 mb-32 gap-2 "
+      >
         <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
           <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             5+
@@ -111,9 +122,9 @@ const Hero = () => {
             Industries
           </p>
         </div>
-      </div>
+      </motion.div>
       <motion.div
-        initial={{ x: -200, opacity: 0 }}
+        initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{
