@@ -22,15 +22,15 @@ const Elearning = () => {
           Summarized project scope
         </p>
         <div className="flex flex-row justify-between">
-          <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold overflow-hidden text-3xl text-[#fff]">
+          <div className="flex flex-col gap-0 lg:gap1">
+            <h1 className="max-[768px]:text-[20px] font-SatoshiBold font-bold overflow-hidden text-3xl text-[#fff]">
               Discite E-learning
             </h1>
-            <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
+            <span className=" font-SatoshiLight font-normal max-[768px]:text-base text-xl text-[#fff]">
               E-learning{" "}
             </span>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="lg:flex flex-col gap-1 hidden">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>
@@ -61,7 +61,7 @@ const Elearning = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col ">
+      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -102,7 +102,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse"
+        className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse "
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[440px]">
           <p>
@@ -114,7 +114,7 @@ const Elearning = () => {
           Challenge
         </h1>
       </motion.div>
-      <div className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col">
+      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -175,7 +175,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse"
+        className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-10 mx-auto max-[786px]:flex-col-reverse"
       >
         <div className="font-SatoshiLight font-normal text-base leading-6 max-w-[440px]">
           <p>
@@ -349,23 +349,24 @@ const Elearning = () => {
           </div>
         </div>
       </div>
+      <div className="flex-row py-14 px-6 lg:max-w-[900px] max-w-[408px] flex justify-center gap-[70px] max-[768px]:gap-12 mx-auto lg:hidden">
+        <motion.img
+          initial={{ scale: 0, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            scale: { type: "spring", stiffness: 50 },
+            opacity: { duration: 0.8 },
+            ease: "easeIn",
+            duration: 1,
+          }}
+          src="\images\Group 20 22.png"
+          className="hidden max-[835px]:flex max-[768px]:max-w-[360px]"
+          alt=""
+        />
+      </div>
 
-      <motion.img
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          scale: { type: "spring", stiffness: 50 },
-          opacity: { duration: 0.8 },
-          ease: "easeIn",
-          duration: 1,
-        }}
-        src="\images\Group 20 22.png"
-        className="hidden max-[835px]:flex max-[768px]:max-w-[360px]"
-        alt=""
-      />
-
-      <div className="flex py-14 px-6 max-w-[900px] justify-center items-center gap-[70px] max-[768px]:gap-12 mx-auto flex-col">
+      <div className="flex py-14 px-6 max-w-[900px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -376,7 +377,7 @@ const Elearning = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit"
+          className="gradient font-SatoshiBold font-bold text-[40px] mx-auto max-[768px]:text-[30px] w-fit text-center justify-center"
         >
           Insights from research
         </motion.h1>

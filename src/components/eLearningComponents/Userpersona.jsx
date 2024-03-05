@@ -249,7 +249,7 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="flex flex-col w-[70%] mx-auto justify-center mt-28 gap-12"
+        className="flex flex-col w-[90%] mx-auto items-center justify-center mt-28 gap-12"
       >
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
@@ -261,7 +261,7 @@ const Userpersona = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[25px]"
+          className="gradient2 lg:mx-auto font-SatoshiBold font-bold text-[40px] max-[768px]:text-[25px]"
         >
           Information architecture
         </motion.h1>
@@ -293,11 +293,9 @@ const Userpersona = () => {
       >
         <div className="flex gap-3 lg:flex-col">
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
-            Product
+            Product <br className=" lg:flex hidden" /> Experience
           </h1>
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
-            Experience
-          </h1>
+          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]"></h1>
         </div>
         <div className="flex">
           <img
