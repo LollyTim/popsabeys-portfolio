@@ -13,7 +13,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
 
   return (
     <>
-      <div className=" flex justify-between items-center w-[80%] mx-auto h-14  mt-6 relative">
+      <div className=" flex justify-between items-center w-[80%] mx-auto h-14  mt-6 relative overflow-hidden">
         <div className="">
           <a href="/">
             <motion.img

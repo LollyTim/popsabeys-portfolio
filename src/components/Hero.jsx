@@ -85,7 +85,7 @@ const Hero = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex w-[90%] justify-center items-center mx-auto mt-[110px] lg:mb-24 mb-32 gap-2 "
+        className="flex w-[90%] justify-center items-center mx-auto lg:mt-[110px] lg:mb-24 mb-20 gap-2 "
       >
         <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
           <div className=" overflow-hidden lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
@@ -95,7 +95,7 @@ const Hero = () => {
             Years of experience
           </p>
         </div>
-        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[80px] lg:h-[136px]"></div>
         <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
           <div className=" lg:text-7xl text-3xl overflow-hidden font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             30+
@@ -104,7 +104,7 @@ const Hero = () => {
             Projects
           </p>
         </div>
-        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[80px] lg:h-[136px]"></div>
         <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
           <div className=" lg:text-7xl overflow-hidden text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             14+
@@ -113,7 +113,7 @@ const Hero = () => {
             Happy clients
           </p>
         </div>
-        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
+        <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[80px] lg:h-[136px]"></div>
         <div className="  flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
           <div className=" overflow-hidden lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             8+
