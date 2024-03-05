@@ -26,7 +26,7 @@ const UiShowcase = () => {
               Random
             </span>
           </div>
-          <div className=" flex-col gap-1 hidden">
+          <div className="lg:flex flex-col gap-1 hidden">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>

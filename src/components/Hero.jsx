@@ -70,8 +70,8 @@ const Hero = () => {
           }}
           className=" w-fit mt-10 item text-xl text-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
-          <button className="bg-[#4952E4] py-3 px-8 rounded-[5px] ">
-            <a href="mailto: popsabey.ux@gmail.com">Reach out to me</a>
+          <button className="bg-[#4952E4] py-3 px-8 rounded-[1000px] ">
+            <a href="mailto: popsabey.ux@gmail.com">Send me a message </a>
           </button>
         </motion.div>
       </div>
