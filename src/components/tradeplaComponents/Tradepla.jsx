@@ -15,7 +15,7 @@ const Tradepla = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" overflow-hidden flex flex-col justify-between mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className=" overflow-hidden flex flex-col justify-between  mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] lg:h-[260px] h-[180px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -29,7 +29,7 @@ const Tradepla = () => {
               Fintech
             </span>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="lg:flex hidden flex-col gap-1">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>
@@ -189,7 +189,7 @@ const Tradepla = () => {
         <h1 className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
-        <div className="w-full justify-center mx-auto grid grid-cols-2 gap-6">
+        <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

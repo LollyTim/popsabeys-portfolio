@@ -16,21 +16,21 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] lg:h-[260px] h-[160px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal overflow-hidden ">
           Summarized project scope
         </p>
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
+            <h1 className="max-[768px]:text-[20px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
               Proattire: Fashion marketplace
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
               E-Commerce{" "}
             </span>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="lg:flex hidden flex-col gap-1">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>

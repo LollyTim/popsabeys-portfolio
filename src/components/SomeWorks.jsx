@@ -38,8 +38,8 @@ const SomeWorks = ({ mywork }) => {
           A brief look into some selected works
         </motion.p>
       </div>
-      <div className=" max-w-[1124px] mx-auto justify-center ">
-        <div className=" flex flex-col xl:flex-row gap-9 mb-11">
+      <div className=" max-w-[1124px] mx-auto justify-center items-center ">
+        <div className=" flex flex-col xl:flex-row gap-9 mb-11 justify-center items-center">
           <motion.a
             href="/equity"
             initial={{ x: -100, opacity: 0 }}
@@ -105,7 +105,7 @@ const SomeWorks = ({ mywork }) => {
             </div>
           </motion.a>
         </div>
-        <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11">
+        <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11 items-center">
           <motion.a
             href="/elearning"
             initial={{ x: -100, opacity: 0 }}
@@ -165,7 +165,7 @@ const SomeWorks = ({ mywork }) => {
             </div>
           </motion.a>
         </div>
-        <div className=" flex flex-col justify-between max-[768px]:justify-center gap-9 sm:flex-row md:flex-col lg:flex-row mb-11">
+        <div className=" flex flex-col justify-between max-[768px]:justify-center gap-9 sm:flex-row md:flex-col lg:flex-row mb-11 items-center">
           <motion.a
             href="/proattire"
             initial={{ x: -100, opacity: 0 }}
