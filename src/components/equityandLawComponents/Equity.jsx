@@ -44,7 +44,7 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-w-[1050px] h-[260px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] max-w-[1050px] h-[250px] max-[768px]:h-[180px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 py-10 max-[768px]:px-7 max-[768px]:pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
@@ -58,7 +58,7 @@ const Equity = () => {
               Saas
             </span>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="lg:flex flex-col gap-1 hidden">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>
@@ -98,7 +98,7 @@ const Equity = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className="gradient font-SatoshiBold w-fit font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
         >
           Introduction
         </motion.h1>
@@ -137,7 +137,7 @@ const Equity = () => {
             tools for young companies.
           </p>
         </div>
-        <h1 className="gradient  max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient w-fit max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
           Challenge
         </h1>
       </motion.div>
@@ -173,7 +173,7 @@ const Equity = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
+          className="gradient w-fit gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
         >
           Research
         </motion.h1>
@@ -197,7 +197,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1024px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center items-center ">
+      <div className="flex flex-row py-14 px-12 max-w-[1024px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center  ">
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -225,7 +225,7 @@ const Equity = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
+          className="gradient w-fit gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
         >
           Execution
         </motion.h1>
@@ -252,7 +252,7 @@ const Equity = () => {
         </motion.div>
       ))}
 
-      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
+      <h1 className=" w-fit gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
         ...end.
       </h1>
     </>

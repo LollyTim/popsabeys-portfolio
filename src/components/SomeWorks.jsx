@@ -18,7 +18,7 @@ const SomeWorks = ({ mywork }) => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient2 font-SatoshiBold font-bold bg-clip-text text-[30px] xl:text-[40px]"
+          className="gradient2 w-fit font-SatoshiBold font-bold bg-clip-text text-[30px] xl:text-[40px]"
         >
           Some of my work
         </motion.h1>

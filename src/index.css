@@ -39,14 +39,33 @@ body {
 }
 
 .gradient {
-  background: radial-gradient(48% 50% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.40) 100%);
+  /* background: radial-gradient(1332% 40% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.40) 100%); */
+  background: rgb(251, 251, 254);
+  background: rgb(251, 251, 254);
+  background: rgb(252, 252, 254);
+  background: radial-gradient(circle, rgba(252, 252, 254, 1) 11%, rgba(254, 254, 255, 1) 18%, rgba(254, 254, 255, 1) 23%, rgba(254, 254, 255, 0.6979166666666667) 45%, rgba(254, 254, 255, 0.16850490196078427) 92%, rgba(254, 254, 255, 0.16850490196078427) 94%);
+  /* background: radial-gradient(circle, rgba(251, 251, 254, 1) 22%, rgba(246, 245, 251, 0.5270483193277311) 29%, rgba(254, 254, 255, 1) 30%, rgba(249, 248, 253, 1) 32%, rgba(254, 254, 255, 1) 42%, rgba(255, 255, 255, 0.5158438375350141) 89%); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: rgb(251, 251, 254); */
+}
+
+.gradient2 {
+  background: rgb(251, 251, 254);
+  background: rgb(251, 251, 254);
+  background: rgb(252, 252, 254);
+  background: radial-gradient(circle, rgba(252, 252, 254, 1) 11%, rgba(254, 254, 255, 1) 18%, rgba(254, 254, 255, 1) 23%, rgba(254, 254, 255, 0.6979166666666667) 45%, rgba(254, 254, 255, 0.16850490196078427) 92%, rgba(254, 254, 255, 0.16850490196078427) 94%);
+  /* background: radial-gradient(circle, rgba(251, 251, 254, 1) 22%, rgba(246, 245, 251, 0.5270483193277311) 29%, rgba(254, 254, 255, 1) 30%, rgba(249, 248, 253, 1) 32%, rgba(254, 254, 255, 1) 42%, rgba(255, 255, 255, 0.5158438375350141) 89%); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.gradient2 {
-  background: radial-gradient(1332.36% 20% at 50% 50%, #FFF 0%, rgba(255, 255, 255, 0.40) 100%);
+.gradient3 {
+  width: fit-content;
+  background: radial-gradient(circle, rgba(252, 252, 254, 1) 0%, rgba(254, 254, 255, 1) 8%, rgba(254, 254, 255, 1) 14%, rgba(254, 254, 255, 0.6979166666666667) 40%, rgba(254, 254, 255, 0.16850490196078427) 92%, rgba(254, 254, 255, 0.16850490196078427) 98%);
+  /* background: radial-gradient(circle, rgba(251, 251, 254, 1) 22%, rgba(246, 245, 251, 0.5270483193277311) 29%, rgba(254, 254, 255, 1) 30%, rgba(249, 248, 253, 1) 32%, rgba(254, 254, 255, 1) 42%, rgba(255, 255, 255, 0.5158438375350141) 89%); */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

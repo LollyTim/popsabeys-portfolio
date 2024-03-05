@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { AiOutlineClose } from "react-icons/ai";
+import BackDrop from "./BackDrop";
 
 const Nav = ({ scrollToSection, mywork, contact }) => {
   const [nav, setNav] = useState(false);
@@ -169,7 +170,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
         }}
         className={
           nav
-            ? "flex flex-col w-full gap-5 items-center h-96 absolute top-0 px-4 py-4 pb-8 text-[24px] overflow-hidden font-medium text-[#B5C8F0] bg-[#030623]"
+            ? "flex shadow-sm flex-col w-full gap-5 items-center h-96 absolute z-50 top-0 px-4 py-4 pb-8 text-[24px] overflow-hidden font-medium text-[#B5C8F0] bg-[#030623]"
             : "hidden"
         }
       >
@@ -253,6 +254,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
           </motion.a>
         </div>
       </motion.div>
+      {nav ? <BackDrop handleNav={handleNav} /> : null}
     </>
   );
 };

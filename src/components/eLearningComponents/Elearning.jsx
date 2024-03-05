@@ -16,7 +16,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] lg:max-w-[1050px] max-w-[360px] h-[260px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between mt-[96px] py-10 lg:max-w-[1050px] max-w-[360px] h-[260px] max-[768px]:h-[160px] bg-[#0F1123] rounded-lg mx-auto px-14 max-[768px]: max-[768px]:px-7 max-[768px]:pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope

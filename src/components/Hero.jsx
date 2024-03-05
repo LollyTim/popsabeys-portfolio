@@ -88,7 +88,7 @@ const Hero = () => {
         className="flex w-[90%] justify-center items-center mx-auto mt-[110px] lg:mb-24 mb-32 gap-2 "
       >
         <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
-          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+          <div className=" overflow-hidden lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             5+
           </div>
           <p className=" text-center text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
@@ -97,7 +97,7 @@ const Hero = () => {
         </div>
         <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
         <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
-          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+          <div className=" lg:text-7xl text-3xl overflow-hidden font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             30+
           </div>
           <p className=" text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
@@ -106,7 +106,7 @@ const Hero = () => {
         </div>
         <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
         <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
-          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+          <div className=" lg:text-7xl overflow-hidden text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             14+
           </div>
           <p className=" text-center text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
@@ -114,8 +114,8 @@ const Hero = () => {
           </p>
         </div>
         <div className=" border-r-[1px] opacity-25 border-[#6E6F71] h-[136px]"></div>
-        <div className="flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
-          <div className=" lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
+        <div className="  flex flex-col w-32 gap-2 lg:w-72 py-4 px-4 justify-center items-center overflow-hidden ">
+          <div className=" overflow-hidden lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             8+
           </div>
           <p className=" text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">

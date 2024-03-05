@@ -26,7 +26,7 @@ const UiShowcase = () => {
               Random
             </span>
           </div>
-          <div className="flex flex-col gap-1">
+          <div className=" flex-col gap-1 hidden">
             <p className="font-SatoshiLight text-end font-normal text-xl text-[#fff]">
               Product Designer
             </p>
@@ -40,7 +40,7 @@ const UiShowcase = () => {
       {/* another section starts here  */}
 
       <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[8px] ">
-        <div className="w-full justify-center mx-auto grid grid-cols-2 gap-6">
+        <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
           <motion.img
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

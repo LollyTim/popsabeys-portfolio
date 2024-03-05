@@ -267,7 +267,7 @@ const Userpersona = () => {
         </motion.h1>
         <img
           src="\images\Information Architecture 1.svg"
-          className="justify-center min-w-[260px] w-[1000px]"
+          className="justify-center w-[360px]  lg:w-[1000px]"
           alt=""
         />
 
@@ -275,7 +275,7 @@ const Userpersona = () => {
           src="\images\Group 26 1.svg"
           alt=""
           width={1500}
-          className=" justify-center min-w-[250px] w-[1000px]"
+          className=" justify-center w-[500px] lg:w-[1000px]"
         />
       </motion.div>
       <motion.div

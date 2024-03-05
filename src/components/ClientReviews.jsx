@@ -16,7 +16,7 @@ const ClientReviews = () => {
               ease: "easeIn",
               duration: 0.3,
             }}
-            className="gradient2 font-SatoshiBold flex-nowrap font-bold bg-clip-text text-[26px] lg:text-[40px] overflow-hidden"
+            className="gradient3 font-SatoshiBold flex-nowrap max-[768px]:text-lg font-bold bg-clip-text text-[26px] lg:text-[40px] max-[768px]: overflow-hidden"
           >
             What some of my clients have to say
           </motion.h1>
