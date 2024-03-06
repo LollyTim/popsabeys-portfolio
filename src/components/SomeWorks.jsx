@@ -39,7 +39,7 @@ const SomeWorks = ({ mywork }) => {
         </motion.p>
       </div>
       <div className=" max-w-[100%] mx-auto justify-center items-center ">
-        <div className=" w-full  flex flex-col xl:flex-row justify-between mb-11 items-center">
+        <div className=" w-full gap-8 lg:gap-0 flex flex-col xl:flex-row justify-between mb-11 items-center">
           <motion.a
             href="/equity"
             initial={{ x: -100, opacity: 0 }}
