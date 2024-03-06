@@ -94,7 +94,8 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\Rectangle 58444.png"
+            src="\images\Rectangle 62 (1).png"
+            // src="\images\Rectangle 58444.png"
             alt="viewsw"
           />
           <motion.img
@@ -122,7 +123,8 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\Rectangle 606.png"
+            src="\images\Rectangle 58.png"
+            // src="\images\Rectangle 606.png"
             alt="viewwf"
           />
 
@@ -138,7 +140,8 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (4).png"
+            // src="\images\Rectangle 61.png"
+            src="\images\Rectangle 61.png"
             alt="mobileviews"
           />
           <motion.img
@@ -152,7 +155,9 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (3).png"
+            // src="\images\TDB SC (3).png"
+            // src="\images\TDB SC (3).png"
+            src="\images\Rectangle 606.png"
             alt="mobileviews"
           />
           <motion.img
@@ -166,7 +171,7 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (5).png"
+            src="\images\Rectangle 63.png"
             alt="mobileviews"
           />
           <motion.img
@@ -180,7 +185,7 @@ const UiShowcase = () => {
               ease: "easeIn",
               duration: 1,
             }}
-            src="\images\TDB SC (6).png"
+            src="\images\Rectangle 64.png"
             alt="mobileviews"
           />
         </div>

@@ -100,3 +100,11 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.54%, #010314 89.27%), url(), lightgray -514.051px 0px / 346.592% 100% no-repeat;
   mix-blend-mode: luminosity;
 }
+
+
+
+.loadinggradient {
+  background: radial-gradient(71.64% 71.64% at 89.5% 19.75%, #64D3FE 0%, #589AF2 33.33%, #5483EE 66.67%, #484CE3 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+  ;
+}
