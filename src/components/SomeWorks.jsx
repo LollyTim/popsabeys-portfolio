@@ -38,8 +38,8 @@ const SomeWorks = ({ mywork }) => {
           A brief look into some selected works
         </motion.p>
       </div>
-      <div className=" max-w-[1124px] mx-auto justify-center items-center ">
-        <div className=" flex flex-col xl:flex-row gap-9 mb-11 justify-center items-center">
+      <div className=" max-w-[100%] mx-auto justify-center items-center ">
+        <div className=" w-full  flex flex-col xl:flex-row justify-between mb-11 items-center">
           <motion.a
             href="/equity"
             initial={{ x: -100, opacity: 0 }}
@@ -54,11 +54,23 @@ const SomeWorks = ({ mywork }) => {
             }}
             className=""
           >
-            <img
+            {/* <img
               src="\images\Rectangle 41.svg"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
-            />
+            /> */}
+            <div className=" w-[320px] h-[300px] lg:w-[560px] lg:h-[438px] rounded-xl hover:transition">
+              <div
+                className="w-full h-full lg:h-[438px] rounded-xl hover:transition hover:scale-150"
+                style={{
+                  backgroundImage: `url("/images/bda676f2ac85a87ba6540f7e31367ac7.png")`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundSize: "contain",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+            </div>
             <div className="flex gap-20 items-center pt-3">
               <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 People - Equity & Law
@@ -86,11 +98,23 @@ const SomeWorks = ({ mywork }) => {
             }}
             className=""
           >
-            <img
+            {/* <img
               src="\images\Rectangle 41 (1).svg"
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
-            />
+            /> */}
+            <div className=" w-[320px] h-[300px] lg:w-[560px] lg:h-[438px] rounded-xl hover:transition">
+              <div
+                className=" w-full h-full rounded-xl hover:transition hover:scale-150"
+                style={{
+                  backgroundImage: `url("/images/allallallall.jpg")`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundSize: "contain",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+            </div>
             <div className="flex gap-20 items-center pt-3">
               <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 UI designs (showcase)
