@@ -59,9 +59,9 @@ const SomeWorks = ({ mywork }) => {
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             /> */}
-            <div className=" w-[320px] h-[300px] lg:w-[560px] lg:h-[438px] rounded-xl hover:transition">
+            <div className=" w-[320px] h-[300px] lg:w-[560px] lg:h-[438px] rounded-xl ">
               <div
-                className="w-full h-full lg:h-[438px] rounded-xl hover:transition hover:scale-150"
+                className="w-full h-full lg:h-[438px] rounded-xl  "
                 style={{
                   backgroundImage: `url("/images/bda676f2ac85a87ba6540f7e31367ac7.png")`,
                   backgroundRepeat: "no-repeat",
@@ -103,9 +103,9 @@ const SomeWorks = ({ mywork }) => {
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             /> */}
-            <div className=" w-[320px] h-[300px] lg:w-[560px] lg:h-[438px] rounded-xl hover:transition">
+            <div className=" w-[320px] h-[300px] lg:w-[560px] gap-10 lg:gap-0 lg:h-[438px] rounded-xl ">
               <div
-                className=" w-full h-full rounded-xl hover:transition hover:scale-150"
+                className=" w-full h-full rounded-xl  "
                 style={{
                   backgroundImage: `url("/images/allallallall.jpg")`,
                   backgroundRepeat: "no-repeat",
