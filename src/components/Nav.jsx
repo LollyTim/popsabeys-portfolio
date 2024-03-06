@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BiMenu } from "react-icons/bi";
+// import { BiMenu } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { AiOutlineClose } from "react-icons/ai";
 import BackDrop from "./BackDrop";
@@ -125,7 +125,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className=" rotate-[-90deg]"
+            className=" "
           >
             <g id="Frame" clip-path="url(#clip0_1010_33)">
               <path
@@ -204,12 +204,12 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
           >
             Business optimizer
           </a>
-          <a
+          {/* <a
             onClick={() => scrollToSection(contact)}
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
           >
             contact
-          </a>
+          </a> */}
           <motion.a
             href="mailto: popsabey.ux@gmail.com"
             initial={{ x: -100, opacity: 0 }}
@@ -230,7 +230,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className=" rotate-[-90deg]"
+              className=" "
             >
               <g id="Frame" clip-path="url(#clip0_1010_33)">
                 <path

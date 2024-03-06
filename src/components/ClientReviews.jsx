@@ -16,9 +16,10 @@ const ClientReviews = () => {
               ease: "easeIn",
               duration: 0.3,
             }}
-            className="gradient3 font-SatoshiBold flex-nowrap max-[768px]:text-lg font-bold bg-clip-text text-[26px] lg:text-[40px] max-[768px]: overflow-hidden"
+            className="gradient3 font-SatoshiBold flex-nowrap max-[768px]:text-xl font-bold bg-clip-text text-[26px] lg:text-[40px] max-[768px]: overflow-hidden"
           >
-            What some of my clients have to say
+            What some of my clients{" "}
+            <br className="max-[768px]:flex lg:hidden" /> have to say
           </motion.h1>
         </div>
         <div className="flex max-[950px]:block gap-5 w-full">

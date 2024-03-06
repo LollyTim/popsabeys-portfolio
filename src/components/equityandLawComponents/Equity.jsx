@@ -51,7 +51,7 @@ const Equity = () => {
         </p>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold overflow-hidden text-3xl text-[#fff]">
+            <h1 className="max-[768px]:text-[20px] font-SatoshiBold font-bold max-[768px]:-mb-1 overflow-hidden text-3xl text-[#fff]">
               Equity and law management
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">

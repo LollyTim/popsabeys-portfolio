@@ -22,7 +22,7 @@ const SectionOne = () => {
         </p>
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
-            <h1 className="max-[768px]:text-[22px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
+            <h1 className="max-[768px]:text-[20px] max-[768px]:-mb-1 font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
               TDBizz: The everyday app
             </h1>
             <span className=" font-SatoshiLight font-normal text-xl text-[#fff] overflow-hidden">
