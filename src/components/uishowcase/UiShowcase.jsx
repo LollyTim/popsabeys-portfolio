@@ -2,6 +2,62 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const UiShowcase = () => {
+  const images = [
+    {
+      img: "/Imgs/image1.png",
+    },
+    {
+      img: "/Imgs/image22.png",
+    },
+    {
+      img: "/Imgs/image33.jpg",
+    },
+    {
+      img: "/Imgs/image44.png",
+    },
+    {
+      img: "/Imgs/image55.png",
+    },
+    {
+      img: "/Imgs/image66.png",
+    },
+    {
+      img: "/Imgs/image77.png",
+    },
+    {
+      img: "/Imgs/image88.jpg",
+    },
+    {
+      img: "/Imgs/image99.png",
+    },
+    {
+      img: "/Imgs/image10.png",
+    },
+    {
+      img: "/Imgs/image11.png",
+    },
+    {
+      img: "/Imgs/image12.png",
+    },
+    {
+      img: "/Imgs/image13.png",
+    },
+    {
+      img: "/Imgs/image14.png",
+    },
+    {
+      img: "/Imgs/image15.png",
+    },
+    {
+      img: "/Imgs/image16.png",
+    },
+    {
+      img: "/Imgs/image17.png",
+    },
+    {
+      img: "/Imgs/image18.png",
+    },
+  ];
   return (
     <>
       <motion.div
@@ -41,153 +97,33 @@ const UiShowcase = () => {
 
       <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[8px] ">
         <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 55111.png"
-            alt="wfw"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 56222.png"
-            alt="mobileview"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 59333.png"
-            alt="mobileview2"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 62 (1).png"
-            // src="\images\Rectangle 58444.png"
-            alt="viewsw"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 57555.png"
-            alt="view2"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 58.png"
-            // src="\images\Rectangle 606.png"
-            alt="viewwf"
-          />
-
-          {/* to update from here below  */}
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            // src="\images\Rectangle 61.png"
-            src="\images\Rectangle 61.png"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            // src="\images\TDB SC (3).png"
-            // src="\images\TDB SC (3).png"
-            src="\images\Rectangle 606.png"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 63.png"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\Rectangle 64.png"
-            alt="mobileviews"
-          />
+          {images.map((image, id) => (
+            <motion.div
+              initial={{ x: -200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{
+                delay: 0.2,
+                x: { type: "spring", stiffness: 50 },
+                opacity: { duration: 0.8 },
+                ease: "easeIn",
+                duration: 1,
+              }}
+              key={id}
+              className=" w-[360px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+            >
+              <div
+                className="w-full h-full rounded-xl"
+                style={{
+                  backgroundImage: `url(${image.img})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                  backgroundSize: "contain",
+                  backgroundSize: "cover",
+                }}
+              ></div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </>
