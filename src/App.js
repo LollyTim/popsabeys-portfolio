@@ -7,9 +7,14 @@ import SomeWorks from "./components/SomeWorks";
 import Trust from "./components/Trust";
 import WhatIdo from "./components/WhatIdo";
 import { useRef } from "react";
-import { BrowserRouter as Rourter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Rourter,
+  Routes,
+  Route,
+  useNavigate,
+} from "react-router-dom";
 import Section1 from "./components/proattireComponents/Section1";
-import ScrollToTop from "react-scroll-up";
+// import ScrollToTop from "react-scroll-up";
 import { FaArrowCircleUp } from "react-icons/fa";
 import SectionOne from "./components/tdbizComponents/Section1";
 import Tradepla from "./components/tradeplaComponents/Tradepla";
@@ -23,8 +28,9 @@ import Loading from "./components/Loading";
 function App() {
   const mywork = useRef(null);
   const contact = useRef(null);
-
-  const scrollToSection = (sectionRef) => {
+  const navigate = useNavigate();
+  const scrollToSection = (sectionRef, path) => {
+    navigate(path);
     if (sectionRef.current) {
       sectionRef.current.scrollIntoView({ behavior: "smooth" });
     }
@@ -51,87 +57,78 @@ function App() {
             mywork={mywork}
             contact={contact}
           />
-          <Rourter>
-            <Routes>
-              <Route
-                path="/"
-                element={
-                  <React.Fragment>
-                    <Hero />
-                    <Trust />
-                    <WhatIdo />
-                    <SomeWorks
-                      scrollToSection={scrollToSection}
-                      mywork={mywork}
-                    />
-                    <ClientReviews />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/proattire"
-                element={
-                  <React.Fragment>
-                    <Section1 />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/tdbizz"
-                element={
-                  <React.Fragment>
-                    <SectionOne />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/tradepla"
-                element={
-                  <React.Fragment>
-                    <Tradepla />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/elearning"
-                element={
-                  <React.Fragment>
-                    <Elearning />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/uishowcase"
-                element={
-                  <React.Fragment>
-                    <UiShowcase />
-                  </React.Fragment>
-                }
-              />
-              <Route
-                path="/equity"
-                element={
-                  <React.Fragment>
-                    <Equity />
-                  </React.Fragment>
-                }
-              />
-              <Route path="/business" exact element={<Business />} />
-            </Routes>
-          </Rourter>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <React.Fragment>
+                  <Hero />
+                  <Trust />
+                  <WhatIdo />
+                  <SomeWorks
+                    scrollToSection={scrollToSection}
+                    mywork={mywork}
+                  />
+                  <ClientReviews />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/proattire"
+              element={
+                <React.Fragment>
+                  <Section1 />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/tdbizz"
+              element={
+                <React.Fragment>
+                  <SectionOne />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/tradepla"
+              element={
+                <React.Fragment>
+                  <Tradepla />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/elearning"
+              element={
+                <React.Fragment>
+                  <Elearning />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/uishowcase"
+              element={
+                <React.Fragment>
+                  <UiShowcase />
+                </React.Fragment>
+              }
+            />
+            <Route
+              path="/equity"
+              element={
+                <React.Fragment>
+                  <Equity />
+                </React.Fragment>
+              }
+            />
+            <Route path="/business" exact element={<Business />} />
+          </Routes>
+
           <Footer
             scrollToSection={scrollToSection}
             contact={contact}
             className="overflow-hidden"
           />
-          <ScrollToTop
-            showUnder={600}
-            duration={2000}
-            style={{ zindex: 100 }}
-            className="overflow-hidden max-[768px]:hidden lg:flex overflow-x-hidden overflow-y-hidden"
-          >
-            <FaArrowCircleUp className="text-[30px] text-slate-40 max-[768px]:hidden lg:flex rotate-[-1deg] overflow-hidden overflow-x-hidden overflow-y-hidden" />
-          </ScrollToTop>
         </>
       )}
     </div>

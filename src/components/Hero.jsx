@@ -85,13 +85,13 @@ const Hero = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex w-[90%] justify-center items-center mx-auto lg:mt-[110px] lg:mb-24 mb-20 gap-2 "
+        className="flex w-[92%] justify-center items-center mx-auto lg:mt-[110px] lg:mb-24 mb-20 gap-2 "
       >
         <div className="flex flex-col gap-2 w-32 lg:w-72 py-4 px-4 justify-center items-center ">
           <div className=" overflow-hidden lg:text-7xl text-3xl font-semibold flex font-[oswald] lg:w-48 lg:h-32 text-center justify-center items-center">
             5+
           </div>
-          <p className=" text-center text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
+          <p className=" text-center  text-[#6E6F71] text-[9px] lg:text-[16px] text-nowrap font-thin font-SatoshiLight">
             Years of experience
           </p>
         </div>

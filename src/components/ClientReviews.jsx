@@ -47,12 +47,14 @@ const ClientReviews = () => {
               heights. I highly recommend his services to anyone seeking
               top-notch design solutions.
             </p>
-            <h5 className=" font-SatoshiBold font-bold text-base relative ">
-              Stanley Anyanwu
-            </h5>
-            <span className=" -mt-[2px] font-SatoshiLight font-normal absolute text-xs">
-              CEO, Tagdeep Dynamics
-            </span>
+            <div className="flex flex-col">
+              <h5 className=" font-SatoshiBold font-bold text-base  ">
+                Stanley Anyanwu
+              </h5>
+              <p className=" -mt-[2px] font-SatoshiLight font-normal  text-xs">
+                CEO, Tagdeep Dynamics
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
@@ -73,13 +75,13 @@ const ClientReviews = () => {
                 Lovely work! I can recommend Abiodun 100%
               </p>
             </div>
-            <div className=" overflow-hidden">
-              <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+            <div className=" overflow-hidden flex flex-col">
+              <h5 className=" font-SatoshiBold font-bold text-base  overflow-hidden ">
                 Sunday Olaiya
               </h5>
-              <span className=" -mt-[3px] font-SatoshiLight absolute font-normal text-xs">
+              <p className=" -mt-[3px] font-SatoshiLight  font-normal text-xs">
                 CrPi Group
-              </span>
+              </p>
             </div>
           </motion.div>
 
@@ -101,13 +103,19 @@ const ClientReviews = () => {
                 You’re the best!
               </p>
             </div>
-            <div className=" overflow-hidden">
-              <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+            <div className=" overflow-hidden flex flex-col">
+              <h5
+                className=" font-SatoshiBold font-bold text-base 
+               overflow-hidden "
+              >
                 Olajide I.
               </h5>
-              <span className="-mt-[2px] font-SatoshiLight absolute font-normal text-xs">
+              <p
+                className=" font-SatoshiLight 
+               font-normal text-xs"
+              >
                 Gigsdev
-              </span>
+              </p>
             </div>
           </motion.div>
 
@@ -132,12 +140,12 @@ const ClientReviews = () => {
                   </p>
                 </div>
                 <div className=" overflow-hidden">
-                  <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+                  <h5 className=" font-SatoshiBold font-bold text-base overflow-hidden ">
                     Sunday Olaiya
                   </h5>
-                  <span className=" -mt-[3px] font-SatoshiLight absolute font-normal text-xs">
+                  <p className=" -mt-[3px] font-SatoshiLight font-normal text-xs">
                     CrPi Group
-                  </span>
+                  </p>
                 </div>
               </motion.div>
               <motion.div
@@ -158,13 +166,13 @@ const ClientReviews = () => {
                     You’re the best!
                   </p>
                 </div>
-                <div className=" overflow-hidden">
-                  <h5 className=" font-SatoshiBold font-bold text-base relative overflow-hidden ">
+                <div className=" overflow-hidden flex flex-col">
+                  <h5 className=" font-SatoshiBold font-bold text-base  overflow-hidden ">
                     Olajide I.
                   </h5>
-                  <span className="-mt-[2px] font-SatoshiLight absolute font-normal text-xs">
+                  <p className=" font-SatoshiLight  font-normal text-xs">
                     Gigsdev
-                  </span>
+                  </p>
                 </div>
               </motion.div>
             </div>
@@ -187,13 +195,13 @@ const ClientReviews = () => {
                   currently exploring the design system you created and all I
                   can is, great job!
                 </p>
-                <div>
-                  <h5 className=" font-SatoshiBold font-bold text-base relative ">
+                <div className="flex flex-col">
+                  <h5 className=" font-SatoshiBold font-bold text-base ">
                     Joshua Wisdom
                   </h5>
-                  <span className=" -mt-[2px] font-SatoshiLight font-normal absolute text-xs">
+                  <p className=" font-SatoshiLight font-normal text-xs">
                     "Stealth startup"
-                  </span>
+                  </p>
                 </div>
               </div>
             </motion.div>

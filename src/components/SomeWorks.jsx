@@ -71,17 +71,13 @@ const SomeWorks = ({ mywork }) => {
                 }}
               ></div>
             </div>
-            <div className="flex gap-20 items-center pt-3">
-              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex items-start pt-3 flex-col">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 People - Equity & Law
-                <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  B2B SaaS
-                </span>
               </p>
-              {/* <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
-                comming soon
-              </div> */}
+              <span className="text-[#fff] font-normal text-xs pb-4 -mt-3 font-SatoshiLight">
+                B2B SaaS
+              </span>
             </div>
           </motion.a>
           <motion.a
@@ -115,17 +111,13 @@ const SomeWorks = ({ mywork }) => {
                 }}
               ></div>
             </div>
-            <div className="flex gap-20 items-center pt-3">
-              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex items-start pt-3 flex-col">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap  font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 UI designs (showcase)
-                <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Random
-                </span>
               </p>
-              {/* <div className=" border-[#282B46] border text-center rounded-full justify-center items-center flex font-SatoshiLight text-nowrap py-2 px-5">
-                comming soon
-              </div> */}
+              <span className="text-[#fff] font-normal text-xs -mt-3 pb-4 font-SatoshiLight">
+                Random
+              </span>
             </div>
           </motion.a>
         </div>
@@ -149,14 +141,13 @@ const SomeWorks = ({ mywork }) => {
               className=" rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
-            <div className="flex justify-between items-center pt-3">
-              <p className="inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex justify-between items-start pt-3 flex-col">
+              <p className="inline-block text-[16px] xl:text-[22px] xl:text-nowrap  font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Discite E-learning (Case study)
-                <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Edtech
-                </span>
               </p>
+              <span className="text-[#fff] font-normal -mt-3 text-xs pb-4 font-SatoshiLight">
+                Edtech
+              </span>
             </div>
           </motion.a>
           <motion.a
@@ -178,14 +169,13 @@ const SomeWorks = ({ mywork }) => {
               className="rounded-xl w-[340px] sm:w-[450px] xl:w-[590px]"
               alt=""
             />
-            <div className="flex gap-6 xl:gap-20 items-center pt-3">
-              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex items-start pt-3 flex-col">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap  font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 TDBizz multipurpose (Showcase)
-                <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Commerce. Ride. Services - UI/UX
-                </span>
               </p>
+              <span className="text-[#fff] font-normal -mt-3  text-xs pb-4 font-SatoshiLight">
+                Commerce. Ride. Services - UI/UX
+              </span>
             </div>
           </motion.a>
         </div>
@@ -209,14 +199,14 @@ const SomeWorks = ({ mywork }) => {
               className="rounded-xl"
               alt="img34"
             />
-            <div className="flex gap-20 items-center pt-3">
-              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex items-start pt-3 flex-col">
+              <p className=" inline-block text-[16px] xl:text-[22px] xl:text-nowrap  font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Fashion marketplace (Case study)
                 <br />
-                <span className="text-[#fff] font-normal absolute text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Commerce - UI/UX
-                </span>
               </p>
+              <span className="text-[#fff] font-normal -mt-3  text-xs pb-4 font-SatoshiLight">
+                Commerce - UI/UX
+              </span>
             </div>
           </motion.a>
           <motion.a
@@ -240,20 +230,20 @@ const SomeWorks = ({ mywork }) => {
             /> */}
 
             <div
-              className=" lg:h-[488px] h-[288px] w-[350px] rounded-2xl bg-center bg-cover bg-no-repeat"
+              className=" lg:h-[488px] h-[288px] max-[390px]:w-[320px] lg:w-[360px] w-[350px] rounded-2xl bg-center bg-cover bg-no-repeat"
               style={{
                 backgroundImage: `url(/images/stanming.png)`,
                 // backgroundSize: 500,
               }}
             ></div>
-            <div className="flex justify-between items-center pt-3">
-              <p className="inline-block text-[16px] xl:text-[22px] xl:text-nowrap relative font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
+            <div className="flex items-start pt-3 flex-col">
+              <p className="inline-block text-[16px] xl:text-[22px] xl:text-nowrap  font-SatoshiBold leading-tight font-bold pb-4 overflow-y-hidden">
                 Tradepla (Showcase)
                 <br />
-                <span className="text-[#fff] font-normal absolute  text-xs mt-[2px] pb-4 font-SatoshiLight">
-                  Fintech - UI/UX
-                </span>
               </p>
+              <span className="text-[#fff] font-normal text-xs -mt-3 pb-4 font-SatoshiLight">
+                Fintech - UI/UX
+              </span>
             </div>
           </motion.a>
         </div>

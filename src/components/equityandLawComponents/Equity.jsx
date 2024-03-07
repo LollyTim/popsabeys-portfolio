@@ -246,7 +246,7 @@ const Equity = () => {
             duration: 1,
           }}
           key={id}
-          className=" max-w-[1088px] max-h-[666px] py-7 mx-auto flex w-fit lg:mt-[72px] max-[786px]:max-w-96 px-8"
+          className=" max-w-[1088px] max-h-[666px]  mx-auto flex w-fit lg:mt-[72px] max-[786px]:max-w-96 px-8 py-2"
         >
           <img src={item.url} alt="" />
         </motion.div>

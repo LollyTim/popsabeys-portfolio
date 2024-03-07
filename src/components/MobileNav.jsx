@@ -1,0 +1,108 @@
+import { motion } from "framer-motion";
+import React from "react";
+import { AiOutlineClose } from "react-icons/ai";
+// import {  } from "react-router-dom";
+
+const MobileNav = ({ handleNav, scrollToSection, mywork, contact }) => {
+  //   const router = useNavigate();
+  return (
+    <div className=" relative z-50">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          delay: 0.1,
+          x: { type: "spring", stiffness: 50 },
+          opacity: { duration: 0.8 },
+          ease: "easeIn",
+          duration: 1,
+        }}
+        className={
+          "flex shadow-sm flex-col w-full gap-5 items-center h-96 fixed  z-50  px-4 py-4 pb-8 text-[24px] overflow-hidden font-medium text-[#B5C8F0] bg-[#030623]"
+        }
+      >
+        <div className="flex w-full justify-between h-18 py-3 px-5 items-center overflow-hidden">
+          <img src="/images/logo.svg" alt="logohere" />
+          <AiOutlineClose
+            onClick={handleNav}
+            className="cursor-pointer"
+            size={25}
+          />
+        </div>
+        <div className="w-[90%] justify-center mx-auto flex flex-col items-center overflow-hidden gap-5">
+          <a
+            href="/uishowcase"
+            className="p-2 w-fit hover:bg-[#010314] justify-center overflow-hidden items-center mx-auto rounded-lg transition-colors"
+          >
+            UI showcase
+          </a>
+          <a
+            onClick={() => {
+              scrollToSection(mywork, "/");
+              handleNav();
+            }}
+            className="p-2 w-fit justify-center items-center hover:bg-[#010314] rounded-lg overflow-hidden transition-colors"
+          >
+            Projects
+          </a>
+          <a
+            href="/business"
+            className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
+          >
+            Business optimizer
+          </a>
+          {/* <a
+            onClick={() => scrollToSection(contact)}
+            className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
+          >
+            contact
+          </a> */}
+          <motion.a
+            href="mailto: popsabey.ux@gmail.com"
+            initial={{ x: -100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              delay: 0.1,
+              x: { type: "spring", stiffness: 50 },
+              opacity: { duration: 0.8 },
+              ease: "easeIn",
+              duration: 1,
+            }}
+            className="text-[#fff] items-center flex overflow-hidden gap-1 border border-[#282B46] rounded-full lg:py-2 lg:px-3 px-2 py-2 font-SatoshiLight font-medium"
+          >
+            {" "}
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className=" "
+            >
+              <g id="Frame" clip-path="url(#clip0_1010_33)">
+                <path
+                  id="Vector"
+                  d="M21.5833 10.8131C20.6626 10.4058 19.3473 10.9518 18.4166 12.2718C17.8053 13.1385 17.6253 14.3725 16.8226 14.5011C16.516 14.5505 16.3493 14.3638 16.2626 14.0951C16.1713 13.6418 16.1913 12.9411 16.3606 11.9611L18.1873 3.75112C18.3326 3.12379 17.992 2.51646 17.172 2.31846C16.352 2.12046 15.7353 2.52246 15.5893 3.14979L13.9586 10.5938C13.63 12.2378 13.0206 11.9391 13.168 10.0771V10.0765L13.6353 1.34846C13.6733 0.67379 13.1546 0.122457 12.388 0.0931232C11.6213 0.0637899 11.0686 0.52379 11.0293 1.19779L10.584 10.1371C10.4886 11.9418 9.84262 11.2618 9.70262 9.95446L8.66662 2.72246C8.56062 2.04046 7.92129 1.56912 7.15462 1.69179C6.38796 1.81512 5.92462 2.44912 6.03062 3.13112L7.02729 9.74046C7.42262 12.2638 6.90595 12.9625 6.05529 10.2225L4.99262 6.20579C4.81929 5.56112 4.18396 5.16112 3.38596 5.38512C2.58796 5.60912 2.24396 6.25112 2.41662 6.89579L3.45529 10.6711C3.88929 13.3891 3.88929 14.4618 3.88929 16.3331C3.88929 18.2045 4.74996 24.0005 11.3333 24.0005C17.9166 24.0005 19.2706 17.3131 19.3333 16.8898C19.3333 16.8898 19.4153 15.9031 20.104 14.9798C21.0833 13.6671 21.7706 12.8758 22.1873 12.4025C22.3986 12.1631 22.604 11.2645 21.5833 10.8131Z"
+                  fill="#FFDC5D"
+                />
+                <path
+                  id="Vector_2"
+                  d="M16.6073 14.494C16.4073 14.4127 16.2379 14.2034 16.2179 13.748C14.9566 13.9207 13.2506 14.274 11.9379 15.558C10.2339 17.224 9.94326 19.0247 9.95726 20.2294C9.96859 21.2007 10.4986 21.6607 10.6539 20.2214C10.8493 18.4034 12.1753 14.7927 16.6073 14.494Z"
+                  fill="#EF9645"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1010_33">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p className=" lg:text-lg text-sm">Let's work together</p>
+          </motion.a>
+        </div>
+      </motion.div>
+    </div>
+  );
+};
+
+export default MobileNav;
