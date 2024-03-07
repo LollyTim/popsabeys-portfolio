@@ -23,10 +23,10 @@ const Section1 = () => {
         </p>
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
-            <h1 className="max-[768px]:text-[20px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
+            <h1 className="max-[768px]:text-[16px] font-SatoshiBold font-bold text-3xl text-[#fff] overflow-hidden">
               Proattire: Fashion marketplace
             </h1>
-            <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
+            <span className=" font-SatoshiLight font-normal text-lg lg:text-xl text-[#fff]">
               E-Commerce{" "}
             </span>
           </div>
@@ -61,7 +61,7 @@ const Section1 = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 px-12 py-6 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -72,7 +72,7 @@ const Section1 = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className="gradient w-fit font-SatoshiBold text-center font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
         >
           Introduction
         </motion.h1>
@@ -104,7 +104,7 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-12 max-w-[1002px] gap-16 mx-auto  max-[768px]:gap-12 max-[768px]:flex-col-reverse "
+        className="flex flex-row lg:py-14 px-12 py-6 max-w-[1002px] lg:gap-16 mx-auto  max-[768px]:gap-8 max-[768px]:flex-col-reverse "
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[590px]">
           <p>
@@ -126,7 +126,7 @@ const Section1 = () => {
             <li> avenue for upcoming creators for easy entry into market</li>
           </ul>
         </div>
-        <h1 className="gradient  max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient w-fit font-SatoshiBold text-center font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7">
           Challenge
         </h1>
       </motion.div>
@@ -151,7 +151,7 @@ const Section1 = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col mt-8 ">
+      <div className="flex flex-row lg:py-14 px-12 py-6 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col mt-8 ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -162,7 +162,7 @@ const Section1 = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6 mb-10"
+          className="gradient text-center w-fit  font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6 lg:mb-10"
         >
           Research
         </motion.h1>
@@ -302,7 +302,7 @@ const Section1 = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6 mb-1 xl:mb-10"
+          className="gradient w-fit text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6 mb-1 xl:mb-10"
         >
           Insights
         </motion.h1>
@@ -352,7 +352,7 @@ const Section1 = () => {
 
       {/* another page starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 px-12 py-8 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -363,7 +363,7 @@ const Section1 = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className="gradient w-fit items-center font-SatoshiBold font-bold text-[40px] max-[768px]:gap-6 max-[768px]:text-[30px] h-fit -mt-7"
         >
           Execution
         </motion.h1>

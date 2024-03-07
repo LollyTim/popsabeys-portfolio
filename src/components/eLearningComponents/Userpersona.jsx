@@ -261,7 +261,7 @@ const Userpersona = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient2 lg:mx-auto font-SatoshiBold font-bold text-[40px] max-[768px]:text-[25px]"
+          className="gradient2 lg:mx-auto text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[25px]"
         >
           Information architecture
         </motion.h1>

@@ -51,10 +51,10 @@ const Equity = () => {
         </p>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col gap-1">
-            <h1 className="max-[768px]:text-[20px] font-SatoshiBold font-bold max-[768px]:-mb-1 overflow-hidden text-3xl text-[#fff]">
+            <h1 className="max-[768px]:text-[16px] font-SatoshiBold font-bold max-[768px]:-mb-1 overflow-hidden text-3xl text-[#fff]">
               Equity and law management
             </h1>
-            <span className=" font-SatoshiLight font-normal text-xl text-[#fff]">
+            <span className=" font-SatoshiLight font-normal text-lg lg:text-xl text-[#fff]">
               Saas
             </span>
           </div>
@@ -81,14 +81,14 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 lg:mx-auto mx-4 max-w-[1050px] flex w-fit mt-[72px]"
+        className=" py-7 lg:mx-auto mx-4 max-w-[1050px] flex w-fit mt-[72px] min-[300px]:mb-6 "
       >
         <img src="\images\Rectangle 44 (4).png" alt="" />
       </motion.div>
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-4 px-12 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -127,7 +127,7 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-12 max-w-[1002px] gap-16 mx-auto  max-[768px]:gap-12 max-[768px]:flex-col-reverse "
+        className="flex flex-row lg:py-14 py-4 px-12 max-w-[1002px] lg:gap-16 mx-auto  max-[768px]:gap-8 max-[768px]:flex-col-reverse "
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[590px]">
           <p>
@@ -137,7 +137,7 @@ const Equity = () => {
             tools for young companies.
           </p>
         </div>
-        <h1 className="gradient w-fit max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient w-fit max-[768px]:text-[30px] text-center font-SatoshiBold font-bold text-[40px] h-fit lg:-mt-7">
           Challenge
         </h1>
       </motion.div>
@@ -155,14 +155,14 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" max-w-[888px] max-h-[666px] py-7 mx-auto flex w-fit mt-[72px] max-[786px]:max-w-96 px-8"
+        className=" max-w-[888px] max-h-[666px] py-7 mx-auto flex w-fit mt-[72px] max-[786px]:max-w-96 px-8 min-[300px]:mb-5"
       >
         <img src="\images\new gif 1.png" alt="" />
       </motion.div>
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-4 px-12 max-w-[1002px] gap-[134px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -197,7 +197,7 @@ const Equity = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1024px] gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col-reverse justify-center  ">
+      <div className="flex flex-row lg:py-14 px-12 py-6 max-w-[1024px] gap-[134px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col-reverse justify-center  ">
         <motion.p
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -225,7 +225,7 @@ const Equity = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient w-fit gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
+          className="gradient w-fit gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit lg:-mt-6"
         >
           Execution
         </motion.h1>

@@ -53,10 +53,10 @@ const Tradepla = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="py-7 mx-auto flex w-full  mt-[72px]  justify-center"
+        className="lg:py-7 px-4 mx-auto flex w-full  lg:mt-[72px]  justify-center"
       >
         <div
-          className=" bg-no-repeat  w-[602px] rounded-3xl  h-[500px] max-w-[652px] max-h-[708px]"
+          className=" bg-no-repeat  w-[602px] rounded-3xl  h-[500px] max-w-[652px] lg:max-h-[708px]"
           style={{
             background: `url("/images/giggif1.gif")`,
             backgroundRepeat: "no-repeat",
@@ -69,7 +69,7 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-6 px-12 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -80,7 +80,7 @@ const Tradepla = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className="gradient w-fit text-center font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
         >
           Introduction
         </motion.h1>
@@ -112,7 +112,7 @@ const Tradepla = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-12 max-w-[1002px] gap-16 mx-auto  max-[768px]:gap-12 max-[768px]:flex-col-reverse "
+        className="flex flex-row lg:py-14 py-6 px-12 max-w-[1002px] lg:gap-16 mx-auto  max-[768px]:gap-8 max-[768px]:flex-col-reverse "
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[590px]">
           <p>
@@ -121,7 +121,7 @@ const Tradepla = () => {
             ensure compliance and make money management easy
           </p>
         </div>
-        <h1 className="gradient  max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient w-fit text-center max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
           Challenge
         </h1>
       </motion.div>
@@ -149,7 +149,7 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-12 max-w-[1002px] max-[768px]:gap-[]34px gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-6 px-12 max-w-[1002px] max-[768px]:gap-8 lg:gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -160,7 +160,7 @@ const Tradepla = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
+          className="gradient w-fit text-center lg:gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit -mt-6"
         >
           Research
         </motion.h1>
@@ -186,7 +186,7 @@ const Tradepla = () => {
       {/* another section starts here  */}
 
       <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px] ">
-        <h1 className="gradient gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
+        <h1 className="gradient gap-[116px] w-fit text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
         <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">

@@ -61,7 +61,7 @@ const Elearning = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-6 px-6 lg:max-w-[900px] max-w-[360px] justify-center lg:gap-[70px] max-[768px]:gap-8 mx-auto max-[786px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -72,7 +72,7 @@ const Elearning = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className="gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className="gradient w-fit font-SatoshiBold text-center font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
         >
           Introduction
         </motion.h1>
@@ -102,7 +102,7 @@ const Elearning = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col-reverse "
+        className="flex flex-row lg:py-14 px-6 py-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-8 mx-auto max-[786px]:flex-col-reverse "
       >
         <div className=" font-SatoshiLight font-normal text-base leading-6 max-w-[440px]">
           <p>
@@ -110,11 +110,11 @@ const Elearning = () => {
             reaching more student home and abroad.
           </p>
         </div>
-        <h1 className="gradient  max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient2 text-center w-fit items-center max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit lg:-mt-7">
           Challenge
         </h1>
       </motion.div>
-      <div className="flex flex-row py-14 px-6 lg:max-w-[900px] max-w-[360px] justify-center gap-[70px] max-[768px]:gap-12 mx-auto max-[786px]:flex-col">
+      <div className="flex flex-row lg:py-14 px-6 py-6 lg:max-w-[900px] max-w-[360px] justify-center lg:gap-[70px] max-[768px]:gap-8 mx-auto max-[786px]:flex-col">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -125,7 +125,7 @@ const Elearning = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" flex flex-nowrap gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
+          className=" flex flex-nowrap w-fit text-center gradient font-SatoshiBold font-bold text-[40px]  max-[768px]:text-[30px] h-fit -mt-7"
         >
           The Goal
         </motion.h1>
@@ -183,7 +183,7 @@ const Elearning = () => {
             making major decisions for this project
           </p>
         </div>
-        <h1 className="gradient  max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
+        <h1 className="gradient w-fit text-center max-[768px]:text-[30px] font-SatoshiBold font-bold text-[40px] h-fit -mt-7">
           Vision
         </h1>
       </motion.div>
