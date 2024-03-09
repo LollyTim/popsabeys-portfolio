@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto mt-[100px] gap-4 max-h-screen overflow-hidden mb-10">
+      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto gap-4 lg:mt-[180px] max-h-[93vh] mt-32 overflow-hidden flex flex-col  ">
         <motion.div
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
