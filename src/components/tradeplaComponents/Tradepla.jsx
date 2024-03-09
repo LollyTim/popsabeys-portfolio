@@ -4,36 +4,37 @@ import { motion } from "framer-motion";
 const Tradepla = () => {
   const images = [
     {
-      url: "mag1.png",
+      url: "mags/lllooo1.png",
     },
     {
-      url: "mag2.png",
+      url: "mags/lllooo2.png",
     },
     {
-      url: "mag3.png",
+      url: "mags/lllooo3.png",
     },
     {
-      url: "mag4.png",
+      url: "mags/lllooo4.png",
     },
     {
-      url: "mag5.png",
+      url: "mags/lllooo5.png",
     },
     {
-      url: "mag6.png",
+      url: "mags/lllooo6.png",
     },
     {
-      url: "mag7.png",
+      url: "mags/lllooo7.png",
     },
     {
-      url: "mag8.png",
+      url: "mags/lllooo8.png",
     },
     {
-      url: "mag9.png",
+      url: "mags/lllooo9.png",
     },
     {
-      url: "mag10.png",
+      url: "mags/lllooo10.png",
     },
   ];
+
   return (
     <>
       <motion.div
@@ -49,7 +50,7 @@ const Tradepla = () => {
         }}
         className=" overflow-hidden flex flex-col justify-between  mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] lg:h-[260px] h-[180px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
-        <p className=" font-SatoshiLight text-base font-normal">
+        <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
         </p>
         <div className="flex flex-row justify-between overflow-hidden">
@@ -217,7 +218,7 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px]">
+      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px] ">
         <h1 className="gradient gap-[116px] w-fit text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
@@ -234,6 +235,7 @@ const Tradepla = () => {
                 ease: "easeIn",
                 duration: 1,
               }}
+              key={index}
               className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
             >
               <div
@@ -242,6 +244,7 @@ const Tradepla = () => {
                   backgroundImage: `url(${image.url})`,
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
+                  backgroundSize: "cover",
                 }}
               ></div>
             </motion.div>
