@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
-// import {  } from "react-router-dom";
 
 const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
   return (
