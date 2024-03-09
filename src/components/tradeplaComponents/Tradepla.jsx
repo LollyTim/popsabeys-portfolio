@@ -149,7 +149,7 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className="flex flex-row lg:py-14 py-6 px-12 max-w-[1002px] max-[768px]:gap-8 lg:gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 py-6 px-12 max-w-[1002px] lg:gap-[134px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
