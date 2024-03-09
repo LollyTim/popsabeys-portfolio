@@ -4,17 +4,17 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
   return (
-    <div className=" relative z-50">
+    <div className=" relative z-[3000px]">
       <motion.div
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{
-          delay: 0.1,
-          x: { type: "spring", stiffness: 50 },
-          opacity: { duration: 0.8 },
-          ease: "easeIn",
-          duration: 1,
-        }}
+        // initial={{ x: -100, opacity: 0 }}
+        // whileInView={{ x: 0, opacity: 1 }}
+        // transition={{
+        //   delay: 0.1,
+        //   x: { type: "spring", stiffness: 50 },
+        //   opacity: { duration: 0.8 },
+        //   ease: "easeIn",
+        //   duration: 1,
+        // }}
         className={
           "flex shadow-sm flex-col w-full gap-5 items-center h-96 fixed  z-50  px-4 py-4 pb-8 text-[24px] overflow-hidden font-medium text-[#B5C8F0] bg-[#030623]"
         }
