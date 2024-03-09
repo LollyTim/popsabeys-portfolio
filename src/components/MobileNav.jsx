@@ -6,12 +6,12 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
   return (
     <div className=" relative z-[3000px]">
       <motion.div
-        initial={{ x: -100, opacity: 0 }}
-        amimate={{ x: 0, opacity: 1 }}
+        initial={{ x: -100, opacity: 0.11 }}
+        whileInView={{ x: 0, opacity: 3 }}
         transition={{
           delay: 0.1,
           x: { type: "spring", stiffness: 50 },
-          opacity: { duration: 0.1 },
+          opacity: { duration: 0.8 },
           ease: "easeIn",
           duration: 1,
         }}
