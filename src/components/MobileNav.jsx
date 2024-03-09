@@ -4,7 +4,6 @@ import { AiOutlineClose } from "react-icons/ai";
 // import {  } from "react-router-dom";
 
 const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
-  //   const router = useNavigate();
   return (
     <div className=" relative z-50">
       <motion.div
