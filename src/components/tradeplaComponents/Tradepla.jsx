@@ -2,6 +2,38 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Tradepla = () => {
+  const images = [
+    {
+      url: "mag1.png",
+    },
+    {
+      url: "mag2.png",
+    },
+    {
+      url: "mag3.png",
+    },
+    {
+      url: "mag4.png",
+    },
+    {
+      url: "mag5.png",
+    },
+    {
+      url: "mag6.png",
+    },
+    {
+      url: "mag7.png",
+    },
+    {
+      url: "mag8.png",
+    },
+    {
+      url: "mag9.png",
+    },
+    {
+      url: "mag10.png",
+    },
+  ];
   return (
     <>
       <motion.div
@@ -17,7 +49,7 @@ const Tradepla = () => {
         }}
         className=" overflow-hidden flex flex-col justify-between  mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] lg:h-[260px] h-[180px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
-        <p className=" font-SatoshiLight text-base font-normal ">
+        <p className=" font-SatoshiLight text-base font-normal">
           Summarized project scope
         </p>
         <div className="flex flex-row justify-between overflow-hidden">
@@ -185,151 +217,35 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px] ">
+      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px]">
         <h1 className="gradient gap-[116px] w-fit text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
         <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB1.png"
-            alt="wfw"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC2.png"
-            alt="mobileview"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC1.png"
-            alt="mobileview2"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC4.png"
-            alt="viewsw"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (10).png"
-            alt="view2"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (9) (1).png"
-            alt="viewwf"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (2) (1).png"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (8).svg"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (4) (1).png"
-            alt="mobileviews"
-          />
-          <motion.img
-            initial={{ x: -200, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.2,
-              x: { type: "spring", stiffness: 50 },
-              opacity: { duration: 0.8 },
-              ease: "easeIn",
-              duration: 1,
-            }}
-            src="\images\TDB SC (7) (1).png"
-            alt="mobileviews"
-          />
+          {images.map((image, index) => (
+            <motion.div
+              initial={{ x: -200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{
+                delay: 0.2,
+                x: { type: "spring", stiffness: 50 },
+                opacity: { duration: 0.8 },
+                ease: "easeIn",
+                duration: 1,
+              }}
+              className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+            >
+              <div
+                className="w-full h-full rounded-xl"
+                style={{
+                  backgroundImage: `url(${image.url})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              ></div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </>
