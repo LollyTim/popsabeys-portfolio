@@ -71,7 +71,7 @@ const UiShowcase = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between overflow-hidden mt-[96px] mb-24 max-[768px]:max-w-[340px] lg:max-w-[1050px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between overflow-hidden mt-[96px] mb-24 max-[768px]:max-w-[340px] lg:max-w-[80%] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <div className="flex flex-row justify-between overflow-hidden">
           <div className="flex flex-col gap-1 overflow-hidden">
@@ -95,7 +95,7 @@ const UiShowcase = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[20px] max-[768px]:gap-[20px] ">
+      <div className=" max-w-[85%] items-center justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[20px] max-[768px]:gap-[20px] ">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
