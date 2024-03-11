@@ -8,7 +8,7 @@ const Trust = () => {
       whileInView={{ x: 0 }}
       viewport={{ once: true }}
       transition={{ ease: "easeOut", duration: 1 }}
-      className=" mt-7 py-8 px-6 items-center gap-6 flex flex-col max-w-[323px] lg:max-w-[890px] mx-auto  bg-[#0F1123] rounded-xl"
+      className=" mt-7 py-8 px-6 items-center gap-6 flex flex-col max-w-[323px] lg:max-w-[74%] mx-auto  bg-[#0F1123] rounded-xl"
     >
       <motion.p
         initial={{ x: -50 }}
@@ -20,7 +20,7 @@ const Trust = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" tect-[#fff] text-center mx-auto text-[14px] lg:text-[20px] font-normal w-full lg:max-w-[843px] font-SatoshiLight"
+        className=" tect-[#fff] text-center mx-auto text-[14px] lg:text-[33px] font-normal w-full lg:max-w-full lg:px-6 px-2 font-SatoshiLight"
       >
         Hi, I am Abiodun, I have 5 years experience building digital products,
         I’ve worked on products in fintech, SaaS, Edtech, Ecommerce,

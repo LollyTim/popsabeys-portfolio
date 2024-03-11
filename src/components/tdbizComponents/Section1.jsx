@@ -70,7 +70,6 @@ const SectionOne = () => {
               Mobile app
             </span>
           </div>
-          s
         </div>
       </motion.div>
 
