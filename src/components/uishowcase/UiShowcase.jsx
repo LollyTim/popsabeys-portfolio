@@ -95,7 +95,7 @@ const UiShowcase = () => {
 
       {/* another section starts here  */}
 
-      <div className=" max-w-[85%] items-center justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[20px] max-[768px]:gap-[20px] ">
+      <div className="max-w-[85%] items-center justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6  ">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -107,7 +107,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -131,7 +131,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -155,7 +155,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -179,7 +179,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -203,7 +203,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] overflow-hidden  lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] overflow-hidden  lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl "
@@ -227,7 +227,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -251,7 +251,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -275,7 +275,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -298,7 +298,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -322,7 +322,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -346,7 +346,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -370,7 +370,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -394,7 +394,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -418,7 +418,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -442,7 +442,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -466,7 +466,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -492,7 +492,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
@@ -517,7 +517,7 @@ const UiShowcase = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+          className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full grid lg:h-[600px] rounded-xl hover:transition"
         >
           <div
             className="w-full h-full rounded-xl"
