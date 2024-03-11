@@ -218,11 +218,11 @@ const Tradepla = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px] ">
+      <div className=" max-w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[30px] ">
         <h1 className="gradient gap-[116px] w-fit text-center font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
-        <div className="w-full justify-center mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="w-full justify-center mx-auto  grid grid-cols-1 lg:grid-cols-2 gap-6">
           {images.map((image, index) => (
             <motion.div
               initial={{ x: -200, opacity: 0 }}
@@ -236,7 +236,7 @@ const Tradepla = () => {
                 duration: 1,
               }}
               key={index}
-              className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+              className="w-[340px] max-[390px]:w-[320px] grid h-[400px] lg:col-span-1 lg:w-full lg:h-[700px] rounded-xl hover:transition"
             >
               <div
                 className="w-full h-full rounded-xl"
