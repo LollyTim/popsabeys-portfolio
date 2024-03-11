@@ -70,6 +70,7 @@ const SectionOne = () => {
               Mobile app
             </span>
           </div>
+          s
         </div>
       </motion.div>
 
@@ -217,7 +218,7 @@ const SectionOne = () => {
 
       {/* another section starts here  */}
 
-      <div className=" w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[] ">
+      <div className=" max-w-[85%] items-center justify-center text-center mx-auto flex flex-col gap-[77px] max-[768px]:gap-[] ">
         <h1 className="gradient w-fit text-center gap-[116px] font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
           UI Design
         </h1>
@@ -235,7 +236,7 @@ const SectionOne = () => {
                 duration: 1,
               }}
               key={index}
-              className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-[540px] lg:h-[538px] rounded-xl hover:transition"
+              className=" w-[340px] max-[390px]:w-[320px] h-[400px] lg:w-full lg:h-[560px] rounded-xl hover:transition"
             >
               <div
                 className="w-full h-full rounded-xl"
