@@ -289,21 +289,33 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto gap-6 flex flex-row items-center mt-32 mb-12"
+        className="w-[80%] max-[768px]:flex-col justify-between mx-auto gap-6 flex flex-row items-center mt-32 mb-12"
       >
         <div className="flex gap-3 lg:flex-col">
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+          <h1 className="gradient2 mx-auto font-SatoshiBold w-fit font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Product <br className=" lg:flex hidden" /> Experience
           </h1>
           <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]"></h1>
         </div>
-        <div className="flex">
-          <img
-            src="\images\iPhone XS Max Silver Mockup (1).svg"
-            alt="looklike"
-          />
-          <img src="\images\iPhone XS Max Silver Mockup.svg" alt="" />
-          <img src="/images/iPhone XS Max Silver Mockup (4).svg" alt="" />
+        <div className="flex lg:max-w-[60%] lg:max-h-[1000px]">
+          <div className=" lg:w-[800px] lg:mt-6 mt-3">
+            <img src="\Imgs\iPhone XS Max Silver Mockup (11).png" alt="" />
+          </div>
+          <div className=" lg:w-[1000px]">
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (12).png"
+              alt=""
+              className=" lg:w-[1000px] "
+            />
+          </div>
+          <div className=" lg:w-[800px] lg:mt-6 mt-3">
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (9).png"
+              alt="looklike"
+              // sizes="300px"
+              className="w-[]"
+            />
+          </div>
         </div>
       </motion.div>
 
@@ -318,21 +330,25 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row mb-12 items-center"
+        className="w-[80%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row mb-12 items-center"
       >
-        <div className="flex flex-row ">
-          <img
-            src="\images\iPhone XS Max Silver Mockup (5).svg"
-            className=" mt-28"
-            alt=""
-          />
-          <img src="\images\iPhone XS Max Silver Mockup (6).svg" alt="" />
+        <div className="flex flex-row lg:max-w-[45%] mt-10 lg:mt-0">
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (13).png"
+              className=" lg:mt-28 mt-10"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src="/Imgs/iPhone XS Max Silver Mockup (14).png" alt="" />
+          </div>
         </div>
-        <div className=" gap-4 flex flex-col">
-          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
+        <div className=" gap-4 flex flex-col max-w-[fit]">
+          <h1 className="gradient2 w-fit font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px]">
             Staying in sync
           </h1>
-          <p className="text-[#C3C3C3] w-[505px] max-[768px]:w-full font-SatoshiLight">
+          <p className="text-[#C3C3C3] w-[470px] max-[768px]:w-full font-SatoshiLight">
             The home page is designed to ensure users do not miss out of
             important activities in their enrolled courses, keeping up to date
             with tasks and assignments, fees and every important thing.
@@ -350,10 +366,10 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="max-w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row mb-12 items-center"
+        className="max-w-[80%] max-[768px]:flex-col justify-between mx-auto flex flex-row mb-12 items-center"
       >
         <div className="gap-4 flex flex-col">
-          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+          <h1 className="gradient2 font-SatoshiBold  w-fit font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Lecture experience
           </h1>
           <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
@@ -363,13 +379,17 @@ const Userpersona = () => {
             Make the most of lectures, learn and practicalize lessons on-the go.
           </p>
         </div>
-        <div className="flex flex-row">
-          <img src="\images\iPhone XS Max Silver Mockup (8).svg" alt="" />
-          <img
-            src="\images\iPhone XS Max Silver Mockup (7).svg"
-            className=" mt-28"
-            alt=""
-          />
+        <div className="flex flex-row lg:max-w-[50%] mt-10 lg:mt-0 ">
+          <div>
+            <img src="\Imgs\iPhone XS Max Silver Mockup (15).png" alt="" />
+          </div>
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (16).png"
+              className=" lg:mt-28 mt-16"
+              alt=""
+            />
+          </div>
         </div>
       </motion.div>
       <motion.div
@@ -383,18 +403,22 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center"
+        className="w-[80%] max-[768px]:flex-col-reverse justify-between mx-auto flex flex-row items-center"
       >
-        <div className="flex flex-row">
-          <img src="\images\iPhone XS Max Silver Mockup (9).svg" alt="" />
-          <img
-            src="\images\iPhone XS Max Silver Mockup (10).svg"
-            className=" mt-28"
-            alt=""
-          />
+        <div className="flex flex-row lg:max-w-[45%] mt-10 lg:mt-0 ">
+          <div>
+            <img src="/Imgs/iPhone XS Max Silver Mockup (17).png" alt="" />
+          </div>
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (18).png"
+              className=" mt-28"
+              alt=""
+            />
+          </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+          <h1 className="gradient2 w-fit font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course registration
           </h1>
           <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
@@ -415,10 +439,10 @@ const Userpersona = () => {
           ease: "easeIn",
           duration: 2,
         }}
-        className="w-[75%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
+        className="w-[80%] max-[768px]:flex-col justify-between mx-auto flex flex-row items-center"
       >
         <div className=" flex flex-col gap-4 mt-2">
-          <h1 className="gradient2 font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]">
+          <h1 className="gradient2 font-SatoshiBold w-fit font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Course & Assessment
           </h1>
           <p className="text-[#C3C3C3] lg:w-[505px] max-[768px]:w-full font-SatoshiLight">
@@ -426,13 +450,17 @@ const Userpersona = () => {
             uploaded to student portal for use.
           </p>
         </div>
-        <div className="flex flex-row">
-          <img
-            src="\images\iPhone XS Max Silver Mockup (11).svg"
-            className=" mt-28"
-            alt=""
-          />
-          <img src="\images\iPhone XS Max Silver Mockup (12).svg" alt="" />
+        <div className="flex flex-row lg:max-w-[45%] mt-10 lg:mt-0 ">
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (21).png"
+              className=" lg:mt-28 mt-10"
+              alt=""
+            />
+          </div>
+          <div>
+            <img src="\Imgs\iPhone XS Max Silver Mockup (20).png" alt="" />
+          </div>
         </div>
       </motion.div>
       <motion.div
@@ -449,32 +477,40 @@ const Userpersona = () => {
         }}
       >
         <div className="flex flex-row gap-1">
-          <img
-            src="images\iPhone XS Max Silver Mockup-1.png"
-            className=" mb-10"
-            alt=""
-          />
-          <img
-            src="images\iPhone XS Max Silver Mockup-3.png"
-            className=" mt-10"
-            alt=""
-          />
+          <div>
+            <img
+              src="/Imgs/iPhone XS Max Silver Mockup (23).png"
+              className=" mb-10"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (24).png"
+              className=" mt-10"
+              alt=""
+            />
+          </div>
         </div>
         <div className="flex flex-row gap-1">
-          <img
-            src="images\iPhone XS Max Silver Mockup.png"
-            className=" mt-10"
-            alt=""
-          />
-          <img
-            src="images\iPhone XS Max Silver Mockup-2.png"
-            className=" mb-10"
-            alt=""
-          />
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (25).png"
+              className=" mt-10"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="\Imgs\iPhone XS Max Silver Mockup (26).png"
+              className=" mb-10"
+              alt=""
+            />
+          </div>
         </div>
       </motion.div>
 
-      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
+      <h1 className=" gradient mt-5 font-SatoshiBold font-bold text-center w-fit text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-16">
         ...end.
       </h1>
     </>
