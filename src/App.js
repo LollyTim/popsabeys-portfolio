@@ -24,6 +24,7 @@ import Equity from "./components/equityandLawComponents/Equity";
 import UiShowcase from "./components/uishowcase/UiShowcase";
 import Business from "./components/Business";
 import Loading from "./components/Loading";
+import Headroom from "react-headroom";
 
 function App() {
   const mywork = useRef(null);
@@ -52,11 +53,13 @@ function App() {
         <Loading />
       ) : (
         <>
-          <Nav
-            scrollToSection={scrollToSection}
-            mywork={mywork}
-            contact={contact}
-          />
+          <Headroom>
+            <Nav
+              scrollToSection={scrollToSection}
+              mywork={mywork}
+              contact={contact}
+            />
+          </Headroom>
           <Routes>
             <Route
               path="/"

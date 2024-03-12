@@ -352,7 +352,7 @@ const Section1 = () => {
 
       {/* another page starts here  */}
 
-      <div className="flex flex-row lg:py-14 px-12 py-8 max-w-[1002px] gap-[76px] max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
+      <div className="flex flex-row lg:py-14 px-12 py-8 lg:max-w-[80%] lg:justify-between max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -399,12 +399,12 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+        className=" py-7 max-w-[70%] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
         <img
-          src="\images\Group 512227.svg"
+          src="\Imgs\Group 512227 (2).png"
           alt="preview"
-          className=" w-[800px] "
+          className=" w-full "
         />
         {/* <img
           src="\images\prev1011.png"
@@ -423,12 +423,12 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+        className=" py-7 max-w-[70%] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
         <img
-          src="\images\Group 512228.svg"
+          src="\Imgs\Group 512228 (1).png"
           alt="preview"
-          className=" w-[800px] "
+          className=" w-full"
         />
         {/* <img
           src="\images\prev1011.png"
@@ -447,13 +447,9 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+        className=" py-7 max-w-[70%] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
-        <img
-          src="\images\Group 512229.svg"
-          alt="preview"
-          className=" w-[850px] "
-        />
+        <img src="\Imgs\Group 512229.png" alt="preview" className=" w-full " />
         {/* <img
           src="\images\prev1011.png"
           alt="preview"
@@ -471,13 +467,9 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 max-w-[1199px] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
+        className=" py-7 max-w-[80%] mx-auto flex w-fit max-[786px]:max-w-96 relative px-8"
       >
-        <img
-          src="\images\Group 512230 (1).svg"
-          alt="preview"
-          className=" w-[1000px] "
-        />
+        <img src="\Imgs\Group 512230.png" alt="preview" className=" w-full " />
         {/* <img
           src="\images\prev1011.png"
           alt="preview"
@@ -495,30 +487,36 @@ const Section1 = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className=" py-7 max-w-[700px] mx-auto justify-between flex w-full max-[786px]:max-w-96 relative px-8 mt-12"
+        className=" py-7 lg:max-w-[68%] mx-auto justify-between flex w-full max-[786px]:max-w-96  px-8 mt-12"
       >
-        <img
-          src="\images\iPhone 12 Mockup Front View-2.svg"
-          alt="preview"
-          className=" mt-20"
-        />
-        <img
-          src="\images\iPhone 12 Mockup Front View-1.svg"
-          alt="preview"
-          className=" mb-20"
-        />
-        <img
-          src="\images\iPhone 12 Mockup Front View.png"
-          alt="preview"
-          className=" mt-20"
-        />
+        <div className=" w-[250px]">
+          <img
+            src="\Imgs\iPhone 12 Mockup Front View (1).png"
+            alt="preview"
+            className=" mt-20"
+          />
+        </div>
+        <div className=" w-[250px]">
+          <img
+            src="\Imgs\iPhone 12 Mockup Front View (2).png"
+            alt="preview"
+            className=" mb-20"
+          />
+        </div>
+        <div className=" w-[250px]">
+          <img
+            src="\Imgs\iPhone 12 Mockup Front View (3).png"
+            alt="preview"
+            className=" mt-20"
+          />
+        </div>
         {/* <img
           src="\images\prev1011.png"
           alt="preview"
           className=" absolute w-32 -bottom-4 -right-10"
         /> */}
       </motion.div>
-      <h1 className="gradient mt-5 font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-10">
+      <h1 className="gradient mt-5 w-fit font-SatoshiBold font-bold text-[40px] max-[768px]:text-[30px] h-fit mb-1 xl:mb-10 ml-20">
         ...end.
       </h1>
     </>
