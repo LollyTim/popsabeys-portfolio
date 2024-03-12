@@ -48,7 +48,7 @@ const SectionOne = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between overflow-hidden mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[1050px] lg:h-[260px] max-[768px]:h-[180px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
+        className="flex flex-col justify-between overflow-hidden mt-[96px] max-[768px]:max-w-[360px] lg:max-w-[85%] lg:h-[260px] max-[768px]:h-[180px] bg-[#0F1123] rounded-lg mx-auto px-14 pt-[18px] max-[768px]:px-7 pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
