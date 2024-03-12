@@ -15,7 +15,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
   return (
     <div className="relative">
       <div className=" w-full bg-[#010314] fixed top-0 left-0 right-0 h-20 flex justify-center items-center my-auto backdrop-blur-lg">
-        <div className=" flex z-[1000px] justify-between items-center w-[80%] mx-auto  bg-[#010314] relative overflow-hidden">
+        <div className=" flex z-[1000px] justify-between items-center w-[85%] mx-auto  bg-[#010314] relative overflow-hidden">
           <div className="">
             <a href="/">
               <motion.img
