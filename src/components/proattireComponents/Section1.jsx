@@ -40,7 +40,7 @@ const Section1 = () => {
           </div>
         </div>
       </motion.div>
-      another section starts here
+      {/* another section starts here */}
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
