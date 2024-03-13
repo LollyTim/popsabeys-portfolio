@@ -40,7 +40,9 @@ const Section1 = () => {
           </div>
         </div>
       </motion.div>
-      another section starts here
+
+      {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -56,7 +58,9 @@ const Section1 = () => {
       >
         <img src="\images\iPadimg.png" alt="" />
       </motion.div>
+
       {/* another section starts here  */}
+
       <div className="flex flex-row lg:py-14 px-12 py-6 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
@@ -126,7 +130,9 @@ const Section1 = () => {
           Challenge
         </h1>
       </motion.div>
+
       {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -142,7 +148,9 @@ const Section1 = () => {
       >
         <img src="\images\mens.png" alt="" />
       </motion.div>
+
       {/* another section starts here  */}
+
       <div className="flex flex-row lg:py-14 px-12 py-6 max-w-[1002px] lg:gap-[76px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col mt-8 ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
@@ -175,7 +183,9 @@ const Section1 = () => {
           research.
         </motion.p>
       </div>
+
       {/* another section starts here  */}
+
       <div className="flex flex-row py-7 px-12 max-w-[1002px] h-fit justify-center items-center gap-[126px] max-[768px]:gap-5 mx-auto max-[768px]:flex-col-reverse mt-8 ">
         <motion.p
           initial={{ x: -100, opacity: 0 }}
@@ -238,7 +248,9 @@ const Section1 = () => {
           population according to Statista.
         </motion.p>
       </div>
+
       {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -254,7 +266,9 @@ const Section1 = () => {
       >
         <img src="\images\completeChat.png" alt="chat" />
       </motion.div>
+
       {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -270,9 +284,13 @@ const Section1 = () => {
       >
         <img src="\images\completeBarchat.png" alt="chat" />
       </motion.div>
+
       {/* another section starts here  */}
+
       <Section2 />
+
       {/* another section starts here  */}
+
       <div className="flex flex-row py-14 px-12 max-w-[1002px] gap-[161px] max-[768px]:gap-8 mx-auto max-[768px]:flex-col mt-8 ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
@@ -313,7 +331,9 @@ const Section1 = () => {
           </ul>
         </motion.div>
       </div>
+
       {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -329,7 +349,9 @@ const Section1 = () => {
       >
         <img src="\images\iPhone 15 Pro.png" alt="chat" />
       </motion.div>
+
       {/* another page starts here  */}
+
       <div className="flex flex-row lg:py-14 px-12 py-8 lg:max-w-[80%] lg:justify-between max-[768px]:gap-12 mx-auto max-[768px]:flex-col ">
         <motion.h1
           initial={{ x: -100, opacity: 0 }}
@@ -363,7 +385,9 @@ const Section1 = () => {
           familiar using existing UX patterns.
         </motion.p>
       </div>
+
       {/* another section starts here  */}
+
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
