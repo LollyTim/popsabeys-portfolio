@@ -25,6 +25,7 @@ import UiShowcase from "./components/uishowcase/UiShowcase";
 import Business from "./components/Business";
 import Loading from "./components/Loading";
 import Headroom from "react-headroom";
+import Contact from "./components/Contact";
 
 function App() {
   const mywork = useRef(null);
@@ -125,6 +126,7 @@ function App() {
               }
             />
             <Route path="/business" exact element={<Business />} />
+            <Route path="/contact" exact element={<Contact />} />
           </Routes>
 
           <Footer
