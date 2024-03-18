@@ -17,6 +17,7 @@ const InputComponents = ({ title }) => {
         peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-6 peer-focus:scale-[.6]`}
       >
         {title}
+        {/* askskaskasksakasksksa */}
       </label>
     </div>
   );
