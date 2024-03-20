@@ -18,6 +18,8 @@ const InputComponents = ({ title }) => {
       >
         {title}
         {/* askskaskasksakasksksa */}
+        {/* askskaskasksakasksksa */}
+        {/* askskaskasksakasksksa */}
       </label>
     </div>
   );
