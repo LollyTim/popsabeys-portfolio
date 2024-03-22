@@ -115,7 +115,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image1.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -139,7 +139,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image22.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -163,7 +163,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image33.jpg")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -187,7 +187,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image44.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -235,7 +235,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image66.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -259,7 +259,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image77.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -282,7 +282,7 @@ const UiShowcase = () => {
             style={{
               backgroundImage: `url("/Imgs/image88.jpg")`,
               backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -306,7 +306,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image99.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -330,7 +330,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image10.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -354,7 +354,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image11.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -378,7 +378,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image12.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -402,7 +402,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image13.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
@@ -426,7 +426,7 @@ const UiShowcase = () => {
               backgroundImage: `url("/Imgs/image14.png")`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "-20px",
-              backgroundSize: "contain",
+
               backgroundSize: "cover",
             }}
           ></div>
