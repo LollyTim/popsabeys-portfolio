@@ -18,8 +18,8 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          toast.success("Message Sent");
           form.current.reset();
+          toast.success("Message Sent");
         },
         (error) => {
           console.log("FAILED...", error);
@@ -41,6 +41,7 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
+              required
               id={"user_name"}
               name={"user_name"}
               placeholder=""
@@ -60,6 +61,7 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
+              required
               id={"user_email"}
               name={"user_email"}
               placeholder=""
@@ -78,6 +80,7 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
+              required
               id={"about"}
               name={"about"}
               placeholder=""
@@ -96,6 +99,7 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
+              required
               id={"handles"}
               name={"handles"}
               placeholder=""
@@ -114,6 +118,7 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
+              required
               id={"challenges"}
               name={"challenges"}
               placeholder=""
@@ -137,7 +142,8 @@ const Contact = () => {
               placeholder=""
               type={"text"}
               className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
-        `}
+     
+     required         `}
             />
             <label
               htmlFor="job_datails"
