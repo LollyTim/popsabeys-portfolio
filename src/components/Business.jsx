@@ -55,7 +55,7 @@ const Business = () => {
           className=" w-fit mt-10 item text-xl text-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
           <button className="bg-[#4952E4] py-3 px-8 rounded-full ">
-            <a href="mailto: popsabey.ux@gmail.com">Book a review call</a>
+            <a href="/contact">Book a review call</a>
           </button>
         </motion.div>
       </div>
