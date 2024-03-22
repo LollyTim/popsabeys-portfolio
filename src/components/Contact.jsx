@@ -18,7 +18,7 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          // toast.success("Message Sent");
+          toast.success("Message Sent");
           form.current.reset();
         },
         (error) => {
@@ -47,6 +47,7 @@ const Contact = () => {
               type={"text"}
               className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
+              e
             />
             <label
               htmlFor="name"

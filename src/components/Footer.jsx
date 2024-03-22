@@ -1,10 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useLocation } from "react-router-dom";
 const Footer = ({ contact }) => {
+  const location = useLocation();
   return (
     <div
       ref={contact}
-      className="max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-20 pt-32 mb-5"
+      className={`max-w-[876px] z-0 flex flex-col justify-center items-center relative mx-auto mt-20 pt-32 mb-5 ${
+        location.pathname === "/contact" && "hidden"
+      }`}
     >
       <motion.img
         initial={{ opacity: 0.1, scale: 0 }}

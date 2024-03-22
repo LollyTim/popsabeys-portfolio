@@ -26,6 +26,7 @@ import Business from "./components/Business";
 import Loading from "./components/Loading";
 import Headroom from "react-headroom";
 import Contact from "./components/Contact";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const mywork = useRef(null);
@@ -54,6 +55,15 @@ function App() {
         <Loading />
       ) : (
         <>
+          <Toaster
+            toastOptions={{
+              style: {
+                width: "200px",
+                background: "white",
+                color: "#010314",
+              },
+            }}
+          />
           <Headroom className="hidden lg:flex lg:flex-col ">
             <Nav
               scrollToSection={scrollToSection}
