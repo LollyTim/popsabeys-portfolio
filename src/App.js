@@ -54,13 +54,20 @@ function App() {
         <Loading />
       ) : (
         <>
-          <Headroom>
+          <Headroom className="hidden lg:flex lg:flex-col ">
             <Nav
               scrollToSection={scrollToSection}
               mywork={mywork}
               contact={contact}
             />
           </Headroom>
+          <div className=" lg:hidden flex">
+            <Nav
+              scrollToSection={scrollToSection}
+              mywork={mywork}
+              contact={contact}
+            />
+          </div>
           <Routes>
             <Route
               path="/"

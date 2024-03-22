@@ -16,7 +16,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
   };
 
   return (
-    <div className="">
+    <>
       <div className=" w-full bg-[#010314] h-20 flex justify-center items-center backdrop-blur-lg">
         <div className=" flex z-[1000px] justify-between items-center w-[85%] mx-auto  bg-[#010314] relative overflow-hidden">
           <div className="">
@@ -166,7 +166,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
         />
       ) : null}
       {nav ? <BackDrop handleNav={handleNav} /> : null}
-    </div>
+    </>
   );
 };
 

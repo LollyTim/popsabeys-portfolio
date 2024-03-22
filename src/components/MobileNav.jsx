@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
   return (
-    <div className=" relative z-[3000px]">
+    <div className=" absolute top-0 z-[3000px]">
       <motion.div
         initial={{ x: -100, opacity: 0.11 }}
         whileInView={{ x: 0, opacity: 3 }}

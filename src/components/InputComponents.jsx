@@ -1,13 +1,14 @@
 import React from "react";
 
-const InputComponents = ({ title }) => {
+const InputComponents = ({ title, name, type }) => {
   return (
     <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
       <input
         autoComplete="off"
-        id="name"
+        id={name}
+        name={name}
         placeholder=""
-        type="text"
+        type={type}
         className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
       />
