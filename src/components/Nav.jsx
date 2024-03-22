@@ -106,12 +106,9 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
                 stroke-width="0.5"
               />
             </svg>
-            <p
-              className=" cursor-pointer"
-              onClick={() => scrollToSection(contact)}
-            >
+            <a className=" cursor-pointer" href="/contact">
               Contact
-            </p>
+            </a>
           </motion.div>
           <motion.div
             initial={{ x: -100, opacity: 0 }}
