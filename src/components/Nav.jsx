@@ -123,7 +123,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             className="text-[#fff] max-[640px]:hidden items-center flex gap-1 py-2 px-3 font-SatoshiLight font-medium"
           >
             <a
-              href="https://www.tiktok.com/popsabey"
+              href="https://www.tiktok.com/@popsabey_"
               target="_blank"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center mx-auto  "
             >
