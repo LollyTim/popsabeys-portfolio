@@ -23,6 +23,7 @@ const Contact = () => {
         },
         (error) => {
           console.log("FAILED...", error);
+          toast.error("Something went wrong");
         }
       );
   };
