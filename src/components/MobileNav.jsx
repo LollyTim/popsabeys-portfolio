@@ -45,12 +45,12 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
           >
             Projects
           </a>
-          <a
+          {/* <a
             href="/business"
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
           >
             Business optimizer
-          </a>
+          </a> */}
           <a
             href="/contact"
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
