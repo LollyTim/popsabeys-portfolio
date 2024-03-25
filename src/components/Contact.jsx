@@ -36,7 +36,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="jutstify-center flex items-center w-full flex-col gap-3"
+          className="jutstify-start flex items-start w-full flex-col gap-3"
         >
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
@@ -137,10 +137,11 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
-              id={"job_details"}
-              name={"job_details"}
+              id={"Job_details"}
+              name={"Job_details"}
               placeholder=""
               type={"text"}
+              required
               className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
      
      required         `}
@@ -153,7 +154,9 @@ const Contact = () => {
               Where do you want me to come in?*
             </label>
           </div>
-          <button className="bg-[#4952E4] py-3 px-8 rounded-full ">Send</button>
+          <button className="bg-[#4952E4] mt-4 py-3 px-8 rounded-full ">
+            Send me a message
+          </button>
         </form>
       </div>
     </div>
