@@ -88,7 +88,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
                 stroke-width="0.5"
               />
             </svg>
-            <a href="/business" className=" cursor-pointer">
+            {/* <a href="/business" className=" cursor-pointer">
               Business optimizer
             </a>
             <svg
@@ -105,7 +105,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
                 stroke="white"
                 stroke-width="0.5"
               />
-            </svg>
+            </svg> */}
             <a className=" cursor-pointer" href="/contact">
               Contact
             </a>
