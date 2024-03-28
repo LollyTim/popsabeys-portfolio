@@ -100,7 +100,6 @@ const Contact = () => {
           <div className="w-full relative text-[#C8C9F787] lg:text-[16px] text-[12px]">
             <input
               autoComplete="off"
-              required
               id={"handles"}
               name={"handles"}
               placeholder=""
@@ -143,8 +142,7 @@ const Contact = () => {
               placeholder=""
               type={"text"}
               required
-              text-white
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
      
      required         `}
             />
