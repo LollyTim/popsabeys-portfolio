@@ -40,6 +40,7 @@ function App() {
   };
 
   const [isLoading, setIsLoading] = useState(true);
+  const [shouldShowLoading, setShouldShowLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -48,6 +49,13 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (window.location.pathname === "/contact") {
+      setIsLoading(false);
+      setShouldShowLoading(false);
+    }
+  }, [window.location.pathname]);
 
   return (
     <div className="select-none">
