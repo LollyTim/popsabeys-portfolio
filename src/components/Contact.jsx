@@ -47,7 +47,7 @@ const Contact = () => {
               name={"user_name"}
               placeholder=""
               type={"text"}
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
               e
             />
@@ -67,7 +67,7 @@ const Contact = () => {
               name={"user_email"}
               placeholder=""
               type={"email"}
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
             />
             <label
@@ -86,7 +86,7 @@ const Contact = () => {
               name={"about"}
               placeholder=""
               type={"text"}
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
             />
             <label
@@ -105,7 +105,7 @@ const Contact = () => {
               name={"handles"}
               placeholder=""
               type={"text"}
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
             />
             <label
@@ -124,7 +124,7 @@ const Contact = () => {
               name={"challenges"}
               placeholder=""
               type={"text"}
-              className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
+              className={` text-white peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
         `}
             />
             <label
@@ -143,6 +143,7 @@ const Contact = () => {
               placeholder=""
               type={"text"}
               required
+              text-white
               className={`peer w-full p-4 pt-6 outline-none bg-transparent font-light border-b-2 border-[#C8C9F787] transition disabled:opacity-70 disabled:cursor-not-allowed 
      
      required         `}
