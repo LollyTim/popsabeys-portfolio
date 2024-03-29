@@ -72,7 +72,7 @@ function App() {
               },
             }}
           />
-          <Headroom className=" max-h-[1000px]">
+          <Headroom className="hidden lg:flex lg:flex-col ">
             <Nav
               scrollToSection={scrollToSection}
               mywork={mywork}
