@@ -44,7 +44,7 @@ const Equity = () => {
           ease: "easeIn",
           duration: 1,
         }}
-        className="flex flex-col justify-between mt-[96px] max-w-[85%] h-[250px] max-[768px]:h-[180px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 py-10 max-[768px]:px-7 max-[768px]:pb-8"
+        className="flex flex-col justify-between mt-[96px] max-w-[90%] h-[250px] max-[768px]:h-[180px] bg-[#0F1123] rounded-lg lg:mx-auto mx-4 px-14 py-10 max-[768px]:px-7 max-[768px]:pb-8"
       >
         <p className=" font-SatoshiLight text-base font-normal ">
           Summarized project scope
