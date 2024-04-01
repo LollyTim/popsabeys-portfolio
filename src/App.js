@@ -45,7 +45,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // Simulate a 2-second loading time (adjust as needed)
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -72,7 +72,7 @@ function App() {
               },
             }}
           />
-          <Headroom className="hidden lg:flex lg:flex-col ">
+          <Headroom className="hidden lg:flex lg:flex-col">
             <Nav
               scrollToSection={scrollToSection}
               mywork={mywork}
