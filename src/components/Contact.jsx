@@ -71,7 +71,7 @@ const Contact = () => {
         `}
             />
             <label
-              htmlFor="name"
+              htmlFor="email"
               className={`absolute cursor-text duration-150 transform -translate-y-3 lg:top-4 top-5 z-10 origin-[0] left-4 peer-placeholder-shown:scale-[.9]
         peer-placeholder-shown:translate-y-0 peer-focus:-translate-y-6 peer-focus:scale-[.6]`}
             >

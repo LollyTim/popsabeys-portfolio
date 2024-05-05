@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto gap-4 lg:mt-[100px] max-h-[93vh] mt-32 overflow-hidden flex flex-col  ">
+      <div className=" xl:w-[60%] w-[80%] justify-center items-center mx-auto gap-4 lg:mt-[100px] max-h-[93vh] mt-12 overflow-hidden flex flex-col  ">
         <motion.div
           className="gradBorder mx-auto p-[1px] items-center w-fit text-center rounded-full mb-4"
           initial={{ y: -100, opacity: 0 }}
@@ -68,7 +68,7 @@ const Hero = () => {
             ease: "easeIn",
             duration: 1,
           }}
-          className=" w-fit mt-10 item text-xl text-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
+          className=" w-fit mt-10 mb-10 item text-xl text-center justify-center mx-auto font-SatoshiLight font-normal leading-7"
         >
           <button className="bg-[#4952E4] py-3 px-8 rounded-[1000px] ">
             <a href="/contact">Send me a message </a>
