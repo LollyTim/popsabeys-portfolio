@@ -47,7 +47,9 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               duration: 1,
             }}
           >
-            <a href="/uishowcase">UI showcase</a>
+            <a href="/uishowcase" rel="noreferrer">
+              UI showcase
+            </a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="5"
@@ -105,7 +107,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
                 stroke-width="0.5"
               />
             </svg> */}
-            <a className=" cursor-pointer" href="/contact">
+            <a className=" cursor-pointer" href="/contact" rel="noreferrer">
               Contact
             </a>
           </motion.div>
