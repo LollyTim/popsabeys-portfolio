@@ -67,7 +67,6 @@ const SomeWorks = ({ mywork }) => {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   backgroundSize: "contain",
-                  backgroundSize: "cover",
                 }}
               ></div>
             </div>
@@ -107,7 +106,6 @@ const SomeWorks = ({ mywork }) => {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   backgroundSize: "contain",
-                  backgroundSize: "cover",
                 }}
               ></div>
             </div>
