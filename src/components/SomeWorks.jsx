@@ -42,6 +42,7 @@ const SomeWorks = ({ mywork }) => {
         <div className=" w-full gap-8 lg:gap-0 flex flex-col xl:flex-row justify-between mb-11 items-center">
           <motion.a
             href="/equity"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -81,6 +82,7 @@ const SomeWorks = ({ mywork }) => {
           </motion.a>
           <motion.a
             href="/uishowcase"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -122,6 +124,7 @@ const SomeWorks = ({ mywork }) => {
         <div className=" flex flex-col justify-center sm:flex-row lg:flex-row xl:flex-row gap-9 mb-11 items-center">
           <motion.a
             href="/elearning"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -150,6 +153,7 @@ const SomeWorks = ({ mywork }) => {
           </motion.a>
           <motion.a
             href="/tdbizz"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
@@ -180,6 +184,7 @@ const SomeWorks = ({ mywork }) => {
         <div className=" flex flex-col justify-between max-[768px]:justify-center gap-9 sm:flex-row md:flex-col lg:flex-row mb-11 items-center">
           <motion.a
             href="/proattire"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -209,6 +214,7 @@ const SomeWorks = ({ mywork }) => {
           </motion.a>
           <motion.a
             href="/tradepla"
+            rel="noreferrer"
             initial={{ x: -100, opacity: 0 }}
             viewport={{ once: true }}
             whileInView={{ x: 0, opacity: 1 }}
