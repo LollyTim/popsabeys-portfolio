@@ -33,22 +33,21 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
           <a
             href="/uishowcase"
             target="_self"
-            rel="noreferrer"
             className="p-2 w-fit hover:bg-[#010314] justify-center overflow-hidden items-center mx-auto rounded-lg transition-colors"
           >
             UI showcase
           </a>
-          <a
+          <button
             onClick={() => {
               scrollToSection(mywork, "/");
               handleNav();
             }}
+            href=""
             target="_self"
-            rel="noreferrer"
             className="p-2 w-fit justify-center items-center hover:bg-[#010314] rounded-lg overflow-hidden transition-colors"
           >
             Projects
-          </a>
+          </button>
           {/* <a
             href="/business"
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
@@ -58,7 +57,6 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
           <a
             href="/contact"
             target="_self"
-            rel="noreferrer"
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
           >
             contact
@@ -78,6 +76,7 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
             <a
               href="https://www.tiktok.com/@popsabey_"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center mx-auto  "
             >
               <FaTiktok size={25} />
@@ -85,6 +84,7 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
             <a
               href="https://www.instagram.com/popsabey"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center"
             >
               <FaInstagram size={25} />
@@ -92,6 +92,7 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
             <a
               href="https://www.twitter.com/popsabey"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center"
             >
               <BsTwitterX size={23} />

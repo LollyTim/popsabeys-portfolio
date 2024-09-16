@@ -7,12 +7,7 @@ import SomeWorks from "./components/SomeWorks";
 import Trust from "./components/Trust";
 import WhatIdo from "./components/WhatIdo";
 import { useRef } from "react";
-import {
-  BrowserRouter as Rourter,
-  Routes,
-  Route,
-  useNavigate,
-} from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Section1 from "./components/proattireComponents/Section1";
 import SectionOne from "./components/tdbizComponents/Section1";
 import Tradepla from "./components/tradeplaComponents/Tradepla";
@@ -37,7 +32,6 @@ function App() {
   };
 
   const [isLoading, setIsLoading] = useState(true);
-  const [shouldShowLoading, setShouldShowLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -50,9 +44,8 @@ function App() {
   useEffect(() => {
     if (window.location.pathname === "/contact") {
       setIsLoading(false);
-      setShouldShowLoading(false);
     }
-  }, [window.location.pathname]);
+  }, []);
 
   return (
     <div className="select-none">

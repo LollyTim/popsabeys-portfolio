@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 // import { BiMenu } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { AiOutlineClose } from "react-icons/ai";
 import BackDrop from "./BackDrop";
 import MobileNav from "./MobileNav";
 import { BsTwitterX } from "react-icons/bs";
@@ -64,7 +63,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
                 stroke-width="0.5"
               />
             </svg>
-            <a
+            <button
               className=" cursor-pointer"
               onClick={() => {
                 scrollToSection(mywork, "/");
@@ -72,7 +71,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
               }}
             >
               Projects
-            </a>
+            </button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="5"
@@ -125,6 +124,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             <a
               href="https://www.twitter.com/popsabey"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center"
             >
               <BsTwitterX size={23} />
@@ -132,6 +132,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             <a
               href="https://www.tiktok.com/@popsabey_"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center mx-auto  "
             >
               <FaTiktok size={25} />
@@ -139,6 +140,7 @@ const Nav = ({ scrollToSection, mywork, contact }) => {
             <a
               href="https://www.instagram.com/popsabey"
               target="_blank"
+              rel="noreferrer"
               className=" w-10 h-10 border rounded-full flex border-[#282B46] justify-center items-center"
             >
               <FaInstagram size={25} />

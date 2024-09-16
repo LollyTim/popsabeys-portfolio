@@ -295,7 +295,6 @@ const Userpersona = () => {
           <h1 className="gradient2 mx-auto font-SatoshiBold w-fit font-bold text-[40px] justify-center max-[768px]:text-[30px]">
             Product <br className=" lg:flex hidden" /> Experience
           </h1>
-          <h1 className="gradient2 mx-auto font-SatoshiBold font-bold text-[40px] justify-center max-[768px]:text-[30px]"></h1>
         </div>
         <div className="flex lg:max-w-[60%] lg:max-h-[1000px]">
           <div className=" lg:w-[800px] lg:mt-6 mt-3">
