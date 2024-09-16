@@ -14,11 +14,8 @@ import {
   useNavigate,
 } from "react-router-dom";
 import Section1 from "./components/proattireComponents/Section1";
-// import ScrollToTop from "react-scroll-up";
-import { FaArrowCircleUp } from "react-icons/fa";
 import SectionOne from "./components/tdbizComponents/Section1";
 import Tradepla from "./components/tradeplaComponents/Tradepla";
-// import Equity from "./components/equityandLawComponents/Equity";
 import Elearning from "./components/eLearningComponents/Elearning";
 import Equity from "./components/equityandLawComponents/Equity";
 import UiShowcase from "./components/uishowcase/UiShowcase";

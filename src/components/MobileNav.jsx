@@ -32,6 +32,8 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
         <div className="w-[90%] justify-center mx-auto flex flex-col items-center overflow-hidden gap-5">
           <a
             href="/uishowcase"
+            target="_self"
+            rel="noreferrer"
             className="p-2 w-fit hover:bg-[#010314] justify-center overflow-hidden items-center mx-auto rounded-lg transition-colors"
           >
             UI showcase
@@ -41,6 +43,8 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
               scrollToSection(mywork, "/");
               handleNav();
             }}
+            target="_self"
+            rel="noreferrer"
             className="p-2 w-fit justify-center items-center hover:bg-[#010314] rounded-lg overflow-hidden transition-colors"
           >
             Projects
@@ -53,6 +57,8 @@ const MobileNav = ({ handleNav, scrollToSection, mywork }) => {
           </a> */}
           <a
             href="/contact"
+            target="_self"
+            rel="noreferrer"
             className="p-2 text-nowrap overflow-hidden w-fit justify-center items-center hover:bg-[#010314] rounded-lg transition-colors"
           >
             contact
